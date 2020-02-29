@@ -1,5 +1,5 @@
 #sect img {
-  margin-left: 17%;
+  margin-left: 11%;
 }
 
 #sect .nav-item .exp {
@@ -47,5 +47,22 @@
 
 .right {
   margin-left: 8%;
+}
+
+@media only screen and (max-width: 400px) {
+  #sect img {
+    width: 80px;
+    height: 80px;
+    margin-left: 4%;
+  }
+  #sect .nav-item .exp {
+    margin-left: -4px;
+  }
+  #sect .right-btn button[type="submit"] {
+    width: 160px;
+    height: 45px;
+    margin-left: -12%;
+    font-size: 14px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

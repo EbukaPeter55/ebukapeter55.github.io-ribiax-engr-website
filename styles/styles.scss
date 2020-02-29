@@ -1,6 +1,6 @@
 #sect {
     img{
-    margin-left: 17%;
+    margin-left: 11%;
    }
    .nav-item{
        .exp{
@@ -43,4 +43,30 @@
 }
 .right {
     margin-left: 8%;
+}
+
+//RESOPONSIVE AND MOBILE SCREEN
+@media only screen and (max-width: 400px){
+#sect {
+    img{
+        width: 80px;
+        height: 80px;
+        margin-left: 4%;
+    }
+    .nav-item{
+        .exp{
+            margin-left: -4px;
+        }
+     
+    }
+    .right-btn{
+       
+        button[type="submit"]{
+            width: 160px;
+            height: 45px;
+            margin-left: -12%;
+            font-size: 14px;
+        }
+      }  
+}
 }
