@@ -92,8 +92,74 @@ main {
             text-align: center;
             color: #FFFFFF;
             border: none;
-
         }
+    }
+    // The services section
+    .services{
+        max-width: 1523px;
+        height: 1323px;
+        background: #FFFBF8;
+        margin-top: 113px;
+        .services-content{
+            h2{
+                text-align: center;
+                font-family: 'Lato' sans-serif;
+                font-size: 48px;
+                line-height: 56px;
+                text-align: center;
+                color: #012E87;
+                padding-top: 136px;
+            }
+            p{
+                font-family: 'Muli', sans-serif;
+                font-size: 18px;
+                line-height: 29px;
+                text-align: center;
+                color: #161A1E;
+                margin-top: 20px;                
+            }
+            .c-row{
+                margin-top: 61px;
+            }
+            .row{               
+                .w-card{
+                    .card{
+                        width: 330px;
+                        height: 377px;
+                        margin-bottom: 20px;
+                        box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.15);
+                        border-radius: 15px;
+                        
+                        img{
+                        width: 80px;
+                        height: 81px;
+                        margin: 30px 20px 10px 120px;
+                        }
+                        h4{
+                        text-align: center;
+                        font-family: 'Muli';
+                        font-size: 28px;
+                        line-height: 106%;    
+                        color: #1574CE;
+                        font-weight: 600;  
+                        margin-top: 2px;      
+                        }
+                        p{
+                        font-family: 'Muli';
+                        font-size: 16px;
+                        line-height: 163%;
+                        text-align: center;
+                        color: #161A1E;  
+                        margin-top: 5px;     
+                        }
+                        p[s-card-content]{
+                        margin-top: 35px;    
+                        }
+                    }
+                }
+            }
+        }
+        
     }
 }
 
