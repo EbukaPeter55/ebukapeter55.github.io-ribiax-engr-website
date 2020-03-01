@@ -56,13 +56,17 @@ main {
             font-size: 48px;
             font-weight: 600;
             line-height: 56px;
-            color: #F3F0ED;    
+            color: #F3F0ED;   
+            animation-name: moveToLeft;
+            animation-duration: 2s; 
             }
             p{
             font-size: 18px;
             line-height: 161.8%;
             color: #F3F0ED;
             font-weight: 400;
+            animation-name: moveToRight;
+            animation-duration: 2s; 
             }
             button[type="submit"]{
             width: 247px;
@@ -75,16 +79,24 @@ main {
             font-weight: 600;
             line-height: 21px;
             text-align: center;
-            color: #FFFFFF;                        }
+            color: #FFFFFF;
+            animation-name: animateBtn;
+            animation-duration: 1s;
+            animation-delay: 1.5s;     
+            animation-fill-mode: backwards;         
+                  }
         }
-        a{
-            
+        a{            
             font-family: 'Muli';
             font-size: 18px;
             line-height: 21px;
             text-decoration-line: underline;
             color: #FFFFFF;
             margin-left: 46px;
+            animation-name: animateBtn;
+            animation-duration: 1s;
+            animation-delay: 2.3s;     
+            animation-fill-mode: backwards;       
         }
     }
     .img-fluid {
@@ -204,6 +216,35 @@ main {
     }
 }
 
+//ANIMATION
+@keyframes moveToLeft {
+    0% {
+        transform: translateX(120px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes moveToRight {
+    0% {
+        transform: translateX(-120px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes animateBtn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 // section{
 //     .top-head{
 //         background: image(image/top-head); 

@@ -61,6 +61,10 @@ main .top-fluid div[top-content] h2 {
   font-weight: 600;
   line-height: 56px;
   color: #F3F0ED;
+  -webkit-animation-name: moveToLeft;
+          animation-name: moveToLeft;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
 }
 
 main .top-fluid div[top-content] p {
@@ -68,6 +72,10 @@ main .top-fluid div[top-content] p {
   line-height: 161.8%;
   color: #F3F0ED;
   font-weight: 400;
+  -webkit-animation-name: moveToRight;
+          animation-name: moveToRight;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
 }
 
 main .top-fluid div[top-content] button[type="submit"] {
@@ -83,6 +91,14 @@ main .top-fluid div[top-content] button[type="submit"] {
   line-height: 21px;
   text-align: center;
   color: #FFFFFF;
+  -webkit-animation-name: animateBtn;
+          animation-name: animateBtn;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
 }
 
 main .top-fluid a {
@@ -93,6 +109,14 @@ main .top-fluid a {
           text-decoration-line: underline;
   color: #FFFFFF;
   margin-left: 46px;
+  -webkit-animation-name: animateBtn;
+          animation-name: animateBtn;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: 2.3s;
+          animation-delay: 2.3s;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
 }
 
 main .img-fluid {
@@ -215,6 +239,76 @@ main .services .services-content .row .w-card .card p {
 
 main .services .services-content .row .w-card .card p[s-card-content] {
   margin-top: 35px;
+}
+
+@-webkit-keyframes moveToLeft {
+  0% {
+    -webkit-transform: translateX(120px);
+            transform: translateX(120px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes moveToLeft {
+  0% {
+    -webkit-transform: translateX(120px);
+            transform: translateX(120px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes moveToRight {
+  0% {
+    -webkit-transform: translateX(-120px);
+            transform: translateX(-120px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes moveToRight {
+  0% {
+    -webkit-transform: translateX(-120px);
+            transform: translateX(-120px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes animateBtn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes animateBtn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @media only screen and (max-width: 400px) {
