@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 #sect {
     img{
     margin-left: 11%;
@@ -261,6 +265,33 @@ main {
         }
     }
 }
+
+//List of projects
+.project{
+    h2{
+        font-family: 'Muli';
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 56px;
+        text-align: center;
+        color: #012E87;
+        margin-top: 155px;
+
+    }
+}
+.ca{
+    .card{
+        width: 523.5px;
+        height: 351px;
+    }
+}
+// .car {
+//     .cad-1{
+//        width: 523.5px;
+//        height: 351px;
+//        margin: 0;
+//     }
+// }
 }
 
 //ANIMATION

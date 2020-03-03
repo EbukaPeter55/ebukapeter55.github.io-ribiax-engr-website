@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 #sect img {
   margin-left: 11%;
 }
@@ -290,6 +295,21 @@ main .style .top-head-1 a {
           text-decoration-line: underline;
   color: #FFFFFF;
   margin-left: 106px;
+}
+
+main .project h2 {
+  font-family: 'Muli';
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56px;
+  text-align: center;
+  color: #012E87;
+  margin-top: 155px;
+}
+
+main .ca .card {
+  width: 523.5px;
+  height: 351px;
 }
 
 @-webkit-keyframes moveToLeft {
