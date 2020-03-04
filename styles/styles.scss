@@ -284,6 +284,56 @@ main {
         width: 523.5px;
         height: 351px;
     }
+    .content{
+        background: #1574CE;
+        p{
+            text-align: center;
+            font-family: 'Muli';
+            font-size: 28px;
+            font-weight: 600;
+            line-height: 33px;
+            color: #FFFFFF;
+            margin-top: 25%;
+           
+        }
+    }
+    .content-2{
+        background: #05225b;
+        p{
+            text-align: center;
+            font-family: 'Muli';
+            font-size: 28px;
+            font-weight: 600;
+            line-height: 33px;
+            color: #FFFFFF;
+            margin-top: 25%;   
+        }
+    }
+    .content-4{
+        background: #1574CE;
+        p{
+            text-align: center;
+            font-family: 'Muli';
+            font-size: 28px;
+            font-weight: 600;
+            line-height: 33px;
+            color: #FFFFFF;
+            margin-top: 28%;      
+        }
+    }
+    
+}
+#demo{
+    margin-top: 55px;
+    .carousel-indicators .f{
+        position: absolute;
+        width: 18px;
+        height: 3px;
+        top: 50px;        
+        background: rgba(21, 116, 206, 0.83);
+        border-radius: 50%;
+        
+    }
 }
 // .car {
 //     .cad-1{

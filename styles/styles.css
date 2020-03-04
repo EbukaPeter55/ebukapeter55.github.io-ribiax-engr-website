@@ -312,6 +312,61 @@ main .ca .card {
   height: 351px;
 }
 
+main .ca .content {
+  background: #1574CE;
+}
+
+main .ca .content p {
+  text-align: center;
+  font-family: 'Muli';
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 33px;
+  color: #FFFFFF;
+  margin-top: 25%;
+}
+
+main .ca .content-2 {
+  background: #05225b;
+}
+
+main .ca .content-2 p {
+  text-align: center;
+  font-family: 'Muli';
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 33px;
+  color: #FFFFFF;
+  margin-top: 25%;
+}
+
+main .ca .content-4 {
+  background: #1574CE;
+}
+
+main .ca .content-4 p {
+  text-align: center;
+  font-family: 'Muli';
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 33px;
+  color: #FFFFFF;
+  margin-top: 28%;
+}
+
+main #demo {
+  margin-top: 55px;
+}
+
+main #demo .carousel-indicators .f {
+  position: absolute;
+  width: 18px;
+  height: 3px;
+  top: 50px;
+  background: rgba(21, 116, 206, 0.83);
+  border-radius: 50%;
+}
+
 @-webkit-keyframes moveToLeft {
   0% {
     -webkit-transform: translateX(120px);
