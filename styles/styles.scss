@@ -151,6 +151,30 @@ main {
             border: none;
         }
     }
+    .right-new {
+        margin-top: 150px;
+        h2{
+            font-family: 'Lato';
+            font-size: 48px;
+            line-height: 56px;
+            color: #FFFFFF;
+     
+        }
+        ul{
+            margin-top: 32px;
+            li{
+       font-family: 'Muli';
+       font-size: 18px;
+       line-height: 106%;
+       color: #FFFFFF;        
+            }
+            li[loc]{
+                margin-top: 20px;
+            }
+        
+        }
+        
+     }
     // The services section
     .services{
         max-width: 1523px;
@@ -325,23 +349,37 @@ main {
 }
 #demo{
     margin-top: 55px;
-    .carousel-indicators .f{
-        position: absolute;
-        width: 18px;
-        height: 3px;
-        top: 50px;        
-        background: rgba(21, 116, 206, 0.83);
-        border-radius: 50%;
-        
+    .indi {
+        li{
+            position: absolute;
+            width: 18px;
+            height: 3px;
+            top: 50px;        
+            background: rgba(21, 116, 206, 0.83);
+            border-radius: 50%;            
+        }
+    }
+   
+}
+
+.adv{
+    max-width: 1523px;
+    height: 744px;
+    top: 5041px;
+    background: #1574CE;
+    margin-top: 195px;
+}
+// Testimonial section style
+.testimonial {
+    h2{
+        text-align: center;
+        margin-top: 110px;
+        font-size: 48px;
+        line-height: 56px;
+        color: #012E87;
+
     }
 }
-// .car {
-//     .cad-1{
-//        width: 523.5px;
-//        height: 351px;
-//        margin: 0;
-//     }
-// }
 }
 
 //ANIMATION

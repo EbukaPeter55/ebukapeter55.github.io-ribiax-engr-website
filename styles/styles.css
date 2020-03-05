@@ -178,6 +178,32 @@ main .right button[type="submit"] {
   border: none;
 }
 
+main .right-new {
+  margin-top: 150px;
+}
+
+main .right-new h2 {
+  font-family: 'Lato';
+  font-size: 48px;
+  line-height: 56px;
+  color: #FFFFFF;
+}
+
+main .right-new ul {
+  margin-top: 32px;
+}
+
+main .right-new ul li {
+  font-family: 'Muli';
+  font-size: 18px;
+  line-height: 106%;
+  color: #FFFFFF;
+}
+
+main .right-new ul li[loc] {
+  margin-top: 20px;
+}
+
 main .services {
   max-width: 1523px;
   height: 1323px;
@@ -358,13 +384,29 @@ main #demo {
   margin-top: 55px;
 }
 
-main #demo .carousel-indicators .f {
+main #demo .indi li {
   position: absolute;
   width: 18px;
   height: 3px;
   top: 50px;
   background: rgba(21, 116, 206, 0.83);
   border-radius: 50%;
+}
+
+main .adv {
+  max-width: 1523px;
+  height: 744px;
+  top: 5041px;
+  background: #1574CE;
+  margin-top: 195px;
+}
+
+main .testimonial h2 {
+  text-align: center;
+  margin-top: 110px;
+  font-size: 48px;
+  line-height: 56px;
+  color: #012E87;
 }
 
 @-webkit-keyframes moveToLeft {
