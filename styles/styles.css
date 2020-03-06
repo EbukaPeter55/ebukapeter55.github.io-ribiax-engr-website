@@ -409,6 +409,78 @@ main .testimonial h2 {
   color: #012E87;
 }
 
+main .testimonial .card-test {
+  margin-top: 63px;
+}
+
+main .testimonial .card-test .left-2 .test-card {
+  margin-top: 88px;
+}
+
+main .testimonial .card-test .left-2 .card {
+  width: 486px;
+  height: 300px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+}
+
+main .testimonial .card-test .left-2 .card img {
+  width: 95.29px;
+  height: 95.29px;
+  margin-top: 8%;
+  margin-left: 40%;
+}
+
+main .testimonial .card-test .left-2 .card p {
+  font-family: 'Muli';
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #000000;
+}
+
+main .testimonial .card-test .left-2 .card p[second] {
+  font-weight: bold;
+}
+
+main .testimonial .card-test .right-2 .f-right {
+  margin-top: 151px;
+}
+
+main .testimonial .card-test .right-2 .b-right {
+  margin-top: 88px;
+}
+
+main .testimonial .card-test .right-2 .card {
+  width: 486px;
+  height: 300px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+}
+
+main .testimonial .card-test .right-2 .card img {
+  width: 95.29px;
+  height: 95.29px;
+  margin-top: 8%;
+  margin-left: 40%;
+}
+
+main .testimonial .card-test .right-2 .card p {
+  font-family: 'Muli';
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #000000;
+}
+
+main .testimonial .card-test .right-2 .card p[second] {
+  font-weight: bold;
+}
+
 @-webkit-keyframes moveToLeft {
   0% {
     -webkit-transform: translateX(120px);
