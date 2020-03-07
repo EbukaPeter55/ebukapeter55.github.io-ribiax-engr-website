@@ -54,10 +54,15 @@
   margin-left: 8%;
 }
 
+main .top-fluid {
+  background-image: url("https://res.cloudinary.com/peterdbrainy/image/upload/v1583613796/top-head.png");
+  width: 100%;
+  height: 633px;
+}
+
 main .top-fluid div[top-content] {
-  position: absolute;
-  top: 43%;
-  left: 12%;
+  padding-top: 13%;
+  margin-left: 12%;
 }
 
 main .top-fluid div[top-content] h2 {
@@ -768,6 +773,26 @@ main footer .foot .copy p[second] {
     height: 45px;
     margin-left: -12%;
     font-size: 14px;
+  }
+  main .top-fluid {
+    background-image: url("https://res.cloudinary.com/peterdbrainy/image/upload/v1583613796/top-head.png");
+    width: 100%;
+    height: 433px;
+  }
+  main .top-fluid div[top-content] h2 {
+    margin-top: 35px;
+    font-size: 25px;
+    line-height: 25px;
+  }
+  main .top-fluid div[top-content] p {
+    margin-top: 15px;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  main .top-fluid div[top-content] button[type="submit"] {
+    width: 130px;
+    height: 40px;
+    font-size: 10px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
