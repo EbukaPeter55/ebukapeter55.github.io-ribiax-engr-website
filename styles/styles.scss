@@ -377,7 +377,7 @@ main {
         font-size: 48px;
         line-height: 56px;
         color: #012E87;
-
+        font-weight: 600;
     }
    
     .card-test {
@@ -441,12 +441,154 @@ main {
                     }
             }
         }
+    }  
+}
+ // Clients styles
+ .clients {
+    h2{
+        font-family: 'Muli';
+        font-size: 48px;
+        line-height: 56px;
+        text-align: center;
+        margin-top: 219px;
+        color: #012E87;
+        font-weight: 600;
+    }
+    .cssmarquee{
+        margin-top: 50px;
+        img{
+            width: 145px;
+            height: 60px;
+            transform:translateX(100%);
+            margin-bottom: 20px;
+            // animation: cssmarquee 10s linear infinite;  
+        }
+        img:nth-child(1){
+
+        }
+        img:nth-child(3){
+            margin-left: 25px;
+        }
+        img:nth-child(2){
+            margin-left: 20px;
+        }
+        img:nth-child(4){
+            margin-left: 25px;
+        }
     }
 }
+// Newsletter section styles
+        .newsletter{
+            max-width: 1523px;
+            height: 621px;                     
+            background: #1E4CA9;
+            margin-top: 143px;
+            .cen{
+                img{
+                    margin-top: 106px;
+                }
+            }
+            h4{
+                font-family: 'Muli';
+                font-weight: 600;
+                font-size: 48px;
+                line-height: 56px;
+                text-align: center;                
+                color: #FFFFFF;
+                margin-top: 45px;   
+            }
+            input[type="search"]{
+                background: #FFFFFF;
+                box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+                border-radius: 10px;
+                width: 40%;
+                height: 60px;
+                border: none;
+                margin-top: 24px;
+            }
+            input[type="search"]::placeholder{
+                font-family: 'Muli';
+                font-size: 18px;
+                font-weight: regular;
+                font-style: oblique ;
+                line-height: 21px;
+                padding-left: 5%;
+                color: rgba(22, 26, 30, 0.4);
 
+            }
+            button[type="submit"]{
+                background: #FFFFFF;
+                box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+                border-radius: 10px;
+                width: 140px;
+                height: 50px;
+                margin-top: 20px;
+                border: none;
+                font-family: 'Muli';
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 21px;
+                text-align: center;
+                color: #1574CE;
+                transition: color 2s ease, transform 1s ease;
+            }
+            button[type="submit"]:hover{
+                transform: translateY(-6px)
+            }
+        }
+        // Footer
+        footer{
+            .foot{
+                max-width: 1523px;
+                height: 422px;
+                background: #012E87;
+                padding-top: 82px;
+                .left-column{
+                    margin-left: 10%;
+                }
+                .left-column-2{
+                    margin-left: -60px;
+                }
+                .left-column-3{
+                    margin-left: -100px;
+                }
+                p{
+                font-family: 'work sans'!important;
+                font-size: 18px;
+                line-height: 21px;
+                color: #FFFFFF;
+                }
+                a{
+                font-family: 'work sans'!important;
+                font-size: 18px;
+                line-height: 21px;
+                color: #FFFFFF;   
+                }
+                .copy {
+                max-width: 1523px;
+                height: 69px;
+                background: #002878;
+                margin-top: 40px;
+                p{
+                 padding-top: 20px;   
+                }
+                p[second]{
+                    margin-left: 10%;
+                }
+                 }
+            }
+        }
+        }
 
-}
-
+//Scrolling image animation
+@keyframes cssmarquee {
+    0% {
+    transform: translateX(100%);
+    }
+    100% {
+    transform: translateX(-100%);
+    }
+    }
 //ANIMATION
 @keyframes moveToLeft {
     0% {

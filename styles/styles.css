@@ -407,6 +407,7 @@ main .testimonial h2 {
   font-size: 48px;
   line-height: 56px;
   color: #012E87;
+  font-weight: 600;
 }
 
 main .testimonial .card-test {
@@ -479,6 +480,208 @@ main .testimonial .card-test .right-2 .card p {
 
 main .testimonial .card-test .right-2 .card p[second] {
   font-weight: bold;
+}
+
+main .clients h2 {
+  font-family: 'Muli';
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  margin-top: 219px;
+  color: #012E87;
+  font-weight: 600;
+}
+
+main .clients .cssmarquee {
+  margin-top: 50px;
+}
+
+main .clients .cssmarquee img {
+  width: 145px;
+  height: 60px;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+  margin-bottom: 20px;
+}
+
+main .clients .cssmarquee img:nth-child(3) {
+  margin-left: 25px;
+}
+
+main .clients .cssmarquee img:nth-child(2) {
+  margin-left: 20px;
+}
+
+main .clients .cssmarquee img:nth-child(4) {
+  margin-left: 25px;
+}
+
+main .newsletter {
+  max-width: 1523px;
+  height: 621px;
+  background: #1E4CA9;
+  margin-top: 143px;
+}
+
+main .newsletter .cen img {
+  margin-top: 106px;
+}
+
+main .newsletter h4 {
+  font-family: 'Muli';
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 45px;
+}
+
+main .newsletter input[type="search"] {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  width: 40%;
+  height: 60px;
+  border: none;
+  margin-top: 24px;
+}
+
+main .newsletter input[type="search"]::-webkit-input-placeholder {
+  font-family: 'Muli';
+  font-size: 18px;
+  font-weight: regular;
+  font-style: oblique;
+  line-height: 21px;
+  padding-left: 5%;
+  color: rgba(22, 26, 30, 0.4);
+}
+
+main .newsletter input[type="search"]:-ms-input-placeholder {
+  font-family: 'Muli';
+  font-size: 18px;
+  font-weight: regular;
+  font-style: oblique;
+  line-height: 21px;
+  padding-left: 5%;
+  color: rgba(22, 26, 30, 0.4);
+}
+
+main .newsletter input[type="search"]::-ms-input-placeholder {
+  font-family: 'Muli';
+  font-size: 18px;
+  font-weight: regular;
+  font-style: oblique;
+  line-height: 21px;
+  padding-left: 5%;
+  color: rgba(22, 26, 30, 0.4);
+}
+
+main .newsletter input[type="search"]::placeholder {
+  font-family: 'Muli';
+  font-size: 18px;
+  font-weight: regular;
+  font-style: oblique;
+  line-height: 21px;
+  padding-left: 5%;
+  color: rgba(22, 26, 30, 0.4);
+}
+
+main .newsletter button[type="submit"] {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  width: 140px;
+  height: 50px;
+  margin-top: 20px;
+  border: none;
+  font-family: 'Muli';
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21px;
+  text-align: center;
+  color: #1574CE;
+  -webkit-transition: color 2s ease, -webkit-transform 1s ease;
+  transition: color 2s ease, -webkit-transform 1s ease;
+  transition: color 2s ease, transform 1s ease;
+  transition: color 2s ease, transform 1s ease, -webkit-transform 1s ease;
+}
+
+main .newsletter button[type="submit"]:hover {
+  -webkit-transform: translateY(-6px);
+          transform: translateY(-6px);
+}
+
+main footer .foot {
+  max-width: 1523px;
+  height: 422px;
+  background: #012E87;
+  padding-top: 82px;
+}
+
+main footer .foot .left-column {
+  margin-left: 10%;
+}
+
+main footer .foot .left-column-2 {
+  margin-left: -60px;
+}
+
+main footer .foot .left-column-3 {
+  margin-left: -100px;
+}
+
+main footer .foot p {
+  font-family: "work sans" !important;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+main footer .foot a {
+  font-family: "work sans" !important;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+main footer .foot .copy {
+  max-width: 1523px;
+  height: 69px;
+  background: #002878;
+  margin-top: 40px;
+}
+
+main footer .foot .copy p {
+  padding-top: 20px;
+}
+
+main footer .foot .copy p[second] {
+  margin-left: 10%;
+}
+
+@-webkit-keyframes cssmarquee {
+  0% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+}
+
+@keyframes cssmarquee {
+  0% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
 }
 
 @-webkit-keyframes moveToLeft {
