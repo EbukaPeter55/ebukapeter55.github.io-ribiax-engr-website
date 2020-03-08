@@ -251,6 +251,11 @@ main {
     height: 744px;    
     margin-top: 149px;
     background: #012E87;
+    .hel{
+        img{
+           margin-top: 1px;
+        }
+    }
     .top-head-1{
         h2{
             font-family: 'Muli';
@@ -280,7 +285,7 @@ main {
             font-weight: lighter;
         }
         img{
-            margin-left: 106px;
+            margin-left: 15%;
         }
         a{
             font-family: 'Muli';
@@ -390,8 +395,8 @@ main {
                 margin-top: 88px;
             }
             .card{
-                width: 486px;
-                height: 300px;
+                width: 95%;
+                height: auto;
                 background: #FFFFFF;
                 box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
                 border-radius: 15px;
@@ -421,8 +426,8 @@ main {
               margin-top: 88px;
             }
             .card{
-                width: 486px;
-                height: 300px;
+                width: 95%;
+                height: auto;
                 background: #FFFFFF;
                 box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
                 border-radius: 15px;
@@ -572,8 +577,13 @@ main {
                 height: 69px;
                 background: #002878;
                 margin-top: 40px;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
                 p{
-                 padding-top: 20px;   
+                //  margin-top: 20px;   
                 }
                 p[second]{
                     margin-left: 10%;
@@ -678,5 +688,93 @@ main{
            }
         }
     }
+    .left{
+        img:nth-child(1){
+            width: 390px;
+            height: 479px;
+            margin-top: 110px;
+        }
+        img:nth-child(2){
+        display: none;
+        }
+        img:nth-child(3){
+        display: none;
+        }
+    }
+
+    .right{
+        margin-top: 80px;
+    }
+ 
 }
+
+.style{
+    display: none;
+}
+.project{
+    margin-top: 1600px;
+}
+.adv{
+ .left{
+     display: none;
+ }   
+ .right-new{
+     h2{
+         font-size: 36px;
+         line-height: 50px;
+         margin-top: -9px;
+     }
+     ul{
+       
+        li{
+   font-family: 'Muli';
+   font-size: 18px;
+   line-height: 30px;
+   color: #FFFFFF;        
+        }
+        li[loc]{
+            margin-top: 20px;
+        }
+    
+    }
+ }
+}
+.testimonial{
+    .card-test{
+    .left-2{
+        .test-card{
+            margin-top: 0px;
+            padding: 0;
+        }
+       
+    }
+}
+}
+main{
+    footer{
+        .foot{
+            width: 100%;
+            height: auto;
+            // margin-bottom: -60px;
+            background: #012E87;
+            .left-column-3{
+                margin-top: 50px;
+                margin-left: 8%;
+            }
+            .left-column-2{
+                margin-left: 5%;
+            }
+            .d-col{
+                margin-left: 8%;
+                margin-top: 5%;
+            }
+            .copy{
+                p{
+                    font-size: 16px;
+            }
+            }
+        }
+    }
+}
+
 }
