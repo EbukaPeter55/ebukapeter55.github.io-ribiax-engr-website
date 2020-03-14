@@ -52,6 +52,7 @@
 main {
     .top-fluid {        
             background-image: url("https://res.cloudinary.com/peterdbrainy/image/upload/v1583613796/top-head.png");
+            background-size: cover;
             width: 100%;
             height: 633px;      
        
@@ -750,7 +751,7 @@ main{
     }
 }
 }
-main{
+main{   
     footer{
         .foot{
             width: 100%;
@@ -778,3 +779,29 @@ main{
 }
 
 }
+
+@media only screen and (max-width: 370px){
+    main{
+        .services{
+            margin-left: -3.7%;
+            .services-content{
+                
+                        }
+        }
+        .project{
+            margin-left: -3.8px;
+        }
+    }
+}
+// Ipad screen
+@media only screen and (min-width: 575px) and (max-width: 1067px){
+//   main {
+//       .top-fluid{
+//         background-image: url("https://res.cloudinary.com/peterdbrainy/image/upload/v1583613796/top-head.png");
+//         max-width: 110%;
+//         height: 433px;
+               
+//       }
+//   }
+}
+
