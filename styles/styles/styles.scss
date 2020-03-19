@@ -50,6 +50,8 @@
 }
 //MAIN STYLES
 main {
+    width: 100%;
+    
     .top-fluid {        
             background-image: url("https://res.cloudinary.com/peterdbrainy/image/upload/v1583613796/top-head.png");
             background-size: cover;
@@ -667,6 +669,11 @@ main {
 
 //body
 main{
+    .newsletter{
+        input[type="search"]{
+            width: 80%;
+        }
+    }
     .top-fluid{    
         background-image: url("https://res.cloudinary.com/peterdbrainy/image/upload/v1583613796/top-head.png");
         width: 100%;
