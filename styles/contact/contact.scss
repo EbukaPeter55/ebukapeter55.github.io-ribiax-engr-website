@@ -261,6 +261,37 @@ main{
 
 // Mobile styles
 @media only screen and (max-width: 375px){
+    main{
+        .newsletter{
+            input[type="search"]{
+                width: 80%;
+            }
+        }
+        footer{
+            .foot{
+                width: 100%;
+                height: auto;
+                // margin-bottom: -60px;
+                background: #012E87;
+                .left-column-3{
+                    margin-top: 50px;
+                    margin-left: 8%;
+                }
+                .left-column-2{
+                    margin-left: 5%;
+                }
+                .d-col{
+                    margin-left: 8%;
+                    margin-top: 5%;
+                }
+                .copy{
+                    p{
+                        font-size: 16px;
+                }
+                }
+            }
+        }
+    }
     #sect {
         img{
             width: 80px;

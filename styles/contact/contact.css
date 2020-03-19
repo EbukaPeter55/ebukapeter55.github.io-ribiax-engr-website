@@ -335,6 +335,28 @@ main footer .foot .copy p[second] {
 }
 
 @media only screen and (max-width: 375px) {
+  main .newsletter input[type="search"] {
+    width: 80%;
+  }
+  main footer .foot {
+    width: 100%;
+    height: auto;
+    background: #012E87;
+  }
+  main footer .foot .left-column-3 {
+    margin-top: 50px;
+    margin-left: 8%;
+  }
+  main footer .foot .left-column-2 {
+    margin-left: 5%;
+  }
+  main footer .foot .d-col {
+    margin-left: 8%;
+    margin-top: 5%;
+  }
+  main footer .foot .copy p {
+    font-size: 16px;
+  }
   #sect img {
     width: 80px;
     height: 80px;
