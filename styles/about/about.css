@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#sect img {
+  margin-left: 11%;
+}
+
+#sect .nav-item .exp {
+  color: #373737;
+  font-size: 16px;
+  font-family: 'Muli';
+  font-weight: 590;
+}
+
+#sect .nav-item .second {
+  margin-left: 30px;
+}
+
+#sect .nav-item .third {
+  margin-left: 30px;
+}
+
+#sect .nav-item .fourth {
+  margin-left: 30px;
+}
+
+#sect .nav-item .fifth {
+  margin-left: 30px;
+}
+
+#sect .right-btn {
+  margin-left: 30px;
+}
+
+#sect .right-btn button[type="submit"] {
+  width: 240px;
+  height: 50px;
+  -webkit-box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  background: #1574CE;
+  font-family: 'Muli';
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+  border: none;
+}
+
+.right {
+  margin-left: 8%;
+}
+/*# sourceMappingURL=about.css.map */
