@@ -55,10 +55,27 @@
 }
 
 main .top-header {
-  background-image: url("https://res.cloudinary.com/peterdbrainy/image/upload/v1584190589/top-contact.png");
+  background-image: url("https://res.cloudinary.com/peterdbrainy/image/upload/v1584871608/Group_580.png");
   background-size: cover;
   width: 100%;
   height: 400px;
+}
+
+main .top-header h3 {
+  font-family: 'work sans', sans-serif;
+  font-size: 64px;
+  line-height: 75px;
+  color: #F3F0ED;
+  margin-left: 11.5%;
+  padding-top: 12%;
+  -webkit-animation-name: animateBtn;
+          animation-name: animateBtn;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
 }
 
 main .left form {
@@ -326,9 +343,27 @@ main footer .foot .copy p[second] {
   margin-left: 10%;
 }
 
+@-webkit-keyframes animateBtn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes animateBtn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 @media only screen and (min-width: 770px) and (max-width: 1021px) {
   main .top-header {
-    background-image: url("https://res.cloudinary.com/peterdbrainy/image/upload/v1584190589/top-contact.png");
+    background-image: url("https://res.cloudinary.com/peterdbrainy/image/upload/v1584871608/Group_580.png");
     background-size: cover;
     width: 120%;
   }
