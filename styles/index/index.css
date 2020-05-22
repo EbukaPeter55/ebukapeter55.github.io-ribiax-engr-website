@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#sect .log {
+  margin-left: 10%;
+}
+
+#sect .exp-colapse .no .ni a[about] {
+  margin-left: 7rem;
+}
+
+#sect .exp-colapse .no .ni .exp {
+  color: #373737;
+  font-size: 16px;
+  font-family: 'Muli';
+  font-weight: 590;
+  margin-top: 0.5rem;
+}
+
+#sect .exp-colapse .no .ni .second {
+  margin-left: 30px;
+}
+
+#sect .exp-colapse .no .ni .third {
+  margin-left: 30px;
+}
+
+#sect .exp-colapse .no .ni .fifth {
+  margin-left: 30px;
+}
+
+#sect .exp-colapse .no .right-btn a button[type="submit"] {
+  width: 240px;
+  height: 50px;
+  -webkit-box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  background: #1574CE;
+  font-family: 'Muli';
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+  border: none;
+  margin-top: 4%;
+  margin-left: 10%;
+}
+
+@media (max-width: 414px) {
+  #sect .log img {
+    width: 85px;
+    height: 80px;
+    margin-left: -1rem;
+  }
+  #sect .exp-colapse .no .ni a[about] {
+    margin-left: 1.5rem;
+  }
+  #sect .exp-colapse .no .ni .exp {
+    color: #373737;
+    font-size: 16px;
+    font-family: 'Muli';
+    font-weight: 590;
+    margin-left: 1.5rem;
+  }
+  #sect .exp-colapse .no .right-btn a button[type="submit"] {
+    width: 160px;
+    height: 45px;
+    -webkit-box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+            box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    background: #1574CE;
+    font-family: 'Muli';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    margin-left: 1.5rem;
+  }
+}
+
+@media (max-width: 320px) {
+  #sect .log img {
+    width: 85px;
+    height: 80px;
+    margin-left: -1rem;
+  }
+  #sect .exp-colapse .no .ni a[about] {
+    margin-left: 1.2rem;
+  }
+  #sect .exp-colapse .no .ni .exp {
+    color: #373737;
+    font-size: 16px;
+    font-family: 'Muli';
+    font-weight: 590;
+    margin-left: 1.2rem;
+  }
+  #sect .exp-colapse .no .right-btn a button[type="submit"] {
+    width: 160px;
+    height: 45px;
+    -webkit-box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+            box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    background: #1574CE;
+    font-family: 'Muli';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    margin-left: 1.2rem;
+  }
+}
+
+@media (min-width: 411px) and (max-width: 570px) {
+  #sect .log img {
+    width: 85px;
+    height: 80px;
+    margin-left: -1rem;
+  }
+  #sect .exp-colapse .no .ni a[about] {
+    margin-left: 1.5rem;
+  }
+  #sect .exp-colapse .no .ni .exp {
+    color: #373737;
+    font-size: 16px;
+    font-family: 'Muli';
+    font-weight: 590;
+    margin-left: 1.5rem;
+  }
+  #sect .exp-colapse .no .right-btn a button[type="submit"] {
+    width: 160px;
+    height: 45px;
+    -webkit-box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+            box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    background: #1574CE;
+    font-family: 'Muli';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    margin-left: 1.5rem;
+  }
+}
+
+@media (min-width: 475px) and (max-width: 1000px) {
+  #sect .log img {
+    width: 85px;
+    height: 80px;
+    margin-left: -1rem;
+  }
+  #sect .exp-colapse .no .ni a[about] {
+    margin-left: 1rem;
+  }
+  #sect .exp-colapse .no .ni .exp {
+    color: #373737;
+    font-size: 16px;
+    font-family: 'Muli';
+    font-weight: 590;
+    margin-left: 1.5rem;
+  }
+  #sect .exp-colapse .no .right-btn a button[type="submit"] {
+    width: 160px;
+    height: 45px;
+    -webkit-box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+            box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    background: #1574CE;
+    font-family: 'Muli';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    margin-left: 1%;
+  }
+}
+
+main .top-fluid {
+  background-image: url("https://res.cloudinary.com/peterdbrainy/image/upload/v1583613796/top-head.png");
+  background-size: cover;
+  width: 100%;
+  height: 633px;
+}
+
+@media (min-width: 500px) and (max-width: 1034px) {
+  main .top-fluid {
+    width: 104.1%;
+  }
+}
+/*# sourceMappingURL=index.css.map */
