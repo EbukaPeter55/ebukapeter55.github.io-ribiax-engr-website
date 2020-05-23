@@ -260,12 +260,86 @@ main{
         background-image: url("https://res.cloudinary.com/peterdbrainy/image/upload/v1583613796/top-head.png");   
         background-size: cover;
         width: 100%;
-        height: 633px;      
+        height: 633px;
+         
+        div[top-content]{
+            padding-top: 13%;
+            margin-left: 12%;
+            h2{
+            font-family: 'Muli', sans-serif;
+            font-size: 48px;
+            font-weight: 600;
+            line-height: 56px;
+            color: #F3F0ED;   
+            animation-name: moveToLeft;
+            animation-duration: 2s; 
+            }
+            p{
+            font-size: 18px;
+            line-height: 161.8%;
+            color: #F3F0ED;
+            font-weight: 400;
+            animation-name: moveToRight;
+            animation-duration: 2s; 
+            }
+            button[type="submit"]{
+            width: 247px;
+            height: 50px;
+            background: #1574CE;
+            box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+            border-radius: 10px;
+            border: none;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 21px;
+            text-align: center;
+            color: #FFFFFF;
+            animation-name: animateBtn;
+            animation-duration: 1s;
+            animation-delay: 1.5s;     
+            animation-fill-mode: backwards;         
+                  }
+                  a{            
+                    font-family: 'Muli';
+                    font-size: 18px;
+                    line-height: 21px;
+                    text-decoration-line: underline;
+                    color: #FFFFFF;
+                    margin-left: 46px;
+                    animation-name: animateBtn;
+                    animation-duration: 1s;
+                    animation-delay: 2.3s;     
+                    animation-fill-mode: backwards;       
+                }
+        }      
    
      }
+     
+}
+
+// Mobile screen
+@media(max-width: 400px){
+    main{
+        .top-fluid{
+            div[top-content]{
+                p{
+                    margin-top: 10%;
+                }
+                button[type="submit"]{
+                    margin-top: 7%;
+                }
+                a{
+                    margin-top: 20px;
+                    margin-left: 2%;
+
+                }
+            }
+        }
+    }
 }
 
 // Responsive
+// IPAD screen
 @media(min-width: 500px) and (max-width: 1034px){
     main{
         .top-fluid{
