@@ -439,8 +439,61 @@ main{
     }
     
 }
-
 // End of services section
+
+// Styles and approach
+.style{
+    max-width: 1523px;
+    height: 744px;    
+    margin-top: 149px;
+    background: #012E87;
+    .hel{
+        img{
+           margin-top: 1px;
+        }
+    }
+    .top-head-1{
+        h2{
+            font-family: 'Muli';
+            font-size: 48px;
+            line-height: 56px;
+            text-align: center;            
+            color: #FFFFFF;
+            font-weight: 600;
+            margin-top: 110px;    
+        }
+        h6{
+            font-family: 'Muli';
+            font-size: 28px;
+            line-height: 106%;
+            color: #FFFFFF;
+            margin-left: 106px;
+            margin-top: 40px;
+            font-weight: 600;
+        }
+        p{
+            font-family: 'Muli';
+            font-size: 16px;
+            line-height: 163%;
+            margin-left: 106px;
+            color: rgb(206, 199, 199);
+            margin-top: 18px;
+            font-weight: lighter;
+        }
+        img{
+            margin-left: 15%;
+        }
+        a{
+            font-family: 'Muli';
+            font-size: 18px;
+            line-height: 21px;
+            text-decoration-line: underline;
+            color: #FFFFFF;
+            margin-left: 106px;
+        }
+    }
+}
+// End of styles and approach
 }
 
 //Scrolling image animation
@@ -586,6 +639,25 @@ main{
                 .c-row{
                     margin-left: -7%;
                 }
+            }
+        }
+        .style{
+            width: 100%;
+            height: 50%;
+            .con{
+                margin-top: 440%;
+            }
+        }
+        .top-head-1{
+            img{
+                width: 85%;
+                margin-left: 10%!important;
+            }
+            h6{
+                margin-left: 9%!important;
+            }
+            p{
+                margin-left: 9%!important;
             }
         }
     }

@@ -386,6 +386,61 @@ main .services .services-content .row .w-card .card p[s-card-content] {
   margin-top: 35px;
 }
 
+main .style {
+  max-width: 1523px;
+  height: 744px;
+  margin-top: 149px;
+  background: #012E87;
+}
+
+main .style .hel img {
+  margin-top: 1px;
+}
+
+main .style .top-head-1 h2 {
+  font-family: 'Muli';
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: 600;
+  margin-top: 110px;
+}
+
+main .style .top-head-1 h6 {
+  font-family: 'Muli';
+  font-size: 28px;
+  line-height: 106%;
+  color: #FFFFFF;
+  margin-left: 106px;
+  margin-top: 40px;
+  font-weight: 600;
+}
+
+main .style .top-head-1 p {
+  font-family: 'Muli';
+  font-size: 16px;
+  line-height: 163%;
+  margin-left: 106px;
+  color: #cec7c7;
+  margin-top: 18px;
+  font-weight: lighter;
+}
+
+main .style .top-head-1 img {
+  margin-left: 15%;
+}
+
+main .style .top-head-1 a {
+  font-family: 'Muli';
+  font-size: 18px;
+  line-height: 21px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #FFFFFF;
+  margin-left: 106px;
+}
+
 @-webkit-keyframes cssmarquee {
   0% {
     -webkit-transform: translateX(100%);
@@ -554,6 +609,23 @@ main .services .services-content .row .w-card .card p[s-card-content] {
   }
   main .services .services-content .c-row {
     margin-left: -7%;
+  }
+  main .style {
+    width: 100%;
+    height: 50%;
+  }
+  main .style .con {
+    margin-top: 440%;
+  }
+  main .top-head-1 img {
+    width: 85%;
+    margin-left: 10% !important;
+  }
+  main .top-head-1 h6 {
+    margin-left: 9% !important;
+  }
+  main .top-head-1 p {
+    margin-left: 9% !important;
   }
 }
 
