@@ -368,6 +368,79 @@ main{
         }
     }
 
+//   Services section
+.services{
+    max-width: 1523px;
+    height: 1323px;
+    background: #FFFBF8;
+    // margin-top: 113px;
+    .services-content{
+        h2{
+            text-align: center;
+            font-family: 'Lato' sans-serif;
+            font-size: 48px;
+            line-height: 56px;
+            text-align: center;
+            color: #012E87;
+            padding-top: 10%;
+        }
+        p{
+            font-family: 'Muli', sans-serif;
+            font-size: 18px;
+            line-height: 29px;
+            text-align: center;
+            color: #161A1E;
+            margin-top: 20px;                
+        }
+        .c-row{
+            margin-top: 61px;
+        }
+        .row{  
+            // .fir{
+            //     margin-left: 40%;
+            // }             
+            .w-card{
+                
+                .card{
+                    width: 330px;
+                    height: 377px;
+                    margin-bottom: 20px;
+                    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.15);
+                    border-radius: 15px;
+                    
+                    img{
+                    width: 80px;
+                    height: 81px;
+                    margin: 30px 20px 10px 120px;
+                    }
+                    h4{
+                    text-align: center;
+                    font-family: 'Muli';
+                    font-size: 28px;
+                    line-height: 106%;    
+                    color: #1574CE;
+                    font-weight: 600;  
+                    margin-top: 2px;      
+                    }
+                    p{
+                    font-family: 'Muli';
+                    font-size: 16px;
+                    line-height: 163%;
+                    text-align: center;
+                    color: #161A1E;  
+                    margin-top: 5px;     
+                    }
+                    p[s-card-content]{
+                    margin-top: 35px;    
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+// End of services section
 }
 
 //Scrolling image animation
@@ -409,12 +482,50 @@ main{
     }
 }
 //Mobile Iphone 4/5 screen
-@media(min-width:0px) and (max-width: 321px){
+@media(min-width:0px) and (max-width: 360px){
     main{
         .right{
             button[type="submit"]{
                 position: relative;
                 left: -6%!important;
+            }
+        }
+        .services{
+            .services-content{
+                .c-row{
+                   .w-card{
+                       .card{
+                           width: 98%;
+                           height: 55%;
+                           margin-top: 10px;
+                           img{
+                               margin-left: 35%;
+                           }
+                           h4{
+                               font-size: 20px;
+                           }
+                       }
+                   } 
+                   .w-card-2{
+                       .infr{
+                        top: 8rem!important;
+                        position: relative;
+                       }
+                   }
+                   .w-card-2 .sus{
+                       position: relative;
+                       top: 8rem!important;
+                   }
+                   .w-card .proj{
+                    position: relative;
+                    top: 16rem!important;
+                   }
+                   .w-card .geo{
+                    position: relative;
+                    top: 16rem!important;
+                   }
+
+                }
             }
         }
     }
@@ -470,6 +581,13 @@ main{
                 font-size: 16px;
             }
         }
+        .services{
+            .services-content{
+                .c-row{
+                    margin-left: -7%;
+                }
+            }
+        }
     }
 }
 
@@ -492,6 +610,33 @@ main{
             }
             button[type="submit"]{
                 margin-left: 28%;
+            }
+        }
+        .services{
+            .services-content{
+                h2{
+                    margin-left: 20%;
+                }
+                p{
+                    margin-left: 15%;
+                }
+                .c-row{                 
+                    margin-left: -7%;   
+                        .w-card{
+                            .card{
+                                width: 130%;
+                                height: 50%;
+                                h4{
+                                    font-size: 20px;
+                                }
+                                p{
+                                    font-size: 14px;
+                                    text-align: left;
+                                }
+                            }
+                        }
+                
+                }
             }
         }
     }
