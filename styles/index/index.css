@@ -194,7 +194,7 @@ main .top-fluid {
 
 main .top-fluid div[top-content] {
   padding-top: 13%;
-  margin-left: 12%;
+  margin-left: 11%;
 }
 
 main .top-fluid div[top-content] h2 {
@@ -261,7 +261,164 @@ main .top-fluid div[top-content] a {
           animation-fill-mode: backwards;
 }
 
-@media (max-width: 400px) {
+main .top-fluid .img-fluid {
+  margin-top: -8px;
+}
+
+main section {
+  margin-top: 12%;
+}
+
+main .left img:nth-child(1) {
+  width: 88%;
+  height: 479px;
+}
+
+main .left img:nth-child(2) {
+  margin-top: -73%;
+  margin-left: 10px;
+}
+
+main .left img:nth-child(3) {
+  margin-top: 72%;
+  margin-left: -3px;
+}
+
+main .right {
+  margin-top: 6%;
+  margin-left: 2%;
+}
+
+main .right h2 {
+  font-family: 'Lato';
+  font-size: 48px;
+  line-height: 56px;
+  color: #012E87;
+  font-weight: 600;
+}
+
+main .right p {
+  font-family: 'Muli', sans-serif;
+  font-size: 18px;
+  line-height: 29px;
+  color: #161A1E;
+}
+
+main .right button[type="submit"] {
+  width: 274px;
+  height: 50px;
+  background: #1574CE;
+  -webkit-box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  font-family: 'Muli', sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+  border: none;
+}
+
+@-webkit-keyframes cssmarquee {
+  0% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+}
+
+@keyframes cssmarquee {
+  0% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+}
+
+@-webkit-keyframes moveToLeft {
+  0% {
+    -webkit-transform: translateX(120px);
+            transform: translateX(120px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes moveToLeft {
+  0% {
+    -webkit-transform: translateX(120px);
+            transform: translateX(120px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes moveToRight {
+  0% {
+    -webkit-transform: translateX(-120px);
+            transform: translateX(-120px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes moveToRight {
+  0% {
+    -webkit-transform: translateX(-120px);
+            transform: translateX(-120px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes animateBtn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes animateBtn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 321px) {
+  main .right button[type="submit"] {
+    position: relative;
+    left: -6% !important;
+  }
+}
+
+@media (max-width: 411px) {
   main .top-fluid div[top-content] p {
     margin-top: 10%;
   }
@@ -270,13 +427,54 @@ main .top-fluid div[top-content] a {
   }
   main .top-fluid div[top-content] a {
     margin-top: 20px;
-    margin-left: 2%;
+    margin-left: 3%;
+  }
+  main .left img:nth-child(1) {
+    width: 80%;
+    height: 479px;
+    margin-top: 10%;
+    margin-left: 10%;
+  }
+  main .left img:nth-child(2) {
+    display: none;
+  }
+  main .left img:nth-child(3) {
+    display: none;
+  }
+  main .right {
+    margin-top: 12%;
+  }
+  main .right h2 {
+    font-size: 45px;
+    text-align: center;
+  }
+  main .right p {
+    text-align: center;
+    font-size: 16px;
+  }
+  main .right button[type="submit"] {
+    width: 270px;
+    height: 45px;
+    margin-left: 12%;
+    font-size: 16px;
   }
 }
 
 @media (min-width: 500px) and (max-width: 1034px) {
   main .top-fluid {
     width: 104.1%;
+  }
+  main .left {
+    margin-left: 16%;
+  }
+  main .right h2 {
+    text-align: center;
+  }
+  main .right p {
+    text-align: center;
+  }
+  main .right button[type="submit"] {
+    margin-left: 28%;
   }
 }
 /*# sourceMappingURL=index.css.map */

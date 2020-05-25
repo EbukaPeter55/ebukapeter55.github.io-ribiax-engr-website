@@ -264,7 +264,7 @@ main{
          
         div[top-content]{
             padding-top: 13%;
-            margin-left: 12%;
+            margin-left: 11%;
             h2{
             font-family: 'Muli', sans-serif;
             font-size: 48px;
@@ -311,14 +311,117 @@ main{
                     animation-delay: 2.3s;     
                     animation-fill-mode: backwards;       
                 }
-        }      
+        } 
+        .img-fluid {
+        margin-top: -8px;
+    }   
+   
    
      }
      
+     section{
+         margin-top: 12%;         
+     }
+     .left {
+         img:nth-child(1){
+         width: 88%;
+         height: 479px;
+        }
+        img:nth-child(2){
+            margin-top: -73%;
+            margin-left: 10px;
+        }
+        img:nth-child(3){
+            margin-top: 72%;
+            margin-left: -3px;  
+        }
+    }
+    .right {
+        margin-top: 6%;
+        margin-left: 2%;
+        h2{
+            font-family: 'Lato';
+            font-size: 48px;
+            line-height: 56px;
+            color: #012E87;
+            font-weight: 600;
+
+        }
+        p{
+            font-family: 'Muli', sans-serif;
+            font-size: 18px;
+            line-height: 29px;            
+            color: #161A1E;
+        }
+        button[type="submit"]{
+            width: 274px;
+            height: 50px;
+            background: #1574CE;
+            box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+            border-radius: 10px;
+            font-family: 'Muli', sans-serif;
+            font-size: 18px;
+            line-height: 21px;
+            text-align: center;
+            color: #FFFFFF;
+            border: none;
+        }
+    }
+
+}
+
+//Scrolling image animation
+@keyframes cssmarquee {
+    0% {
+    transform: translateX(100%);
+    }
+    100% {
+    transform: translateX(-100%);
+    }
+    }
+//ANIMATION
+@keyframes moveToLeft {
+    0% {
+        transform: translateX(120px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes moveToRight {
+    0% {
+        transform: translateX(-120px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes animateBtn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+//Mobile Iphone 4/5 screen
+@media(min-width:0px) and (max-width: 321px){
+    main{
+        .right{
+            button[type="submit"]{
+                position: relative;
+                left: -6%!important;
+            }
+        }
+    }
 }
 
 // Mobile screen
-@media(max-width: 400px){
+@media(max-width: 411px){
     main{
         .top-fluid{
             div[top-content]{
@@ -330,9 +433,41 @@ main{
                 }
                 a{
                     margin-top: 20px;
-                    margin-left: 2%;
+                    margin-left: 3%;
 
                 }
+            }
+        }
+        // About us section
+        .left{
+            img:nth-child(1){
+                width: 80%;
+                height: 479px;
+                margin-top: 10%;
+                margin-left: 10%;
+            }
+            img:nth-child(2){
+            display: none;
+            }
+            img:nth-child(3){
+            display: none;
+            }
+        }
+        .right{
+            margin-top: 12%;
+            h2 {
+                font-size: 45px;
+                text-align: center;
+            }
+            p{
+                text-align: center;
+                font-size: 16px;
+            }
+            button[type="submit"]{
+                width: 270px;
+                height: 45px;
+                margin-left: 12%;
+                font-size: 16px;
             }
         }
     }
@@ -344,6 +479,20 @@ main{
     main{
         .top-fluid{
             width: 104.1%;
+        }
+        .left {
+            margin-left: 16%;
+        }
+        .right{
+            h2{
+                text-align: center;
+            }
+            p{
+                text-align: center;
+            }
+            button[type="submit"]{
+                margin-left: 28%;
+            }
         }
     }
 }
