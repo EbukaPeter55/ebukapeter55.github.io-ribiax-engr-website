@@ -494,6 +494,332 @@ main{
     }
 }
 // End of styles and approach
+
+//List of projects
+.project{
+    h2{
+        font-family: 'Muli';
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 56px;
+        text-align: center;
+        color: #012E87;
+        margin-top: 155px;
+
+    }
+}
+.ca{
+    .card{
+        width: 523.5px;
+        height: 351px;
+    }
+    .content{
+        background: #1574CE;
+        p{
+            text-align: center;
+            font-family: 'Muli';
+            font-size: 28px;
+            font-weight: 600;
+            line-height: 33px;
+            color: #FFFFFF;
+            margin-top: 25%;
+           
+        }
+    }
+    .content-2{
+        background: #05225b;
+        p{
+            text-align: center;
+            font-family: 'Muli';
+            font-size: 28px;
+            font-weight: 600;
+            line-height: 33px;
+            color: #FFFFFF;
+            margin-top: 25%;   
+        }
+    }
+    .content-4{
+        background: #1574CE;
+        p{
+            text-align: center;
+            font-family: 'Muli';
+            font-size: 28px;
+            font-weight: 600;
+            line-height: 33px;
+            color: #FFFFFF;
+            margin-top: 28%;      
+        }
+    }
+    
+}
+#demo{
+    margin-top: 55px;
+    .indi {
+        li{
+            position: absolute;
+            width: 18px;
+            height: 3px;
+            top: 50px;        
+            background: rgba(21, 116, 206, 0.83);
+            border-radius: 50%;            
+        }
+    }
+   
+}
+// End of list of projects
+
+// Advantage section
+.adv{
+    max-width: 1523px;
+    height: 744px;
+    top: 5041px;
+    background: #1574CE;
+    margin-top: 195px;
+    .left{
+        padding-top: 10%;
+    }
+    .right-new {
+        margin-left: 6%;
+        h2{
+            font-family: 'Muli';
+            font-size: 48px;
+            line-height: 56px;
+            color: #FFFFFF;
+            margin-top: 12%;
+        }
+        ul {
+            margin-top: 5%;
+            li{
+            font-family: 'Muli';
+            font-size: 24px;
+            line-height: 109%;
+            color: #FFFFFF;
+            margin-top: 3.3%;
+        }
+        }
+    }
+}
+
+// Testimonnial style
+// Testimonial section style
+.testimonial {
+    max-width: 1538px!important;
+    height: 1134px;
+    background: #FFFBF8;
+    h2{
+        text-align: center;
+        margin-top: 110px;
+        font-size: 48px;
+        line-height: 56px;
+        color: #012E87;
+        font-weight: 600;
+        padding-top: 10%;
+    }
+   
+    .card-test {
+        margin-top: 63px;
+        .left-2{
+            .test-card{
+                margin-top: 88px;
+            }
+            .card{
+                width: 95%;
+                height: auto;
+                background: #FFFFFF;
+                box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+                border-radius: 15px;
+                img{
+                width: 95.29px;
+                height: 95.29px;
+                margin-top: 8%;
+                margin-left: 40%;
+                }
+                p{
+                font-family: 'Muli';
+                font-size: 16px;
+                line-height: 28px;
+                text-align: center;
+                color: #000000;                        
+                }
+                p[second]{
+                    font-weight: bold;
+                }
+            }
+        }
+        .right-2 {
+            .f-right{
+              margin-top: 151px;  
+            }
+            .b-right{
+              margin-top: 88px;
+            }
+            .card{
+                width: 95%;
+                height: auto;
+                background: #FFFFFF;
+                box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+                border-radius: 15px;
+                img{
+                    width: 95.29px;
+                    height: 95.29px;
+                    margin-top: 8%;
+                    margin-left: 40%;
+                    }
+                    p{
+                    font-family: 'Muli';
+                    font-size: 16px;
+                    line-height: 28px;
+                    text-align: center;
+                    color: #000000;                        
+                    }
+                    p[second]{
+                        font-weight: bold;
+                    }
+            }
+        }
+    }  
+}
+
+// Client styles
+.clients {
+    h2{
+        font-family: 'Muli';
+        font-size: 48px;
+        line-height: 56px;
+        text-align: center;
+        margin-top: 219px;
+        color: #012E87;
+        font-weight: 600;
+    }
+    .cssmarquee{
+        margin-top: 50px;
+        img{
+            width: 145px;
+            height: 60px;
+            transform:translateX(100%);
+            margin-bottom: 20px;
+            // animation: cssmarquee 10s linear infinite;  
+        }
+        img:nth-child(1){
+
+        }
+        img:nth-child(3){
+            margin-left: 25px;
+        }
+        img:nth-child(2){
+            margin-left: 20px;
+        }
+        img:nth-child(4){
+            margin-left: 25px;
+        }
+    }
+}
+// Newsletter section styles
+.newsletter{
+    max-width: 1523px;
+    height: 621px;                     
+    background: #1E4CA9;
+    margin-top: 143px;
+    .cen{
+        img{
+            margin-top: 106px;
+        }
+    }
+    h4{
+        font-family: 'Muli';
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 56px;
+        text-align: center;                
+        color: #FFFFFF;
+        margin-top: 45px;   
+    }
+    input[type="search"]{
+        background: #FFFFFF;
+        box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+        border-radius: 10px;
+        width: 40%;
+        height: 60px;
+        border: none;
+        margin-top: 24px;
+    }
+    input[type="search"]::placeholder{
+        font-family: 'Muli';
+        font-size: 18px;
+        font-weight: regular;
+        font-style: oblique ;
+        line-height: 21px;
+        padding-left: 5%;
+        color: rgba(22, 26, 30, 0.4);
+
+    }
+    button[type="submit"]{
+        background: #FFFFFF;
+        box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+        border-radius: 10px;
+        width: 140px;
+        height: 50px;
+        margin-top: 20px;
+        border: none;
+        font-family: 'Muli';
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 21px;
+        text-align: center;
+        color: #1574CE;
+        transition: color 2s ease, transform 1s ease;
+    }
+    button[type="submit"]:hover{
+        transform: translateY(-6px)
+    }
+}
+// Footer
+footer{
+    .foot{
+        max-width: 1523px;
+        height: 422px;
+        background: #012E87;
+        padding-top: 82px;
+        .left-column{
+            margin-left: 10%;
+        }
+        .left-column-2{
+            margin-left: -60px;
+        }
+        .left-column-3{
+            margin-left: -100px;
+        }
+        p{
+        font-family: 'work sans'!important;
+        font-size: 18px;
+        line-height: 21px;
+        color: #FFFFFF;
+        }
+        a{
+        font-family: 'work sans'!important;
+        font-size: 18px;
+        line-height: 21px;
+        color: #FFFFFF;   
+        }
+        .copy {
+        max-width: 1523px;
+        height: 69px;
+        background: #002878;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        p{
+        //  margin-top: 20px;   
+        }
+        p[second]{
+            margin-left: 10%;
+        }
+         }
+    }
+}
 }
 
 //Scrolling image animation
@@ -534,8 +860,16 @@ main{
         opacity: 1;
     }
 }
-//Mobile Iphone 4/5 screen
-@media(min-width:0px) and (max-width: 360px){
+//Iphone 5/SE screen
+// @media only screen and (max-width: 320px)and (-webkit-min-device-pixel-ratio: 1){
+//     main{
+//         .style .con{
+//             margin-top: 950px!important;
+//         }
+//     }
+// }
+//Mobile motor G4 screen
+@media (min-width:0px) and (max-width: 365px) and (orientation: portrait) {
     main{
         .right{
             button[type="submit"]{
@@ -580,6 +914,10 @@ main{
 
                 }
             }
+        }
+        // Style
+        .style .con{
+            margin-top: 480%!important;
         }
     }
 }
@@ -660,6 +998,49 @@ main{
                 margin-left: 9%!important;
             }
         }
+        // Newsletter
+        .newsletter{
+            input[type="search"]{
+                width: 80%;
+            }
+        }
+        // Testimonial
+        .testimonial{
+            .card-test{
+            .left-2{
+                .test-card{
+                    margin-top: 0px;
+                    padding: 0;
+                }
+               
+            }
+        }
+        }
+        // Footer
+        footer{
+            .foot{
+                width: 100%;
+                height: auto;
+                // margin-bottom: -60px;
+                background: #012E87;
+                .left-column-3{
+                    margin-top: 50px;
+                    margin-left: 8%;
+                }
+                .left-column-2{
+                    margin-left: 5%;
+                }
+                .d-col{
+                    margin-left: 8%;
+                    margin-top: 5%;
+                }
+                .copy{
+                    p{
+                        font-size: 16px;
+                }
+                }
+            }
+        }
     }
 }
 
@@ -668,7 +1049,7 @@ main{
 @media(min-width: 500px) and (max-width: 1034px){
     main{
         .top-fluid{
-            width: 104.1%;
+            width: 110.1%!important;
         }
         .left {
             margin-left: 16%;
@@ -693,7 +1074,7 @@ main{
                     margin-left: 15%;
                 }
                 .c-row{                 
-                    margin-left: -7%;   
+                    margin-left: -2%;   
                         .w-card{
                             .card{
                                 width: 130%;
@@ -708,6 +1089,27 @@ main{
                             }
                         }
                 
+                }
+            }
+        }
+        .style{
+            width: 110%!important;
+            height: 25%;
+            .top-head-1{
+                img{
+                    width: 90%;
+                }
+                h6{
+                    margin-left: 18%!important;
+                }
+                p{
+                    margin-left: 18%!important;
+                }
+            }
+            .hel{
+                img{
+                    width: 108%;
+                    height: 100%;
                 }
             }
         }

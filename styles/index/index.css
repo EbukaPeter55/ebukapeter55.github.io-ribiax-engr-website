@@ -441,6 +441,391 @@ main .style .top-head-1 a {
   margin-left: 106px;
 }
 
+main .project h2 {
+  font-family: 'Muli';
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56px;
+  text-align: center;
+  color: #012E87;
+  margin-top: 155px;
+}
+
+main .ca .card {
+  width: 523.5px;
+  height: 351px;
+}
+
+main .ca .content {
+  background: #1574CE;
+}
+
+main .ca .content p {
+  text-align: center;
+  font-family: 'Muli';
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 33px;
+  color: #FFFFFF;
+  margin-top: 25%;
+}
+
+main .ca .content-2 {
+  background: #05225b;
+}
+
+main .ca .content-2 p {
+  text-align: center;
+  font-family: 'Muli';
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 33px;
+  color: #FFFFFF;
+  margin-top: 25%;
+}
+
+main .ca .content-4 {
+  background: #1574CE;
+}
+
+main .ca .content-4 p {
+  text-align: center;
+  font-family: 'Muli';
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 33px;
+  color: #FFFFFF;
+  margin-top: 28%;
+}
+
+main #demo {
+  margin-top: 55px;
+}
+
+main #demo .indi li {
+  position: absolute;
+  width: 18px;
+  height: 3px;
+  top: 50px;
+  background: rgba(21, 116, 206, 0.83);
+  border-radius: 50%;
+}
+
+main .adv {
+  max-width: 1523px;
+  height: 744px;
+  top: 5041px;
+  background: #1574CE;
+  margin-top: 195px;
+}
+
+main .adv .left {
+  padding-top: 10%;
+}
+
+main .adv .right-new {
+  margin-left: 6%;
+}
+
+main .adv .right-new h2 {
+  font-family: 'Muli';
+  font-size: 48px;
+  line-height: 56px;
+  color: #FFFFFF;
+  margin-top: 12%;
+}
+
+main .adv .right-new ul {
+  margin-top: 5%;
+}
+
+main .adv .right-new ul li {
+  font-family: 'Muli';
+  font-size: 24px;
+  line-height: 109%;
+  color: #FFFFFF;
+  margin-top: 3.3%;
+}
+
+main .testimonial {
+  max-width: 1538px !important;
+  height: 1134px;
+  background: #FFFBF8;
+}
+
+main .testimonial h2 {
+  text-align: center;
+  margin-top: 110px;
+  font-size: 48px;
+  line-height: 56px;
+  color: #012E87;
+  font-weight: 600;
+  padding-top: 10%;
+}
+
+main .testimonial .card-test {
+  margin-top: 63px;
+}
+
+main .testimonial .card-test .left-2 .test-card {
+  margin-top: 88px;
+}
+
+main .testimonial .card-test .left-2 .card {
+  width: 95%;
+  height: auto;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+}
+
+main .testimonial .card-test .left-2 .card img {
+  width: 95.29px;
+  height: 95.29px;
+  margin-top: 8%;
+  margin-left: 40%;
+}
+
+main .testimonial .card-test .left-2 .card p {
+  font-family: 'Muli';
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #000000;
+}
+
+main .testimonial .card-test .left-2 .card p[second] {
+  font-weight: bold;
+}
+
+main .testimonial .card-test .right-2 .f-right {
+  margin-top: 151px;
+}
+
+main .testimonial .card-test .right-2 .b-right {
+  margin-top: 88px;
+}
+
+main .testimonial .card-test .right-2 .card {
+  width: 95%;
+  height: auto;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+}
+
+main .testimonial .card-test .right-2 .card img {
+  width: 95.29px;
+  height: 95.29px;
+  margin-top: 8%;
+  margin-left: 40%;
+}
+
+main .testimonial .card-test .right-2 .card p {
+  font-family: 'Muli';
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #000000;
+}
+
+main .testimonial .card-test .right-2 .card p[second] {
+  font-weight: bold;
+}
+
+main .clients h2 {
+  font-family: 'Muli';
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  margin-top: 219px;
+  color: #012E87;
+  font-weight: 600;
+}
+
+main .clients .cssmarquee {
+  margin-top: 50px;
+}
+
+main .clients .cssmarquee img {
+  width: 145px;
+  height: 60px;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+  margin-bottom: 20px;
+}
+
+main .clients .cssmarquee img:nth-child(3) {
+  margin-left: 25px;
+}
+
+main .clients .cssmarquee img:nth-child(2) {
+  margin-left: 20px;
+}
+
+main .clients .cssmarquee img:nth-child(4) {
+  margin-left: 25px;
+}
+
+main .newsletter {
+  max-width: 1523px;
+  height: 621px;
+  background: #1E4CA9;
+  margin-top: 143px;
+}
+
+main .newsletter .cen img {
+  margin-top: 106px;
+}
+
+main .newsletter h4 {
+  font-family: 'Muli';
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 45px;
+}
+
+main .newsletter input[type="search"] {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  width: 40%;
+  height: 60px;
+  border: none;
+  margin-top: 24px;
+}
+
+main .newsletter input[type="search"]::-webkit-input-placeholder {
+  font-family: 'Muli';
+  font-size: 18px;
+  font-weight: regular;
+  font-style: oblique;
+  line-height: 21px;
+  padding-left: 5%;
+  color: rgba(22, 26, 30, 0.4);
+}
+
+main .newsletter input[type="search"]:-ms-input-placeholder {
+  font-family: 'Muli';
+  font-size: 18px;
+  font-weight: regular;
+  font-style: oblique;
+  line-height: 21px;
+  padding-left: 5%;
+  color: rgba(22, 26, 30, 0.4);
+}
+
+main .newsletter input[type="search"]::-ms-input-placeholder {
+  font-family: 'Muli';
+  font-size: 18px;
+  font-weight: regular;
+  font-style: oblique;
+  line-height: 21px;
+  padding-left: 5%;
+  color: rgba(22, 26, 30, 0.4);
+}
+
+main .newsletter input[type="search"]::placeholder {
+  font-family: 'Muli';
+  font-size: 18px;
+  font-weight: regular;
+  font-style: oblique;
+  line-height: 21px;
+  padding-left: 5%;
+  color: rgba(22, 26, 30, 0.4);
+}
+
+main .newsletter button[type="submit"] {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  width: 140px;
+  height: 50px;
+  margin-top: 20px;
+  border: none;
+  font-family: 'Muli';
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21px;
+  text-align: center;
+  color: #1574CE;
+  -webkit-transition: color 2s ease, -webkit-transform 1s ease;
+  transition: color 2s ease, -webkit-transform 1s ease;
+  transition: color 2s ease, transform 1s ease;
+  transition: color 2s ease, transform 1s ease, -webkit-transform 1s ease;
+}
+
+main .newsletter button[type="submit"]:hover {
+  -webkit-transform: translateY(-6px);
+          transform: translateY(-6px);
+}
+
+main footer .foot {
+  max-width: 1523px;
+  height: 422px;
+  background: #012E87;
+  padding-top: 82px;
+}
+
+main footer .foot .left-column {
+  margin-left: 10%;
+}
+
+main footer .foot .left-column-2 {
+  margin-left: -60px;
+}
+
+main footer .foot .left-column-3 {
+  margin-left: -100px;
+}
+
+main footer .foot p {
+  font-family: "work sans" !important;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+main footer .foot a {
+  font-family: "work sans" !important;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+main footer .foot .copy {
+  max-width: 1523px;
+  height: 69px;
+  background: #002878;
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main footer .foot .copy p[second] {
+  margin-left: 10%;
+}
+
 @-webkit-keyframes cssmarquee {
   0% {
     -webkit-transform: translateX(100%);
@@ -533,7 +918,7 @@ main .style .top-head-1 a {
   }
 }
 
-@media (min-width: 0px) and (max-width: 360px) {
+@media (min-width: 0px) and (max-width: 365px) and (orientation: portrait) {
   main .right button[type="submit"] {
     position: relative;
     left: -6% !important;
@@ -564,6 +949,9 @@ main .style .top-head-1 a {
   main .services .services-content .c-row .w-card .geo {
     position: relative;
     top: 16rem !important;
+  }
+  main .style .con {
+    margin-top: 480% !important;
   }
 }
 
@@ -627,11 +1015,37 @@ main .style .top-head-1 a {
   main .top-head-1 p {
     margin-left: 9% !important;
   }
+  main .newsletter input[type="search"] {
+    width: 80%;
+  }
+  main .testimonial .card-test .left-2 .test-card {
+    margin-top: 0px;
+    padding: 0;
+  }
+  main footer .foot {
+    width: 100%;
+    height: auto;
+    background: #012E87;
+  }
+  main footer .foot .left-column-3 {
+    margin-top: 50px;
+    margin-left: 8%;
+  }
+  main footer .foot .left-column-2 {
+    margin-left: 5%;
+  }
+  main footer .foot .d-col {
+    margin-left: 8%;
+    margin-top: 5%;
+  }
+  main footer .foot .copy p {
+    font-size: 16px;
+  }
 }
 
 @media (min-width: 500px) and (max-width: 1034px) {
   main .top-fluid {
-    width: 104.1%;
+    width: 110.1% !important;
   }
   main .left {
     margin-left: 16%;
@@ -652,7 +1066,7 @@ main .style .top-head-1 a {
     margin-left: 15%;
   }
   main .services .services-content .c-row {
-    margin-left: -7%;
+    margin-left: -2%;
   }
   main .services .services-content .c-row .w-card .card {
     width: 130%;
@@ -664,6 +1078,23 @@ main .style .top-head-1 a {
   main .services .services-content .c-row .w-card .card p {
     font-size: 14px;
     text-align: left;
+  }
+  main .style {
+    width: 110% !important;
+    height: 25%;
+  }
+  main .style .top-head-1 img {
+    width: 90%;
+  }
+  main .style .top-head-1 h6 {
+    margin-left: 18% !important;
+  }
+  main .style .top-head-1 p {
+    margin-left: 18% !important;
+  }
+  main .style .hel img {
+    width: 108%;
+    height: 100%;
   }
 }
 /*# sourceMappingURL=index.css.map */
