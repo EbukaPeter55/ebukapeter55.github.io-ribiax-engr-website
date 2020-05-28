@@ -919,11 +919,96 @@ footer{
         .style .con{
             margin-top: 480%!important;
         }
+        // Client section style
+        .clients h2{
+            margin-top: 300%!important;
+        }
+        footer{
+            .foot{
+                .copy{
+                    height: 50%;
+                    p{
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        // subscribe
+        .newsletter{
+            .cen{              
+                img{
+                    margin-top: 15%!important;
+                }
+            }
+              }
     }
 }
-
+// Pixel 2 a scr
+@media only screen and (min-width: 375px) and (max-width: 415px){
+    .services{
+        .services-content{
+            .c-row{
+                margin-left: -1%;
+            }
+        }
+    }
+    // style
+    .style {
+        height: 95%!important;
+    .con{
+        margin-top: 380%!important;
+    }
+    .top-head-1{
+        img{
+            width: 90%;
+            margin-left: 5%!important;
+        }
+        h6, p{
+            margin-left: -1%!important
+        }
+    }    
+    
+}
+// Advantage section style
+.adv{
+    height: 90%!important;
+}
+//clients
+.clients {
+    margin-top: 230%!important;
+}
+// Footer
+footer{
+    .foot{
+        height: 70%!important;
+        .left-column{
+            margin-left: 2%!important;
+        }
+        .left-column-3{
+            // margin-top: 45%!important;
+            margin-left: -7rem!important;
+            // line-height: 90%;
+        }
+       .left-column-2{
+        //    display: none;
+        margin-top: 60%;
+        margin-left: -1%;
+       }
+       .left-column-4{
+           margin-top: 5%;
+           margin-left: 19%;
+       }
+        .copy{
+            height: 50%;
+            p{
+                text-align: center;
+            }
+        }
+    }
+}
+}
 // Mobile screen
-@media(max-width: 411px){
+@media only screen and (max-device-width: 400px){
     main{
         .top-fluid{
             div[top-content]{
@@ -1041,6 +1126,40 @@ footer{
                 }
             }
         }
+
+        // advantage section
+        .adv{
+            max-width: 1523px!important;
+            height: 55%!important;
+            
+           .right-new {
+               h2{
+                  font-size: 36px;
+                  text-align: center;
+                  margin-top: 2%;
+               }
+               ul li{
+               font-size: 19px;
+               line-height: 27px;
+               
+           }
+        }
+        }
+        .testimonial .card-test {
+            margin-left: 1%!important;
+        }
+        .testimonial .second{
+            margin-top: 15%!important;
+        }
+        .testimonial .three, .testimonial .four {
+            margin-top: 15%!important;
+        }
+        .clients {
+            margin-top: 180%!important;
+        }
+        .carousel-inner{
+            margin-left: -2%!important;
+        }
     }
 }
 
@@ -1110,6 +1229,19 @@ footer{
                 img{
                     width: 108%;
                     height: 100%;
+                }
+            }
+        }
+        footer{
+            .foot{
+                .left-column{
+                    margin-left: 2%!important;
+                }
+                .left-column-3{
+                    margin-left: 1%!important;
+                }
+                .left-column-2{
+                    margin-left: 1%;
                 }
             }
         }

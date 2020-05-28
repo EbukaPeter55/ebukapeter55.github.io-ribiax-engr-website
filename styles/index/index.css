@@ -953,9 +953,69 @@ main footer .foot .copy p[second] {
   main .style .con {
     margin-top: 480% !important;
   }
+  main .clients h2 {
+    margin-top: 300% !important;
+  }
+  main footer .foot .copy {
+    height: 50%;
+  }
+  main footer .foot .copy p {
+    text-align: center;
+  }
+  main .newsletter .cen img {
+    margin-top: 15% !important;
+  }
 }
 
-@media (max-width: 411px) {
+@media only screen and (min-width: 375px) and (max-width: 415px) {
+  .services .services-content .c-row {
+    margin-left: -1%;
+  }
+  .style {
+    height: 95% !important;
+  }
+  .style .con {
+    margin-top: 380% !important;
+  }
+  .style .top-head-1 img {
+    width: 90%;
+    margin-left: 5% !important;
+  }
+  .style .top-head-1 h6, .style .top-head-1 p {
+    margin-left: -1% !important;
+  }
+  .adv {
+    height: 90% !important;
+  }
+  .clients {
+    margin-top: 230% !important;
+  }
+  footer .foot {
+    height: 70% !important;
+  }
+  footer .foot .left-column {
+    margin-left: 2% !important;
+  }
+  footer .foot .left-column-3 {
+    margin-left: -7rem !important;
+  }
+  footer .foot .left-column-2 {
+    margin-top: 60%;
+    margin-left: -1%;
+  }
+  footer .foot .left-column-4 {
+    margin-top: 5%;
+    margin-left: 19%;
+  }
+  footer .foot .copy {
+    height: 50%;
+  }
+  footer .foot .copy p {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-device-width: 400px) {
   main .top-fluid div[top-content] p {
     margin-top: 10%;
   }
@@ -1041,6 +1101,34 @@ main footer .foot .copy p[second] {
   main footer .foot .copy p {
     font-size: 16px;
   }
+  main .adv {
+    max-width: 1523px !important;
+    height: 55% !important;
+  }
+  main .adv .right-new h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 2%;
+  }
+  main .adv .right-new ul li {
+    font-size: 19px;
+    line-height: 27px;
+  }
+  main .testimonial .card-test {
+    margin-left: 1% !important;
+  }
+  main .testimonial .second {
+    margin-top: 15% !important;
+  }
+  main .testimonial .three, main .testimonial .four {
+    margin-top: 15% !important;
+  }
+  main .clients {
+    margin-top: 180% !important;
+  }
+  main .carousel-inner {
+    margin-left: -2% !important;
+  }
 }
 
 @media (min-width: 500px) and (max-width: 1034px) {
@@ -1095,6 +1183,15 @@ main footer .foot .copy p[second] {
   main .style .hel img {
     width: 108%;
     height: 100%;
+  }
+  main footer .foot .left-column {
+    margin-left: 2% !important;
+  }
+  main footer .foot .left-column-3 {
+    margin-left: 1% !important;
+  }
+  main footer .foot .left-column-2 {
+    margin-left: 1%;
   }
 }
 /*# sourceMappingURL=index.css.map */
