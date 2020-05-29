@@ -269,19 +269,46 @@ main{
     }
 }
 
-@media only screen and (min-width: 770px) and (max-width: 1021px){
+@media only screen and (min-width: 550px) and (max-width: 1030px){
     main{
         .top-header{
             background-image: url("https://res.cloudinary.com/peterdbrainy/image/upload/v1584871608/Group_580.png");
             background-size: cover;
-            width: 120%;    
+            width: 128%;    
+        }
+        footer{
+            .foot{
+                width: 128%!important;
+                height: 422px;
+                background: #012E87; 
+            }
+        }
+        .newsletter{
+            width: 128%!important;
+            height: 621px;                     
+            background: #1E4CA9;
+        }
+        .left{
+            margin-left: 34%!important;
+        }
+        .right{
+            margin-left: 31%!important;
         }
     }
 
 }
-
+// Iphone 5/SE
+@media only screen and (max-width: 320px){
+main{
+    .newsletter{
+        img{
+            margin-top: 12%!important;
+        }
+    }
+}
+}
 // Mobile styles
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 414px){
     main{
         width: 100%;
         .newsletter{
@@ -307,7 +334,9 @@ main{
                     margin-top: 5%;
                 }
                 .copy{
+                    height: 25%;
                     p{
+                        text-align: center;
                         font-size: 16px;
                 }
                 }

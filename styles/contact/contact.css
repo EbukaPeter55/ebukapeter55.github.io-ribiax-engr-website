@@ -361,15 +361,37 @@ main footer .foot .copy p[second] {
   }
 }
 
-@media only screen and (min-width: 770px) and (max-width: 1021px) {
+@media only screen and (min-width: 550px) and (max-width: 1030px) {
   main .top-header {
     background-image: url("https://res.cloudinary.com/peterdbrainy/image/upload/v1584871608/Group_580.png");
     background-size: cover;
-    width: 120%;
+    width: 128%;
+  }
+  main footer .foot {
+    width: 128% !important;
+    height: 422px;
+    background: #012E87;
+  }
+  main .newsletter {
+    width: 128% !important;
+    height: 621px;
+    background: #1E4CA9;
+  }
+  main .left {
+    margin-left: 34% !important;
+  }
+  main .right {
+    margin-left: 31% !important;
   }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 320px) {
+  main .newsletter img {
+    margin-top: 12% !important;
+  }
+}
+
+@media only screen and (max-width: 414px) {
   main {
     width: 100%;
   }
@@ -392,7 +414,11 @@ main footer .foot .copy p[second] {
     margin-left: 8%;
     margin-top: 5%;
   }
+  main footer .foot .copy {
+    height: 25%;
+  }
   main footer .foot .copy p {
+    text-align: center;
     font-size: 16px;
   }
   main .left h4 {
