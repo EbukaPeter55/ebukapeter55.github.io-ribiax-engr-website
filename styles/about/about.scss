@@ -282,35 +282,7 @@ main{
             animation-name: moveToRight;
             animation-duration: 2s; 
             }
-            button[type="submit"]{
-            width: 247px;
-            height: 50px;
-            background: #1574CE;
-            box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
-            border-radius: 10px;
-            border: none;
-            font-size: 18px;
-            font-weight: 600;
-            line-height: 21px;
-            text-align: center;
-            color: #FFFFFF;
-            animation-name: animateBtn;
-            animation-duration: 1s;
-            animation-delay: 1.5s;     
-            animation-fill-mode: backwards;         
-                  }
-                  a{            
-                    font-family: 'Muli';
-                    font-size: 18px;
-                    line-height: 21px;
-                    text-decoration-line: underline;
-                    color: #FFFFFF;
-                    margin-left: 46px;
-                    animation-name: animateBtn;
-                    animation-duration: 1s;
-                    animation-delay: 2.3s;     
-                    animation-fill-mode: backwards;       
-                }
+            
         } 
         .img-fluid {
         margin-top: -8px;
@@ -600,120 +572,8 @@ main{
     }
 }
 
-// Testimonnial style
-// Testimonial section style
-.testimonial {
-    max-width: 1538px!important;
-    height: 1134px;
-    background: #FFFBF8;
-    h2{
-        text-align: center;
-        margin-top: 110px;
-        font-size: 48px;
-        line-height: 56px;
-        color: #012E87;
-        font-weight: 600;
-        padding-top: 10%;
-    }
-   
-    .card-test {
-        margin-top: 63px;
-        .left-2{
-            .test-card{
-                margin-top: 88px;
-            }
-            .card{
-                width: 95%;
-                height: auto;
-                background: #FFFFFF;
-                box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
-                border-radius: 15px;
-                img{
-                width: 95.29px;
-                height: 95.29px;
-                margin-top: 8%;
-                margin-left: 40%;
-                }
-                p{
-                font-family: 'Muli';
-                font-size: 16px;
-                line-height: 28px;
-                text-align: center;
-                color: #000000;                        
-                }
-                p[second]{
-                    font-weight: bold;
-                }
-            }
-        }
-        .right-2 {
-            .f-right{
-              margin-top: 151px;  
-            }
-            .b-right{
-              margin-top: 88px;
-            }
-            .card{
-                width: 95%;
-                height: auto;
-                background: #FFFFFF;
-                box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
-                border-radius: 15px;
-                img{
-                    width: 95.29px;
-                    height: 95.29px;
-                    margin-top: 8%;
-                    margin-left: 40%;
-                    }
-                    p{
-                    font-family: 'Muli';
-                    font-size: 16px;
-                    line-height: 28px;
-                    text-align: center;
-                    color: #000000;                        
-                    }
-                    p[second]{
-                        font-weight: bold;
-                    }
-            }
-        }
-    }  
-}
 
-// Client styles
-.clients {
-    h2{
-        font-family: 'Muli';
-        font-size: 48px;
-        line-height: 56px;
-        text-align: center;
-        margin-top: 219px;
-        color: #012E87;
-        font-weight: 600;
-    }
-    .cssmarquee{
-        margin-top: 50px;
-        img{
-            width: 145px;
-            height: 60px;
-            transform:translateX(100%);
-            margin-bottom: 20px;
-            // animation: cssmarquee 10s linear infinite;  
-        }
-        img:nth-child(1){
 
-        }
-        img:nth-child(3){
-            margin-left: 25px;
-        }
-        img:nth-child(2){
-            margin-left: 20px;
-        }
-        img:nth-child(4){
-            margin-left: 25px;
-        }
-    }
-}
 // Newsletter section styles
 .newsletter{
     max-width: 1523px;
@@ -819,6 +679,91 @@ footer{
         }
          }
     }
+}
+.cut{
+    h3{
+        font-family: 'Muli';
+        font-size: 48px;
+        line-height: 56px;
+        color: #012E87;
+        font-weight: 600;
+        margin-left: 5%;
+    }
+    p{
+        font-family: 'Noto sans';
+        font-size: 18px;
+        line-height: 31px;
+        text-align: justify;
+        color: #161A1E;
+        text-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+        margin-left: 5%;
+        margin-top: 4%;
+    }
+}
+.org{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .right-org {
+        width: 55%;
+        // margin-left: -2.5%!important;
+        background: #012E87;
+        h2{
+            font-family: 'Noto-sans';
+            font-size: 48px;
+            line-height: 56px;
+            color: #FFFFFF;
+            margin-left: 5%;
+            margin-top: 10%;
+        }
+        p{
+            font-family: 'Muli';
+            font-size: 18px;
+            line-height: 163%;
+            text-align: justify;
+            color: #FFFFFF;
+            margin-left: 5%;
+        }
+        p[top-o]{
+            margin-top: 5%!important;
+        }
+        p[top-s]{
+            margin-top: 5%;
+        }
+    }
+    .left-org{
+        width: 45%;
+        img{
+            width: 100%;
+            // margin-left: -3%;
+        }
+    }
+}
+    
+.inter{
+    width: 100%;
+    height: 597px;
+    background-image: url(" https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,w_1256/v1590941476/Group_617.png");
+    background-size: cover;
+    margin-top: -14.5%;
+    .conteni{
+    margin-left: 10%;
+    h4{        
+    font-family: 'Noto-sans, sans-serif';
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+    color: #012E87;
+    padding-top: 13%;
+    }
+    p{
+    font-family: 'Muli';
+    font-size: 18px;
+    line-height: 163%;
+    text-align: justify;
+    color: #161A1E;
+    }
+}
 }
 }
 
@@ -941,10 +886,26 @@ footer{
                 }
             }
               }
+              .cut{
+                  h3{
+                      font-size: 22px!important;
+                  }
+              }
+            //   Organization style
+              .org{
+                  display: flex;
+                  flex-direction: column;
+                .left-org {
+                    img{
+                        min-width: 109.5%!important;
+                        margin-left: -6%;
+                    }
+                }
+                }
     }
 }
 // Pixel 2 a scr
-@media only screen and (min-width: 375px) and (max-width: 415px){
+@media only screen and (min-width: 374px) and (max-width: 415px){
     .services{
         .services-content{
             .c-row{
@@ -966,8 +927,7 @@ footer{
         h6, p{
             margin-left: -1%!important
         }
-    }    
-    
+    }        
 }
 // Advantage section style
 .adv{
@@ -1003,6 +963,32 @@ footer{
             p{
                 text-align: center;
             }
+        }
+    }
+}
+// Cutting edge style
+.cut{
+    h3{
+        font-size: 30px!important;
+    }
+}
+.org{
+    display: flex!important;
+    flex-direction: column!important;
+    flex-wrap: wrap!important;
+    .left-org{
+        width: 100%!important;
+    }
+    .right-org{
+        width: 100%!important;
+    }
+}
+.inter{
+    height: 700px!important;
+    .conteni{
+        margin-left: 3%!important;
+        p{
+         font-size: 14px;   
         }
     }
 }
@@ -1160,6 +1146,26 @@ footer{
         .carousel-inner{
             margin-left: -2%!important;
         }
+        .org{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            .left-org{
+                width: 96.5%;
+            }
+            .right-org{
+                width: 100%;
+            }
+        }
+        .inter{
+            
+            .conteni{
+                margin-left: 2%;
+                p{
+                    font-size: 15px;
+                }
+            }
+        }
     }
 }
 
@@ -1245,5 +1251,24 @@ footer{
                 }
             }
         }
+        .org{
+            .left-org {
+                img{
+                    width: 130%!important;
+                    height: 100%!important;
+                }
+            }
+            }
+            .org{
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                .left-org{
+                    width: 100%;
+                }
+                .right-org{
+                    width: 100%;
+                }
+            }
     }
 }

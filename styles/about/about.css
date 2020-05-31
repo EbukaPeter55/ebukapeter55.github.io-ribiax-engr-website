@@ -220,47 +220,6 @@ main .top-fluid div[top-content] p {
           animation-duration: 2s;
 }
 
-main .top-fluid div[top-content] button[type="submit"] {
-  width: 247px;
-  height: 50px;
-  background: #1574CE;
-  -webkit-box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
-  border-radius: 10px;
-  border: none;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 21px;
-  text-align: center;
-  color: #FFFFFF;
-  -webkit-animation-name: animateBtn;
-          animation-name: animateBtn;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-delay: 1.5s;
-          animation-delay: 1.5s;
-  -webkit-animation-fill-mode: backwards;
-          animation-fill-mode: backwards;
-}
-
-main .top-fluid div[top-content] a {
-  font-family: 'Muli';
-  font-size: 18px;
-  line-height: 21px;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
-  color: #FFFFFF;
-  margin-left: 46px;
-  -webkit-animation-name: animateBtn;
-          animation-name: animateBtn;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-delay: 2.3s;
-          animation-delay: 2.3s;
-  -webkit-animation-fill-mode: backwards;
-          animation-fill-mode: backwards;
-}
-
 main .top-fluid .img-fluid {
   margin-top: -8px;
 }
@@ -547,128 +506,6 @@ main .adv .right-new ul li {
   margin-top: 3.3%;
 }
 
-main .testimonial {
-  max-width: 1538px !important;
-  height: 1134px;
-  background: #FFFBF8;
-}
-
-main .testimonial h2 {
-  text-align: center;
-  margin-top: 110px;
-  font-size: 48px;
-  line-height: 56px;
-  color: #012E87;
-  font-weight: 600;
-  padding-top: 10%;
-}
-
-main .testimonial .card-test {
-  margin-top: 63px;
-}
-
-main .testimonial .card-test .left-2 .test-card {
-  margin-top: 88px;
-}
-
-main .testimonial .card-test .left-2 .card {
-  width: 95%;
-  height: auto;
-  background: #FFFFFF;
-  -webkit-box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
-  border-radius: 15px;
-}
-
-main .testimonial .card-test .left-2 .card img {
-  width: 95.29px;
-  height: 95.29px;
-  margin-top: 8%;
-  margin-left: 40%;
-}
-
-main .testimonial .card-test .left-2 .card p {
-  font-family: 'Muli';
-  font-size: 16px;
-  line-height: 28px;
-  text-align: center;
-  color: #000000;
-}
-
-main .testimonial .card-test .left-2 .card p[second] {
-  font-weight: bold;
-}
-
-main .testimonial .card-test .right-2 .f-right {
-  margin-top: 151px;
-}
-
-main .testimonial .card-test .right-2 .b-right {
-  margin-top: 88px;
-}
-
-main .testimonial .card-test .right-2 .card {
-  width: 95%;
-  height: auto;
-  background: #FFFFFF;
-  -webkit-box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
-  border-radius: 15px;
-}
-
-main .testimonial .card-test .right-2 .card img {
-  width: 95.29px;
-  height: 95.29px;
-  margin-top: 8%;
-  margin-left: 40%;
-}
-
-main .testimonial .card-test .right-2 .card p {
-  font-family: 'Muli';
-  font-size: 16px;
-  line-height: 28px;
-  text-align: center;
-  color: #000000;
-}
-
-main .testimonial .card-test .right-2 .card p[second] {
-  font-weight: bold;
-}
-
-main .clients h2 {
-  font-family: 'Muli';
-  font-size: 48px;
-  line-height: 56px;
-  text-align: center;
-  margin-top: 219px;
-  color: #012E87;
-  font-weight: 600;
-}
-
-main .clients .cssmarquee {
-  margin-top: 50px;
-}
-
-main .clients .cssmarquee img {
-  width: 145px;
-  height: 60px;
-  -webkit-transform: translateX(100%);
-          transform: translateX(100%);
-  margin-bottom: 20px;
-}
-
-main .clients .cssmarquee img:nth-child(3) {
-  margin-left: 25px;
-}
-
-main .clients .cssmarquee img:nth-child(2) {
-  margin-left: 20px;
-}
-
-main .clients .cssmarquee img:nth-child(4) {
-  margin-left: 25px;
-}
-
 main .newsletter {
   max-width: 1523px;
   height: 621px;
@@ -826,6 +663,106 @@ main footer .foot .copy p[second] {
   margin-left: 10%;
 }
 
+main .cut h3 {
+  font-family: 'Muli';
+  font-size: 48px;
+  line-height: 56px;
+  color: #012E87;
+  font-weight: 600;
+  margin-left: 5%;
+}
+
+main .cut p {
+  font-family: 'Noto sans';
+  font-size: 18px;
+  line-height: 31px;
+  text-align: justify;
+  color: #161A1E;
+  text-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  margin-left: 5%;
+  margin-top: 4%;
+}
+
+main .org {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main .org .right-org {
+  width: 55%;
+  background: #012E87;
+}
+
+main .org .right-org h2 {
+  font-family: 'Noto-sans';
+  font-size: 48px;
+  line-height: 56px;
+  color: #FFFFFF;
+  margin-left: 5%;
+  margin-top: 10%;
+}
+
+main .org .right-org p {
+  font-family: 'Muli';
+  font-size: 18px;
+  line-height: 163%;
+  text-align: justify;
+  color: #FFFFFF;
+  margin-left: 5%;
+}
+
+main .org .right-org p[top-o] {
+  margin-top: 5% !important;
+}
+
+main .org .right-org p[top-s] {
+  margin-top: 5%;
+}
+
+main .org .left-org {
+  width: 45%;
+}
+
+main .org .left-org img {
+  width: 100%;
+}
+
+main .inter {
+  width: 100%;
+  height: 597px;
+  background-image: url(" https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,w_1256/v1590941476/Group_617.png");
+  background-size: cover;
+  margin-top: -14.5%;
+}
+
+main .inter .conteni {
+  margin-left: 10%;
+}
+
+main .inter .conteni h4 {
+  font-family: 'Noto-sans, sans-serif';
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56px;
+  color: #012E87;
+  padding-top: 13%;
+}
+
+main .inter .conteni p {
+  font-family: 'Muli';
+  font-size: 18px;
+  line-height: 163%;
+  text-align: justify;
+  color: #161A1E;
+}
+
 @-webkit-keyframes cssmarquee {
   0% {
     -webkit-transform: translateX(100%);
@@ -965,9 +902,25 @@ main footer .foot .copy p[second] {
   main .newsletter .cen img {
     margin-top: 15% !important;
   }
+  main .cut h3 {
+    font-size: 22px !important;
+  }
+  main .org {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .org .left-org img {
+    min-width: 109.5% !important;
+    margin-left: -6%;
+  }
 }
 
-@media only screen and (min-width: 375px) and (max-width: 415px) {
+@media only screen and (min-width: 374px) and (max-width: 415px) {
   .services .services-content .c-row {
     margin-left: -1%;
   }
@@ -1012,6 +965,35 @@ main footer .foot .copy p[second] {
   }
   footer .foot .copy p {
     text-align: center;
+  }
+  .cut h3 {
+    font-size: 30px !important;
+  }
+  .org {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -ms-flex-wrap: wrap !important;
+        flex-wrap: wrap !important;
+  }
+  .org .left-org {
+    width: 100% !important;
+  }
+  .org .right-org {
+    width: 100% !important;
+  }
+  .inter {
+    height: 700px !important;
+  }
+  .inter .conteni {
+    margin-left: 3% !important;
+  }
+  .inter .conteni p {
+    font-size: 14px;
   }
 }
 
@@ -1129,6 +1111,29 @@ main footer .foot .copy p[second] {
   main .carousel-inner {
     margin-left: -2% !important;
   }
+  main .org {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  main .org .left-org {
+    width: 96.5%;
+  }
+  main .org .right-org {
+    width: 100%;
+  }
+  main .inter .conteni {
+    margin-left: 2%;
+  }
+  main .inter .conteni p {
+    font-size: 15px;
+  }
 }
 
 @media (min-width: 500px) and (max-width: 1034px) {
@@ -1192,6 +1197,27 @@ main footer .foot .copy p[second] {
   }
   main footer .foot .left-column-2 {
     margin-left: 1%;
+  }
+  main .org .left-org img {
+    width: 130% !important;
+    height: 100% !important;
+  }
+  main .org {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  main .org .left-org {
+    width: 100%;
+  }
+  main .org .right-org {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=about.css.map */
