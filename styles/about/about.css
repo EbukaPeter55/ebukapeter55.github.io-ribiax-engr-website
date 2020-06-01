@@ -407,7 +407,6 @@ main .project h2 {
   line-height: 56px;
   text-align: center;
   color: #012E87;
-  margin-top: 155px;
 }
 
 main .ca .card {
@@ -470,12 +469,27 @@ main #demo .indi li {
   border-radius: 50%;
 }
 
+main p[see] {
+  text-align: center;
+  margin-top: 5%;
+}
+
+main p[see] a {
+  font-family: 'Muli';
+  font-size: 18px;
+  line-height: 21px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #1574CE;
+  text-align: center;
+  font-weight: 600;
+}
+
 main .adv {
   max-width: 1523px;
   height: 744px;
-  top: 5041px;
   background: #1574CE;
-  margin-top: 195px;
+  margin-top: -5%;
 }
 
 main .adv .left {
@@ -506,11 +520,45 @@ main .adv .right-new ul li {
   margin-top: 3.3%;
 }
 
+main .innovat {
+  width: 100%;
+  height: 456px;
+  background-image: url("https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,w_1223/v1591044781/Group_614_1.png");
+  margin-top: -12%;
+}
+
+main .innovat h5 {
+  font-family: 'Noto-sans', sans-serif;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: 600;
+  padding-top: 10%;
+}
+
+main .innovat button[type="submit"] {
+  width: 247px;
+  height: 50px;
+  left: 597px;
+  top: 6128px;
+  border-radius: 20px;
+  margin-left: 40%;
+  border: none;
+  font-family: 'Muli';
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #1574CE;
+  font-weight: 600;
+  margin-top: 4%;
+}
+
 main .newsletter {
   max-width: 1523px;
   height: 621px;
   background: #1E4CA9;
-  margin-top: 143px;
+  margin-top: -14%;
 }
 
 main .newsletter .cen img {
@@ -761,6 +809,63 @@ main .inter .conteni p {
   line-height: 163%;
   text-align: justify;
   color: #161A1E;
+}
+
+main .compu {
+  background-image: url("https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,w_1223/v1591042167/Group_598.png");
+  width: 100%;
+  height: 440px;
+  background-size: cover;
+}
+
+main .compu h4 {
+  font-family: 'Noto-sans', sans-serif;
+  font-size: 48px;
+  line-height: 56px;
+  color: #012E87;
+  font-weight: 600;
+  text-align: center;
+  margin-top: -13%;
+  padding-top: 9%;
+}
+
+main .compu p {
+  font-family: 'Muli';
+  font-size: 18px;
+  line-height: 40px;
+  text-align: center;
+  color: #161A1E;
+}
+
+main .style-approach {
+  width: 100%;
+  height: 592px;
+  background-image: url("https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,w_1125/v1591042916/Group_596.png");
+  background-size: cover;
+  margin-top: -13%;
+}
+
+main .style-approach h2 {
+  font-family: 'Noto-sans', sans-serif;
+  font-size: 72px;
+  line-height: 84px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 13%;
+  font-weight: 600%;
+}
+
+main .style-approach p {
+  text-align: center;
+}
+
+main .style-approach p a {
+  font-family: 'Muli';
+  font-size: 18px;
+  line-height: 21px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #FFFFFF;
 }
 
 @-webkit-keyframes cssmarquee {
