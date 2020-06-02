@@ -998,6 +998,13 @@ footer{
                     }
                 }
                 }
+                .innovat{
+                    button[type="submit"]{
+                        position: relative;
+                        left: -6%!important;
+                        top: 30%;
+                    }
+                }
     }
 }
 // Pixel 2 a scr
@@ -1085,6 +1092,18 @@ footer{
         margin-left: 3%!important;
         p{
          font-size: 14px;   
+        }
+    }
+}
+.innovat{
+    button[type="submit"]{
+        margin-left: 17%!important;
+    }
+}
+footer{
+    .foot{
+        .copy{
+            height: 15%!important;
         }
     }
 }
@@ -1262,6 +1281,30 @@ footer{
                 }
             }
         }
+        // Innovative solution
+        .innovat{
+            h5{
+                font-size: 40px;
+            }
+            button[type="submit"]{
+                margin-left: 14%!important;
+                margin-top: 8%;
+            }
+        }
+        footer{
+            .foot{
+                .left-column-3{
+                    margin-top: -1%!important;
+                }
+                .left-column-2{
+                    margin-left: -27%!important;
+                    margin-top: 65%!important;
+                }
+                .copy{
+                    height: 11%;
+                }
+            }
+        }
     }
 }
 
@@ -1270,7 +1313,7 @@ footer{
 @media(min-width: 500px) and (max-width: 1034px){
     main{
         .top-fluid{
-            width: 110.1%!important;
+            width: 105.1%!important;
         }
         .left {
             margin-left: 16%;

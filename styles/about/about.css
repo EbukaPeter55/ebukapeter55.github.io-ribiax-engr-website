@@ -1023,6 +1023,11 @@ main .style-approach p a {
     min-width: 109.5% !important;
     margin-left: -6%;
   }
+  main .innovat button[type="submit"] {
+    position: relative;
+    left: -6% !important;
+    top: 30%;
+  }
 }
 
 @media only screen and (min-width: 374px) and (max-width: 415px) {
@@ -1099,6 +1104,12 @@ main .style-approach p a {
   }
   .inter .conteni p {
     font-size: 14px;
+  }
+  .innovat button[type="submit"] {
+    margin-left: 17% !important;
+  }
+  footer .foot .copy {
+    height: 15% !important;
   }
 }
 
@@ -1239,11 +1250,28 @@ main .style-approach p a {
   main .inter .conteni p {
     font-size: 15px;
   }
+  main .innovat h5 {
+    font-size: 40px;
+  }
+  main .innovat button[type="submit"] {
+    margin-left: 14% !important;
+    margin-top: 8%;
+  }
+  main footer .foot .left-column-3 {
+    margin-top: -1% !important;
+  }
+  main footer .foot .left-column-2 {
+    margin-left: -27% !important;
+    margin-top: 65% !important;
+  }
+  main footer .foot .copy {
+    height: 11%;
+  }
 }
 
 @media (min-width: 500px) and (max-width: 1034px) {
   main .top-fluid {
-    width: 110.1% !important;
+    width: 105.1% !important;
   }
   main .left {
     margin-left: 16%;
