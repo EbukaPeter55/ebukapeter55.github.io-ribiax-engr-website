@@ -1036,6 +1036,10 @@ footer{
 .adv{
     height: 90%!important;
 }
+// list of projects
+.project{
+    margin-left: -3%!important;
+}
 //clients
 .clients {
     margin-top: 230%!important;
@@ -1310,7 +1314,7 @@ footer{
 
 // Responsive
 // IPAD screen
-@media(min-width: 500px) and (max-width: 1034px){
+@media only screen and (min-width: 500px) and (max-width: 1034px){
     main{
         .top-fluid{
             width: 105.1%!important;
@@ -1398,16 +1402,33 @@ footer{
                 }
             }
             }
+            .project{
+                margin-left: 5%!important;
+            }
             .org{
+                width: 109.7%!important;
                 display: flex;
                 flex-direction: column;
                 flex-wrap: wrap;
                 .left-org{
-                    width: 100%;
+                    width: 100%!important;
                 }
                 .right-org{
-                    width: 100%;
+                    width: 100%!important;
                 }
             }
+            .compu{
+                width: 105.3%;
+            }
+            .style-approach{
+                width: 105.3%;
+            }
+            .adv, .innovat, .newsletter, footer{
+                width: 105.3%!important;
+            }
+            .adv{
+                height: 84%!important;
+            }
+
     }
 }

@@ -1050,6 +1050,9 @@ main .style-approach p a {
   .adv {
     height: 90% !important;
   }
+  .project {
+    margin-left: -3% !important;
+  }
   .clients {
     margin-top: 230% !important;
   }
@@ -1269,7 +1272,7 @@ main .style-approach p a {
   }
 }
 
-@media (min-width: 500px) and (max-width: 1034px) {
+@media only screen and (min-width: 500px) and (max-width: 1034px) {
   main .top-fluid {
     width: 105.1% !important;
   }
@@ -1335,7 +1338,11 @@ main .style-approach p a {
     width: 130% !important;
     height: 100% !important;
   }
+  main .project {
+    margin-left: 5% !important;
+  }
   main .org {
+    width: 109.7% !important;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1347,10 +1354,22 @@ main .style-approach p a {
         flex-wrap: wrap;
   }
   main .org .left-org {
-    width: 100%;
+    width: 100% !important;
   }
   main .org .right-org {
-    width: 100%;
+    width: 100% !important;
+  }
+  main .compu {
+    width: 105.3%;
+  }
+  main .style-approach {
+    width: 105.3%;
+  }
+  main .adv, main .innovat, main .newsletter, main footer {
+    width: 105.3% !important;
+  }
+  main .adv {
+    height: 84% !important;
   }
 }
 /*# sourceMappingURL=about.css.map */
