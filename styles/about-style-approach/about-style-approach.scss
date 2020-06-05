@@ -726,9 +726,12 @@ footer{
 }
 .innovative-culture{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-.cut{    
+    justify-content: center;
+    margin-top: -8.4%;
+    
+.cut-left{    
     h3{
         font-family: 'Noto-sans';
         font-style: normal;
@@ -737,6 +740,9 @@ footer{
         line-height: 106%;       
         color: #161A1E;
         font-weight: 600;
+    }
+    h3[sec]{
+        margin-top: 38px;
     }
     p{
         font-family: 'Noto-sans';
@@ -747,12 +753,17 @@ footer{
         
     }
     img{
-        width: 595px;
-        height: 6px;
-        left: 198px;
-        top: 788px;
+        width: 87%;
+        height: 6px;        
         background: #1574CE;
         transform: matrix(1, 0, 0, -1, 0, 0);
+        margin-top: 24px;
+    }
+}
+.cut-right{
+    img{
+       
+        margin-top: -10%;
     }
 }
 }

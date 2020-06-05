@@ -715,15 +715,19 @@ main .innovative-culture {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: -8.4%;
 }
 
-main .innovative-culture .cut h3 {
+main .innovative-culture .cut-left h3 {
   font-family: 'Noto-sans';
   font-style: normal;
   font-weight: normal;
@@ -733,7 +737,11 @@ main .innovative-culture .cut h3 {
   font-weight: 600;
 }
 
-main .innovative-culture .cut p {
+main .innovative-culture .cut-left h3[sec] {
+  margin-top: 38px;
+}
+
+main .innovative-culture .cut-left p {
   font-family: 'Noto-sans';
   font-size: 16px;
   line-height: 163%;
@@ -741,100 +749,17 @@ main .innovative-culture .cut p {
   color: #161A1E;
 }
 
-main .innovative-culture .cut img {
-  width: 595px;
+main .innovative-culture .cut-left img {
+  width: 87%;
   height: 6px;
-  left: 198px;
-  top: 788px;
   background: #1574CE;
   -webkit-transform: matrix(1, 0, 0, -1, 0, 0);
           transform: matrix(1, 0, 0, -1, 0, 0);
+  margin-top: 24px;
 }
 
-main .inter {
-  width: 100%;
-  height: 597px;
-  background-image: url(" https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,w_1256/v1590941476/Group_617.png");
-  background-size: cover;
-  margin-top: -14.5%;
-}
-
-main .inter .conteni {
-  margin-left: 10%;
-}
-
-main .inter .conteni h4 {
-  font-family: 'Noto-sans, sans-serif';
-  font-size: 48px;
-  font-weight: 600;
-  line-height: 56px;
-  color: #012E87;
-  padding-top: 13%;
-}
-
-main .inter .conteni p {
-  font-family: 'Muli';
-  font-size: 18px;
-  line-height: 163%;
-  text-align: justify;
-  color: #161A1E;
-}
-
-main .compu {
-  background-image: url("https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,w_1223/v1591042167/Group_598.png");
-  width: 100%;
-  height: 440px;
-  background-size: cover;
-}
-
-main .compu h4 {
-  font-family: 'Noto-sans', sans-serif;
-  font-size: 48px;
-  line-height: 56px;
-  color: #012E87;
-  font-weight: 600;
-  text-align: center;
-  margin-top: -13%;
-  padding-top: 9%;
-}
-
-main .compu p {
-  font-family: 'Muli';
-  font-size: 18px;
-  line-height: 40px;
-  text-align: center;
-  color: #161A1E;
-}
-
-main .style-approach {
-  width: 100%;
-  height: 592px;
-  background-image: url("https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,w_1125/v1591042916/Group_596.png");
-  background-size: cover;
-  margin-top: -13%;
-}
-
-main .style-approach h2 {
-  font-family: 'Noto-sans', sans-serif;
-  font-size: 72px;
-  line-height: 84px;
-  text-align: center;
-  color: #FFFFFF;
-  padding-top: 13%;
-  font-weight: 600%;
-}
-
-main .style-approach p {
-  text-align: center;
-}
-
-main .style-approach p a {
-  font-family: 'Muli';
-  font-size: 18px;
-  line-height: 21px;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
-  color: #FFFFFF;
+main .innovative-culture .cut-right img {
+  margin-top: -10%;
 }
 
 @-webkit-keyframes cssmarquee {
