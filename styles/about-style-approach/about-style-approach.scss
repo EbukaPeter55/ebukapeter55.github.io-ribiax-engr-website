@@ -724,6 +724,7 @@ footer{
          }
     }
 }
+// Innovative culture style
 .innovative-culture{
     display: flex;
     flex-direction: row;
@@ -732,8 +733,9 @@ footer{
     margin-top: -8.4%;
     
 .cut-left{    
+    margin-left: 4.5%;
     h3{
-        font-family: 'Noto-sans';
+        font-family: 'Muli';
         font-style: normal;
         font-weight: normal;
         font-size: 28px;
@@ -762,12 +764,66 @@ footer{
 }
 .cut-right{
     img{
-       
         margin-top: -10%;
     }
 }
 }
-
+// Tactics style
+.tactic{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    .tactic-right{
+        h3{
+            font-family: 'Noto-sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 106%;
+            color: #161A1E;
+            margin-left: 4rem;
+        }
+        p{
+            font-family: 'Noto-sans', sans-serif;
+            font-size: 16px;
+            line-height: 163%;
+            text-align: justify;
+            color: #161A1E;
+            margin-left: 4rem;
+        }
+    }
+}
+// Holistic design style
+.design{
+    display: flex;
+    flex-grow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    .design-left{
+        margin-left: -4%;
+        h3{
+            font-family: 'Muli';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 106%;
+            color: #161A1E;            
+        }
+        p{
+            font-family: 'Noto-sans', sans-serif;
+            font-size: 16px;
+            line-height: 163%;
+            text-align: justify;
+            color: #161A1E;
+        }
+    }
+    .design-right{
+        img{
+            margin-left: 6%;
+        }
+    }
+}
 
 }
 
