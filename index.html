@@ -20,12 +20,8 @@
   <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">   
    <!-- work sans font -->
   <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
-  <style>
-  .fakeimg {
-    height: 200px;
-    background: #aaa;
-  }
-  </style>
+  <!-- Aos library -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <link rel="stylesheet" href="styles/index/index.css">
 </head>
 <body>      
@@ -42,7 +38,7 @@
               <a about class="nav-link exp" href="about.html">About us</a>
             </li>
             <li class="nav-item ni">
-              <a class="nav-link exp second" href="#">Our Services</a>
+              <a class="nav-link exp second" href="services.html">Our Services</a>
             </li>
             <li class="nav-item ni">
               <a class="nav-link exp third" href="careers.html">Careers</a>
@@ -60,7 +56,7 @@
       </nav>
       <!-- End of navigation bar -->
       <main>
-      <div class="container-fluid top-fluid" >
+      <div class="container-fluid top-fluid">
         <div top-content>
           <h2>We deliver high quality<br> construction projects</h2>
           <p>Ribiax Engineering Limited(REL) is a cutting edge and unique<br>
@@ -71,7 +67,7 @@
         </div>
       </div>
         <!-- About us section-->
-  <section>
+  <section data-aos="fade-left">
     <div class="container cont-abou">
       <div class="row justify-content-center cont-about-2">
         <div class="left">
@@ -93,7 +89,7 @@
     </div>
   </section>
 <!-- Services section -->
-<section>
+<section data-aos="fade-up">
   <div class="container-fluid services">
     <div class="container services-content">
     <h2>We provide the best services<br> in construction.</h2>
@@ -174,9 +170,9 @@
  <div class="container con">
   <div class="row">
     <div class="col-md-4 col-sm-3 hel">
-   <img src="image/helmet.png" alt="helmet" class="img-fluid" >
+   <img src="image/helmet.png" alt="helmet" class="img-fluid" data-aos="fade-right" >
     </div>
-    <div class="col-md-8 col-sm-9 top-head-1">
+    <div class="col-md-8 col-sm-9 top-head-1" data-aos="fade-left">
    <h2>Our Style and Approach</h2>
    <h6>Innovative Culture and uniqueness</h6>
    <p>Ribiax is an independednt firm with majority shares owned by staff through trust<br>
@@ -336,12 +332,12 @@
  <section>
   <div class="container adv">
     <div class="row justify-content-center">
-      <div class="left">
+      <div class="left" data-aos="fade-right">
        <img src="image/eng-helmet.png" alt="helmet image" class="img-fluid">
        <img src="image/white-line.png" alt="line" class="img-fluid"> 
        <img src="image/white-line.png" alt="line" class="img-fluid">          
       </div>
-      <div class="right right-new">
+      <div class="right right-new" data-aos="fade-left">
         <h2>Key Advantages of <br>
           Appointing Ribiax<br> Engineering Limited</h2>
           <ul>
@@ -476,7 +472,14 @@
   </div>
  </footer>
 </main>
-      
+  <!-- Javascript animate on scroll -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+        offset: 400,
+        duration: 1000
+    });
+  </script>
       
 </body>
 </html>
