@@ -278,73 +278,6 @@ main .right button[type="submit"] {
   border: none;
 }
 
-main .services {
-  max-width: 1523px;
-  height: 1323px;
-  background: #FFFBF8;
-}
-
-main .services .services-content h2 {
-  text-align: center;
-  font-family: 'Lato' sans-serif;
-  font-size: 48px;
-  line-height: 56px;
-  text-align: center;
-  color: #012E87;
-  padding-top: 10%;
-}
-
-main .services .services-content p {
-  font-family: 'Muli', sans-serif;
-  font-size: 18px;
-  line-height: 29px;
-  text-align: center;
-  color: #161A1E;
-  margin-top: 20px;
-}
-
-main .services .services-content .c-row {
-  margin-top: 61px;
-}
-
-main .services .services-content .row .w-card .card {
-  width: 330px;
-  height: 377px;
-  margin-bottom: 20px;
-  -webkit-box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.15);
-  border-radius: 15px;
-}
-
-main .services .services-content .row .w-card .card img {
-  width: 80px;
-  height: 81px;
-  margin: 30px 20px 10px 120px;
-}
-
-main .services .services-content .row .w-card .card h4 {
-  text-align: center;
-  font-family: 'Muli';
-  font-size: 28px;
-  line-height: 106%;
-  color: #1574CE;
-  font-weight: 600;
-  margin-top: 2px;
-}
-
-main .services .services-content .row .w-card .card p {
-  font-family: 'Muli';
-  font-size: 16px;
-  line-height: 163%;
-  text-align: center;
-  color: #161A1E;
-  margin-top: 5px;
-}
-
-main .services .services-content .row .w-card .card p[s-card-content] {
-  margin-top: 35px;
-}
-
 main .style {
   max-width: 1523px;
   height: 744px;
@@ -524,7 +457,7 @@ main .innovat {
   width: 100%;
   height: 456px;
   background-image: url("https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,w_1223/v1591044781/Group_614_1.png");
-  margin-top: -12%;
+  margin-top: -2%;
 }
 
 main .innovat h5 {
@@ -794,10 +727,10 @@ main .tactic .tactic-right h3 {
 main .tactic .tactic-right p {
   font-family: 'Noto-sans', sans-serif;
   font-size: 16px;
-  line-height: 163%;
-  text-align: justify;
+  line-height: 139%;
   color: #161A1E;
   margin-left: 4rem;
+  margin-top: 5%;
 }
 
 main .design {
@@ -833,10 +766,54 @@ main .design .design-left p {
   line-height: 163%;
   text-align: justify;
   color: #161A1E;
+  margin-top: 5%;
 }
 
 main .design .design-right img {
   margin-left: 6%;
+}
+
+main .value-engr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .value-engr .value-engr-left {
+  margin-right: 3%;
+}
+
+main .value-engr .value-engr-right {
+  margin-top: 5%;
+}
+
+main .value-engr .value-engr-right h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 106%;
+  color: #161A1E;
+  font-family: 'Muli';
+  margin-left: 3%;
+}
+
+main .value-engr .value-engr-right p {
+  font-family: 'Noto-sans', sans-serif;
+  font-size: 16px;
+  line-height: 163%;
+  text-align: justify;
+  color: #161A1E;
+  margin-left: 3%;
+  margin-top: 5%;
 }
 
 @-webkit-keyframes cssmarquee {

@@ -274,284 +274,30 @@ main{
             animation-name: moveToLeft;
             animation-duration: 2s; 
             }
-            p{
-            font-size: 18px;
-            line-height: 161.8%;
-            color: #F3F0ED;
-            font-weight: 400;
-            animation-name: moveToRight;
-            animation-duration: 2s; 
-            }
-            
+           
         } 
-        .img-fluid {
-        margin-top: -8px;
-    }   
-   
+      
    
      }
-     
-     section{
-         margin-top: 12%;         
-     }
-     .left {
-         img:nth-child(1){
-         width: 88%;
-         height: 479px;
-        }
-        img:nth-child(2){
-            margin-top: -73%;
-            margin-left: 10px;
-        }
-        img:nth-child(3){
-            margin-top: 72%;
-            margin-left: -3px;  
-        }
-    }
-    .right {
-        margin-top: 6%;
-        margin-left: 2%;
-        h2{
-            font-family: 'Lato';
-            font-size: 48px;
-            line-height: 56px;
-            color: #012E87;
-            font-weight: 600;
-
-        }
-        p{
-            font-family: 'Muli', sans-serif;
-            font-size: 18px;
-            line-height: 29px;            
-            color: #161A1E;
-        }
-        button[type="submit"]{
-            width: 274px;
-            height: 50px;
-            background: #1574CE;
-            box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
-            border-radius: 10px;
-            font-family: 'Muli', sans-serif;
-            font-size: 18px;
-            line-height: 21px;
-            text-align: center;
-            color: #FFFFFF;
-            border: none;
-        }
-    }
-
-
-// Styles and approach
-.style{
-    max-width: 1523px;
-    height: 744px;    
-    margin-top: 149px;
-    background: #012E87;
-    .hel{
-        img{
-           margin-top: 1px;
-        }
-    }
-    .top-head-1{
-        h2{
-            font-family: 'Muli';
-            font-size: 48px;
-            line-height: 56px;
-            text-align: center;            
-            color: #FFFFFF;
-            font-weight: 600;
-            margin-top: 110px;    
-        }
-        h6{
-            font-family: 'Muli';
-            font-size: 28px;
-            line-height: 106%;
-            color: #FFFFFF;
-            margin-left: 106px;
-            margin-top: 40px;
-            font-weight: 600;
-        }
-        p{
-            font-family: 'Muli';
-            font-size: 16px;
-            line-height: 163%;
-            margin-left: 106px;
-            color: rgb(206, 199, 199);
-            margin-top: 18px;
-            font-weight: lighter;
-        }
-        img{
-            margin-left: 15%;
-        }
-        a{
-            font-family: 'Muli';
-            font-size: 18px;
-            line-height: 21px;
-            text-decoration-line: underline;
-            color: #FFFFFF;
-            margin-left: 106px;
-        }
-    }
-}
-// End of styles and approach
-
-//List of projects
-.project{
+// Vacancies section
+.vacancies{
     h2{
         font-family: 'Muli';
+        font-style: normal;
+        font-weight: normal;
         font-size: 48px;
-        font-weight: 600;
-        line-height: 56px;
+        line-height: 59px;
         text-align: center;
         color: #012E87;
-        // margin-top: 155px;
-
+        margin-top: 10%;
     }
-}
-.ca{
-    .card{
-        width: 523.5px;
-        height: 351px;
-    }
-    .content{
-        background: #1574CE;
-        p{
-            text-align: center;
-            font-family: 'Muli';
-            font-size: 28px;
-            font-weight: 600;
-            line-height: 33px;
-            color: #FFFFFF;
-            margin-top: 25%;
-           
-        }
-    }
-    .content-2{
-        background: #05225b;
-        p{
-            text-align: center;
-            font-family: 'Muli';
-            font-size: 28px;
-            font-weight: 600;
-            line-height: 33px;
-            color: #FFFFFF;
-            margin-top: 25%;   
-        }
-    }
-    .content-4{
-        background: #1574CE;
-        p{
-            text-align: center;
-            font-family: 'Muli';
-            font-size: 28px;
-            font-weight: 600;
-            line-height: 33px;
-            color: #FFFFFF;
-            margin-top: 28%;      
-        }
-    }
-    
-}
-#demo{
-    margin-top: 55px;
-    .indi {
-        li{
-            position: absolute;
-            width: 18px;
-            height: 3px;
-            top: 50px;        
-            background: rgba(21, 116, 206, 0.83);
-            border-radius: 50%;            
-        }
-    }
-   
-}
-p[see] {
-    text-align: center;
-    margin-top: 5%;
-    a {
-    font-family: 'Muli';
-    font-size: 18px;
-    line-height: 21px;
-    text-decoration-line: underline;
-    color: #1574CE;
-    text-align: center;
-    font-weight: 600;
-}
-}
-// End of list of projects
-
-// Advantage section
-.adv{
-    max-width: 1523px;
-    height: 744px;
-    background: #1574CE;
-    margin-top: -5%;
-    .left{
-        padding-top: 10%;
-    }
-    .right-new {
-        margin-left: 6%;
-        h2{
-            font-family: 'Muli';
-            font-size: 48px;
-            line-height: 56px;
-            color: #FFFFFF;
-            margin-top: 12%;
-        }
-        ul {
-            margin-top: 5%;
-            li{
-            font-family: 'Muli';
-            font-size: 24px;
-            line-height: 109%;
-            color: #FFFFFF;
-            margin-top: 3.3%;
-        }
-        }
-    }
-}
-
-// Innovative solution style
-.innovat{
-    width: 100%;
-    height: 456px;
-    background-image: url("https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,w_1223/v1591044781/Group_614_1.png");
-    margin-top: -2%;
-    h5{        
-    font-family: 'Noto-sans', sans-serif;
-    font-size: 48px;
-    line-height: 56px;
-    text-align: center;
-    color: #FFFFFF;
-    font-weight: 600;
-    padding-top: 10%;
-    }
-    button[type="submit"]{
-        width: 247px;
-        height: 50px;
-        left: 597px;
-        top: 6128px;        
-        border-radius: 20px;
-        margin-left: 40%;;
-        border: none;
-        font-family: 'Muli';
-        font-size: 18px;
-        line-height: 21px;
-        text-align: center;
-        color: #1574CE;
-        font-weight: 600;
-        margin-top: 4%;
-
-    }
-}
-
+} 
 // Newsletter section styles
 .newsletter{
     max-width: 1523px;
     height: 621px;                     
     background: #1E4CA9;
-    margin-top: -14%;
+    margin-top: 143px;
     .cen{
         img{
             margin-top: 106px;
@@ -652,146 +398,7 @@ footer{
          }
     }
 }
-// Innovative culture style
-.innovative-culture{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: -8.4%;
-    
-.cut-left{    
-    margin-left: 4.5%;
-    h3{
-        font-family: 'Muli';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 28px;
-        line-height: 106%;       
-        color: #161A1E;
-        font-weight: 600;
-    }
-    h3[sec]{
-        margin-top: 38px;
-    }
-    p{
-        font-family: 'Noto-sans';
-        font-size: 16px;
-        line-height: 163%;        
-        text-align: justify;        
-        color: #161A1E;
-        
-    }
-    img{
-        width: 87%;
-        height: 6px;        
-        background: #1574CE;
-        transform: matrix(1, 0, 0, -1, 0, 0);
-        margin-top: 24px;
-    }
 }
-.cut-right{
-    img{
-        margin-top: -10%;
-    }
-}
-}
-// Tactics style
-.tactic{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    .tactic-left{}
-    .tactic-right{
-        h3{
-            font-family: 'Noto-sans';
-            font-style: normal;
-            font-weight: 600;
-            font-size: 28px;
-            line-height: 106%;
-            color: #161A1E;
-            margin-left: 4rem;
-        }
-        p{
-            font-family: 'Noto-sans', sans-serif;
-            font-size: 16px;
-            line-height: 139%;
-            // text-align: justify;
-            color: #161A1E;
-            margin-left: 4rem;
-            margin-top: 5%;
-        }
-    }
-}
-// Holistic design style
-.design{
-    display: flex;
-    flex-grow: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    .design-left{
-        margin-left: -4%;
-        h3{
-            font-family: 'Muli';
-            font-style: normal;
-            font-weight: 600;
-            font-size: 28px;
-            line-height: 106%;
-            color: #161A1E;            
-        }
-        p{
-            font-family: 'Noto-sans', sans-serif;
-            font-size: 16px;
-            line-height: 163%;
-            text-align: justify;
-            color: #161A1E;
-            margin-top: 5%;
-        }
-    }
-    .design-right{
-        img{
-            margin-left: 6%;
-        }
-    }
-}
-// Value engineering section style
-.value-engr{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    .value-engr-left{
-        margin-right: 3%;
-        img{
-            
-        }
-    }
-    .value-engr-right{
-        margin-top: 5%;
-        h3{
-            font-style: normal;
-            font-weight: 600;
-            font-size: 28px;
-            line-height: 106%;
-            color: #161A1E;
-            font-family: 'Muli';
-            margin-left: 3%;
-        }
-        p{
-            font-family: 'Noto-sans', sans-serif;
-            font-size: 16px;
-            line-height: 163%;
-            text-align: justify;
-            color: #161A1E;
-            margin-left: 3%;
-            margin-top: 5%;
-        }
-    }
-}
-
-}
-
 
 //Scrolling image animation
 @keyframes cssmarquee {
@@ -912,33 +519,10 @@ footer{
                 }
             }
               }
-              .cut{
-                  h3{
-                      font-size: 22px!important;
-                  }
-              }
-            //   Organization style
-              .org{
-                  display: flex;
-                  flex-direction: column;
-                .left-org {
-                    img{
-                        min-width: 109.5%!important;
-                        margin-left: -6%;
-                    }
-                }
-                }
-                .innovat{
-                    button[type="submit"]{
-                        position: relative;
-                        left: -6%!important;
-                        top: 30%;
-                    }
-                }
     }
 }
 // Pixel 2 a scr
-@media only screen and (min-width: 374px) and (max-width: 415px){
+@media only screen and (min-width: 375px) and (max-width: 415px){
     .services{
         .services-content{
             .c-row{
@@ -960,15 +544,12 @@ footer{
         h6, p{
             margin-left: -1%!important
         }
-    }        
+    }    
+    
 }
 // Advantage section style
 .adv{
     height: 90%!important;
-}
-// list of projects
-.project{
-    margin-left: -3%!important;
 }
 //clients
 .clients {
@@ -1000,44 +581,6 @@ footer{
             p{
                 text-align: center;
             }
-        }
-    }
-}
-// Cutting edge style
-.cut{
-    h3{
-        font-size: 30px!important;
-    }
-}
-.org{
-    display: flex!important;
-    flex-direction: column!important;
-    flex-wrap: wrap!important;
-    .left-org{
-        width: 100%!important;
-    }
-    .right-org{
-        width: 100%!important;
-    }
-}
-.inter{
-    height: 700px!important;
-    .conteni{
-        margin-left: 3%!important;
-        p{
-         font-size: 14px;   
-        }
-    }
-}
-.innovat{
-    button[type="submit"]{
-        margin-left: 17%!important;
-    }
-}
-footer{
-    .foot{
-        .copy{
-            height: 15%!important;
         }
     }
 }
@@ -1144,11 +687,12 @@ footer{
                 // margin-bottom: -60px;
                 background: #012E87;
                 .left-column-3{
-                    margin-top: 50px;
+                    margin-top: -3px!important;
                     margin-left: 8%;
                 }
                 .left-column-2{
-                    margin-left: 5%;
+                    margin-left: -25%!important;
+                    margin-top: 68%!important;
                 }
                 .d-col{
                     margin-left: 8%;
@@ -1195,59 +739,15 @@ footer{
         .carousel-inner{
             margin-left: -2%!important;
         }
-        .org{
-            display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-            .left-org{
-                width: 96.5%;
-            }
-            .right-org{
-                width: 100%;
-            }
-        }
-        .inter{
-            
-            .conteni{
-                margin-left: 2%;
-                p{
-                    font-size: 15px;
-                }
-            }
-        }
-        // Innovative solution
-        .innovat{
-            h5{
-                font-size: 40px;
-            }
-            button[type="submit"]{
-                margin-left: 14%!important;
-                margin-top: 8%;
-            }
-        }
-        footer{
-            .foot{
-                .left-column-3{
-                    margin-top: -1%!important;
-                }
-                .left-column-2{
-                    margin-left: -27%!important;
-                    margin-top: 65%!important;
-                }
-                .copy{
-                    height: 11%;
-                }
-            }
-        }
     }
 }
 
 // Responsive
 // IPAD screen
-@media only screen and (min-width: 500px) and (max-width: 1034px){
+@media(min-width: 500px) and (max-width: 1034px){
     main{
         .top-fluid{
-            width: 105.1%!important;
+            width: 110.1%!important;
         }
         .left {
             margin-left: 16%;
@@ -1311,7 +811,11 @@ footer{
                 }
             }
         }
+        .newsletter{
+            width: 110%!important;
+        }
         footer{
+            width: 110%!important;
             .foot{
                 .left-column{
                     margin-left: 2%!important;
@@ -1324,41 +828,5 @@ footer{
                 }
             }
         }
-        .org{
-            .left-org {
-                img{
-                    width: 130%!important;
-                    height: 100%!important;
-                }
-            }
-            }
-            .project{
-                margin-left: 5%!important;
-            }
-            .org{
-                width: 109.7%!important;
-                display: flex;
-                flex-direction: column;
-                flex-wrap: wrap;
-                .left-org{
-                    width: 100%!important;
-                }
-                .right-org{
-                    width: 100%!important;
-                }
-            }
-            .compu{
-                width: 105.3%;
-            }
-            .style-approach{
-                width: 105.3%;
-            }
-            .adv, .innovat, .newsletter, footer{
-                width: 105.3%!important;
-            }
-            .adv{
-                height: 84%!important;
-            }
-
     }
 }

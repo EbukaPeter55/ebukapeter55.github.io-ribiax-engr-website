@@ -1109,11 +1109,12 @@ footer{
                 // margin-bottom: -60px;
                 background: #012E87;
                 .left-column-3{
-                    margin-top: 50px;
+                    margin-top: -3px!important;
                     margin-left: 8%;
                 }
                 .left-column-2{
-                    margin-left: 5%;
+                    margin-left: -25%!important;
+                    margin-top: 68%!important;
                 }
                 .d-col{
                     margin-left: 8%;
@@ -1168,7 +1169,7 @@ footer{
 @media(min-width: 500px) and (max-width: 1034px){
     main{
         .top-fluid{
-            width: 110.1%!important;
+            width: 111.5%!important;
         }
         .left {
             margin-left: 16%;
@@ -1212,7 +1213,7 @@ footer{
             }
         }
         .style{
-            width: 110%!important;
+            width: 111%!important;
             height: 25%;
             .top-head-1{
                 img{
@@ -1231,6 +1232,12 @@ footer{
                     height: 100%;
                 }
             }
+        }
+        .adv{
+            height: 55%!important;
+        }
+        .newsletter, footer, .adv{
+            width: 111.5%!important;
         }
         footer{
             .foot{
