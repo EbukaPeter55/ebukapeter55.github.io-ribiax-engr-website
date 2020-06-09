@@ -661,21 +661,19 @@ main .innovative-culture {
 }
 
 main .innovative-culture .cut-left {
-  margin-left: 4.5%;
+  width: 41%;
+  height: 35%;
 }
 
 main .innovative-culture .cut-left h3 {
   font-family: 'Muli';
   font-style: normal;
-  font-weight: normal;
-  font-size: 28px;
-  line-height: 106%;
-  color: #161A1E;
   font-weight: 600;
-}
-
-main .innovative-culture .cut-left h3[sec] {
-  margin-top: 38px;
+  font-size: 26px;
+  line-height: 106%;
+  color: #1574CE;
+  text-align: center;
+  margin-top: 3%;
 }
 
 main .innovative-culture .cut-left p {
@@ -684,6 +682,7 @@ main .innovative-culture .cut-left p {
   line-height: 163%;
   text-align: justify;
   color: #161A1E;
+  margin: auto;
 }
 
 main .innovative-culture .cut-left img {
@@ -696,10 +695,12 @@ main .innovative-culture .cut-left img {
 }
 
 main .innovative-culture .cut-right img {
-  margin-top: -10%;
+  width: 100%;
+  height: 99.7%;
+  margin-left: 5%;
 }
 
-main .tactic {
+main .civil {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -707,30 +708,43 @@ main .tactic {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: -5%;
 }
 
-main .tactic .tactic-right h3 {
-  font-family: 'Noto-sans';
+main .civil .civil-left img {
+  width: 130%;
+  height: 120%;
+  margin-top: -10%;
+  margin-left: 1%;
+}
+
+main .civil .civil-right {
+  width: 39%;
+  height: 23rem;
+  margin-left: 10%;
+}
+
+main .civil .civil-right h3 {
+  font-family: 'Muli';
   font-style: normal;
   font-weight: 600;
   font-size: 28px;
   line-height: 106%;
-  color: #161A1E;
-  margin-left: 4rem;
+  color: #1574CE;
+  padding-left: 4%;
+  padding-top: 4%;
 }
 
-main .tactic .tactic-right p {
-  font-family: 'Noto-sans', sans-serif;
+main .civil .civil-right p {
+  font-family: 'Noto-sans';
   font-size: 16px;
-  line-height: 139%;
+  line-height: 173%;
+  text-align: justify;
   color: #161A1E;
-  margin-left: 4rem;
-  margin-top: 5%;
+  margin-left: 4%;
 }
 
 main .design {
@@ -814,6 +828,26 @@ main .value-engr .value-engr-right p {
   color: #161A1E;
   margin-left: 3%;
   margin-top: 5%;
+}
+
+main .provide h2 {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 59px;
+  text-align: center;
+  color: #012E87;
+  margin-top: 10%;
+}
+
+main .provide p {
+  font-family: 'Noto-sans', sans-serif;
+  font-size: 18px;
+  line-height: 29px;
+  text-align: center;
+  color: #161A1E;
+  text-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 @-webkit-keyframes cssmarquee {
