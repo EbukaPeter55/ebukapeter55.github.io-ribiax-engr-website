@@ -551,7 +551,7 @@ p[see] {
     max-width: 1523px;
     height: 621px;                     
     background: #1E4CA9;
-    margin-top: -14%;
+    margin-top: -10%;
     .cen{
         img{
             margin-top: 106px;
@@ -664,6 +664,9 @@ footer{
     // margin-left: 4.5%;
     width: 41%;
     height: 35%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
     h3{
         font-family: 'Muli';
         font-style: normal;
@@ -719,6 +722,9 @@ footer{
     width: 39%;
     height: 23rem;
     margin-left: 10%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
     h3{
     font-family: 'Muli';
     font-style: normal;
@@ -739,71 +745,91 @@ footer{
     }
 }
 }
-// Holistic design style
-.design{
-    display: flex;
-    flex-grow: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    .design-left{
-        margin-left: -4%;
-        h3{
-            font-family: 'Muli';
-            font-style: normal;
-            font-weight: 600;
-            font-size: 28px;
-            line-height: 106%;
-            color: #161A1E;            
-        }
-        p{
-            font-family: 'Noto-sans', sans-serif;
-            font-size: 16px;
-            line-height: 163%;
-            text-align: justify;
-            color: #161A1E;
-            margin-top: 5%;
-        }
-    }
-    .design-right{
-        img{
-            margin-left: 6%;
-        }
-    }
-}
-// Value engineering section style
-.value-engr{
+// Project management
+.proj-mana{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    .value-engr-left{
-        margin-right: 3%;
-        img{
-            
-        }
+    margin-top: -7%;
+.proj-mana-left{    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    width: 31rem;
+    height: 40vh;
+    margin-left: 4%;
+    h3{
+        font-family: 'Muli';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 106%;
+        color: #1574CE;
+        padding-left: 4%;
+        padding-top: 6%;
     }
-    .value-engr-right{
-        margin-top: 5%;
-        h3{
-            font-style: normal;
-            font-weight: 600;
-            font-size: 28px;
-            line-height: 106%;
-            color: #161A1E;
-            font-family: 'Muli';
-            margin-left: 3%;
-        }
-        p{
-            font-family: 'Noto-sans', sans-serif;
-            font-size: 16px;
-            line-height: 163%;
-            text-align: justify;
-            color: #161A1E;
-            margin-left: 3%;
-            margin-top: 5%;
-        }
+    p{
+        font-family: 'Noto-sans', sans-serif;
+        font-size: 16px;
+        line-height: 169%;
+        text-align: justify;
+        color: #161A1E;
+        padding-left: 4%;
+        margin-top: 3%;
     }
 }
+.proj-mana-right{
+    img{
+        width: 34rem!important;
+        height: 49vh;
+        margin-top: -4%;
+    }
+}
+}
+
+// Structural engineering style
+.struct-eng{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -10%;
+    .struct-eng-left{
+        img{
+            width: 34rem!important;
+            height: 49vh;
+            margin-top: -4%;
+        }
+    }
+    .struct-eng-right{
+        background: #FFFFFF;
+        box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+        border-radius: 15px;
+        width: 31rem;
+        height: 40vh;
+    h3{
+        font-family: 'Muli';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 106%;
+        color: #1574CE;
+        padding-left: 4%;
+        padding-top: 6%;  
+    }
+    p{
+        font-family: 'Noto-sans', sans-serif;
+        font-size: 16px;
+        line-height: 169%;
+        text-align: justify;
+        color: #161A1E;
+        padding-left: 4%;
+        margin-top: 3%;
+    }
+    }
+}
+
 .provide{
     h2{
         font-family: 'Muli';

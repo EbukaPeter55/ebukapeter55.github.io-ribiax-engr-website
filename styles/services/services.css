@@ -491,7 +491,7 @@ main .newsletter {
   max-width: 1523px;
   height: 621px;
   background: #1E4CA9;
-  margin-top: -14%;
+  margin-top: -10%;
 }
 
 main .newsletter .cen img {
@@ -663,6 +663,10 @@ main .innovative-culture {
 main .innovative-culture .cut-left {
   width: 41%;
   height: 35%;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
 }
 
 main .innovative-culture .cut-left h3 {
@@ -725,6 +729,10 @@ main .civil .civil-right {
   width: 39%;
   height: 23rem;
   margin-left: 10%;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
 }
 
 main .civil .civil-right h3 {
@@ -747,47 +755,7 @@ main .civil .civil-right p {
   margin-left: 4%;
 }
 
-main .design {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex: row;
-      -ms-flex-positive: row;
-          flex-grow: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-main .design .design-left {
-  margin-left: -4%;
-}
-
-main .design .design-left h3 {
-  font-family: 'Muli';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 28px;
-  line-height: 106%;
-  color: #161A1E;
-}
-
-main .design .design-left p {
-  font-family: 'Noto-sans', sans-serif;
-  font-size: 16px;
-  line-height: 163%;
-  text-align: justify;
-  color: #161A1E;
-  margin-top: 5%;
-}
-
-main .design .design-right img {
-  margin-left: 6%;
-}
-
-main .value-engr {
+main .proj-mana {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -800,34 +768,96 @@ main .value-engr {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-top: -7%;
 }
 
-main .value-engr .value-engr-left {
-  margin-right: 3%;
+main .proj-mana .proj-mana-left {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+  width: 31rem;
+  height: 40vh;
+  margin-left: 4%;
 }
 
-main .value-engr .value-engr-right {
-  margin-top: 5%;
-}
-
-main .value-engr .value-engr-right h3 {
+main .proj-mana .proj-mana-left h3 {
+  font-family: 'Muli';
   font-style: normal;
   font-weight: 600;
   font-size: 28px;
   line-height: 106%;
-  color: #161A1E;
-  font-family: 'Muli';
-  margin-left: 3%;
+  color: #1574CE;
+  padding-left: 4%;
+  padding-top: 6%;
 }
 
-main .value-engr .value-engr-right p {
+main .proj-mana .proj-mana-left p {
   font-family: 'Noto-sans', sans-serif;
   font-size: 16px;
-  line-height: 163%;
+  line-height: 169%;
   text-align: justify;
   color: #161A1E;
-  margin-left: 3%;
-  margin-top: 5%;
+  padding-left: 4%;
+  margin-top: 3%;
+}
+
+main .proj-mana .proj-mana-right img {
+  width: 34rem !important;
+  height: 49vh;
+  margin-top: -4%;
+}
+
+main .struct-eng {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: -10%;
+}
+
+main .struct-eng .struct-eng-left img {
+  width: 34rem !important;
+  height: 49vh;
+  margin-top: -4%;
+}
+
+main .struct-eng .struct-eng-right {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+  width: 31rem;
+  height: 40vh;
+}
+
+main .struct-eng .struct-eng-right h3 {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 106%;
+  color: #1574CE;
+  padding-left: 4%;
+  padding-top: 6%;
+}
+
+main .struct-eng .struct-eng-right p {
+  font-family: 'Noto-sans', sans-serif;
+  font-size: 16px;
+  line-height: 169%;
+  text-align: justify;
+  color: #161A1E;
+  padding-left: 4%;
+  margin-top: 3%;
 }
 
 main .provide h2 {
