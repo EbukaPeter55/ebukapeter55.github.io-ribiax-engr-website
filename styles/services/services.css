@@ -413,7 +413,7 @@ main .innovat {
   width: 100%;
   height: 456px;
   background-image: url("https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,w_1223/v1591044781/Group_614_1.png");
-  margin-top: -2%;
+  margin-top: 22%;
 }
 
 main .innovat h5 {
@@ -447,7 +447,7 @@ main .newsletter {
   max-width: 1523px;
   height: 621px;
   background: #1E4CA9;
-  margin-top: -10%;
+  margin-top: -14%;
 }
 
 main .newsletter .cen img {
@@ -613,16 +613,16 @@ main .innovative-culture {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: -8.4%;
 }
 
 main .innovative-culture .cut-left {
-  width: 41%;
+  width: 39%;
   height: 35%;
   background: #FFFFFF;
   -webkit-box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
   border-radius: 15px;
+  margin-right: 1%;
 }
 
 main .innovative-culture .cut-left h3 {
@@ -632,17 +632,17 @@ main .innovative-culture .cut-left h3 {
   font-size: 26px;
   line-height: 106%;
   color: #1574CE;
-  text-align: center;
+  padding-left: 7%;
   margin-top: 3%;
 }
 
 main .innovative-culture .cut-left p {
-  font-family: 'Noto-sans';
+  font-family: 'Noto sans', sans-serif;
   font-size: 16px;
   line-height: 163%;
   text-align: justify;
   color: #161A1E;
-  margin: auto;
+  padding-left: 7%;
 }
 
 main .innovative-culture .cut-left img {
@@ -937,6 +937,114 @@ main .geo .geo-right h3 {
 
 main .geo .geo-right p {
   font-family: 'Noto sans', sans-serif;
+  font-size: 16px;
+  line-height: 163%;
+  text-align: justify;
+  color: #161A1E;
+  padding-left: 5%;
+}
+
+main .oil {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: -7%;
+}
+
+main .oil .oil-left {
+  width: 31rem;
+  height: 14rem;
+  margin-left: 2%;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+}
+
+main .oil .oil-left h3 {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 106%;
+  color: #1574CE;
+  padding: 5% 0% 3% 5%;
+}
+
+main .oil .oil-left p {
+  font-family: 'Noto sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 163%;
+  text-align: justify;
+  color: #161A1E;
+  padding-left: 5%;
+}
+
+main .oil .oil-right img {
+  width: 31rem;
+  height: 14.5rem;
+  margin-left: 3%;
+  margin-top: -1%;
+}
+
+main .bridge {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: -7%;
+}
+
+main .bridge .bridge-left img {
+  width: 31.5rem;
+  height: 14.5rem;
+  margin-left: 3%;
+  margin-top: -1%;
+}
+
+main .bridge .bridge-right {
+  width: 31.5rem;
+  height: 14rem;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+  margin-left: 3%;
+}
+
+main .bridge .bridge-right h3 {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 106%;
+  color: #1574CE;
+  padding: 5% 0% 3% 5%;
+}
+
+main .bridge .bridge-right p {
+  font-family: 'Noto sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
   font-size: 16px;
   line-height: 163%;
   text-align: justify;
