@@ -333,15 +333,6 @@ main .style .top-head-1 a {
   margin-left: 106px;
 }
 
-main .project h2 {
-  font-family: 'Muli';
-  font-size: 48px;
-  font-weight: 600;
-  line-height: 56px;
-  text-align: center;
-  color: #012E87;
-}
-
 main .ca .card {
   width: 523.5px;
   height: 351px;
@@ -416,41 +407,6 @@ main p[see] a {
   color: #1574CE;
   text-align: center;
   font-weight: 600;
-}
-
-main .adv {
-  max-width: 1523px;
-  height: 744px;
-  background: #1574CE;
-  margin-top: -5%;
-}
-
-main .adv .left {
-  padding-top: 10%;
-}
-
-main .adv .right-new {
-  margin-left: 6%;
-}
-
-main .adv .right-new h2 {
-  font-family: 'Muli';
-  font-size: 48px;
-  line-height: 56px;
-  color: #FFFFFF;
-  margin-top: 12%;
-}
-
-main .adv .right-new ul {
-  margin-top: 5%;
-}
-
-main .adv .right-new ul li {
-  font-family: 'Muli';
-  font-size: 24px;
-  line-height: 109%;
-  color: #FFFFFF;
-  margin-top: 3.3%;
 }
 
 main .innovat {
@@ -878,6 +834,114 @@ main .provide p {
   text-align: center;
   color: #161A1E;
   text-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+main .sus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: -10%;
+}
+
+main .sus .sus-left {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+  width: 38%;
+  height: 24rem;
+  margin-left: 5.5%;
+}
+
+main .sus .sus-left h3 {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 106%;
+  color: #1574CE;
+  padding: 5% 0% 3% 5%;
+}
+
+main .sus .sus-left p {
+  font-family: 'Noto sans', sans-serif;
+  font-size: 16px;
+  line-height: 163%;
+  text-align: justify;
+  color: #161A1E;
+  padding-left: 5%;
+}
+
+main .sus .sus-left ul {
+  padding-left: 9%;
+}
+
+main .sus .sus-right img {
+  width: 34rem;
+  height: 24rem;
+}
+
+main .geo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: -8%;
+}
+
+main .geo .geo-left {
+  margin-left: 1.5%;
+}
+
+main .geo .geo-left img {
+  width: 32rem;
+  height: 39rem;
+}
+
+main .geo .geo-right {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+  width: 32rem;
+  margin-top: 1.8%;
+  margin-left: 1%;
+}
+
+main .geo .geo-right h3 {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 106%;
+  color: #1574CE;
+  padding: 5% 0% 3% 5%;
+}
+
+main .geo .geo-right p {
+  font-family: 'Noto sans', sans-serif;
+  font-size: 16px;
+  line-height: 163%;
+  text-align: justify;
+  color: #161A1E;
+  padding-left: 5%;
 }
 
 @-webkit-keyframes cssmarquee {

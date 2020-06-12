@@ -395,19 +395,7 @@ main{
 }
 // End of styles and approach
 
-//List of projects
-.project{
-    h2{
-        font-family: 'Muli';
-        font-size: 48px;
-        font-weight: 600;
-        line-height: 56px;
-        text-align: center;
-        color: #012E87;
-        // margin-top: 155px;
 
-    }
-}
 .ca{
     .card{
         width: 523.5px;
@@ -481,36 +469,7 @@ p[see] {
 }
 // End of list of projects
 
-// Advantage section
-.adv{
-    max-width: 1523px;
-    height: 744px;
-    background: #1574CE;
-    margin-top: -5%;
-    .left{
-        padding-top: 10%;
-    }
-    .right-new {
-        margin-left: 6%;
-        h2{
-            font-family: 'Muli';
-            font-size: 48px;
-            line-height: 56px;
-            color: #FFFFFF;
-            margin-top: 12%;
-        }
-        ul {
-            margin-top: 5%;
-            li{
-            font-family: 'Muli';
-            font-size: 24px;
-            line-height: 109%;
-            color: #FFFFFF;
-            margin-top: 3.3%;
-        }
-        }
-    }
-}
+
 
 // Innovative solution style
 .innovat{
@@ -851,6 +810,94 @@ footer{
     }
 }
 
+// sustainability style
+.sus{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -10%;
+    .sus-left{
+        background: #FFFFFF;
+        box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+        border-radius: 15px;
+        width: 38%;
+        height: 24rem;
+        margin-left: 5.5%;
+
+        h3{
+            font-family: 'Muli';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 106%;            
+            color: #1574CE;  
+            padding: 5% 0% 3% 5%;            
+        }
+        p{
+            font-family: 'Noto sans', sans-serif;
+            font-size: 16px;
+            line-height: 163%;
+            text-align: justify;
+            color: #161A1E;
+            padding-left: 5%;
+        }
+        ul{
+            padding-left: 9%;
+            li{
+               
+            }
+        }
+    }
+    .sus-right{
+        img{
+            width: 34rem;
+            height: 24rem;
+        }
+    }
+}
+// End of sustainability style
+// Geotechnical engr styles
+.geo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -8%;
+    .geo-left{
+        margin-left: 1.5%;
+        img{
+           width: 32rem;
+           height: 39rem; 
+        }
+    }
+    .geo-right{
+        background: #FFFFFF;
+        box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+        border-radius: 15px;
+        width: 32rem;
+        margin-top: 1.8%;
+        margin-left: 1%;
+        h3{
+        font-family: 'Muli';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 106%;
+        color: #1574CE;
+        padding: 5% 0% 3% 5%;  
+        }
+        p{
+        font-family: 'Noto sans', sans-serif;
+        font-size: 16px;
+        line-height: 163%;
+        text-align: justify;
+        color: #161A1E;         
+        padding-left: 5%;   
+        }
+    }
+}
+// End of Geotechnical engr styles
 }
 
 
