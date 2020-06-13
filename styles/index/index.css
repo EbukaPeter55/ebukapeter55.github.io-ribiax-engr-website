@@ -1063,7 +1063,7 @@ main footer .foot .copy p[second] {
     height: 50%;
   }
   main .style .con {
-    margin-top: 440%;
+    margin-top: 440% !important;
   }
   main .top-head-1 img {
     width: 85%;

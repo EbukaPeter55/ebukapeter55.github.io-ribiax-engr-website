@@ -1437,6 +1437,9 @@ main .bridge .bridge-right p {
   main .inter .conteni p {
     font-size: 15px;
   }
+  main .innovat {
+    margin-top: 50%;
+  }
   main .innovat h5 {
     font-size: 40px;
   }
@@ -1453,6 +1456,115 @@ main .bridge .bridge-right p {
   }
   main footer .foot .copy {
     height: 11%;
+  }
+  main .provide h2 {
+    font-size: 26px;
+  }
+  main .innovative-culture .cut-left {
+    width: 95%;
+    text-align: center;
+  }
+  main .innovative-culture .cut-left h3 {
+    text-align: center;
+  }
+  main .innovative-culture .cut-left p {
+    text-align: left;
+  }
+  main .innovative-culture .cut-right img {
+    width: 91%;
+    height: 170%;
+    margin-top: 5%;
+  }
+  main .civil {
+    margin-top: 80% !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .civil .civil-left img {
+    width: 95%;
+    height: 29rem !important;
+    margin-left: 2%;
+  }
+  main .civil .civil-right {
+    width: 95%;
+    height: 34rem;
+    margin-left: 2%;
+  }
+  main .civil .civil-right p {
+    line-height: 168%;
+  }
+  main .proj-mana {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 25%;
+  }
+  main .proj-mana .proj-mana-left {
+    margin-left: 1%;
+  }
+  main .proj-mana .proj-mana-left h3 {
+    text-align: center;
+  }
+  main .proj-mana .proj-mana-right img {
+    min-width: 22rem !important;
+    max-width: 23rem !important;
+  }
+  main .struct-eng {
+    margin-top: 5%;
+  }
+  main .struct-eng .struct-eng-left img {
+    min-width: 22rem !important;
+    max-width: 23rem !important;
+  }
+  main .struct-eng .struct-eng-right h3 {
+    text-align: center;
+  }
+  main .sus {
+    margin-top: 25%;
+  }
+  main .sus .sus-left {
+    width: 95%;
+    height: 130%;
+    margin-left: 1%;
+  }
+  main .sus .sus-right img {
+    min-width: 22rem !important;
+    max-width: 23rem !important;
+    margin-top: 10%;
+  }
+  main .geo {
+    margin-top: 20%;
+  }
+  main .geo .geo-left img {
+    min-width: 22rem !important;
+    max-width: 23rem !important;
+  }
+  main .geo .geo-left .geo-right {
+    height: 130%;
+  }
+  main .geo .geo-left .geo-right h3 {
+    text-align: center;
+  }
+  main .oil {
+    margin-top: 25%;
+  }
+  main .oil .oil-right img {
+    margin-left: -1%;
+    margin-top: 10%;
+  }
+  main .bridge {
+    margin-top: 25%;
+  }
+  main .bridge .bridge-left img {
+    min-width: 22rem !important;
+    max-width: 23rem !important;
+    margin-left: -2.5%;
+  }
+  main .bridge .bridge-right {
+    margin-top: 10%;
+    margin-left: 1%;
   }
 }
 

@@ -1412,6 +1412,7 @@ footer{
         }
         // Innovative solution
         .innovat{
+            margin-top: 50%;
             h5{
                 font-size: 40px;
             }
@@ -1434,6 +1435,144 @@ footer{
                 }
             }
         }
+        // Provide style
+        .provide {
+            h2{
+                font-size: 26px;
+            }
+
+        }
+        .innovative-culture{
+            .cut-left{
+                width: 95%;
+                text-align: center;
+                h3{
+                    text-align: center;
+                }
+                p{
+                    text-align: left;
+                }
+            }
+            .cut-right{
+                img{
+                    width: 91%;
+                    height: 170%;
+                    margin-top: 5%;
+                    // margin-left: -2%;
+                }
+            }
+        }
+        // civil infrastructure
+        .civil {
+            margin-top: 80%!important;
+            flex-direction: column;
+            .civil-left{
+                img{
+                    width: 95%;
+                    height: 29rem!important;
+                    margin-left: 2%;
+                }
+            }
+            .civil-right {
+                width: 95%;
+                height: 34rem;
+                margin-left: 2%;
+                p{
+                    line-height: 168%;
+                }
+            }
+        }
+        // Project management responsive style
+        .proj-mana{
+            justify-content: center;
+            margin-top: 25%;
+            .proj-mana-left{
+                margin-left: 1%;
+                h3{
+                    text-align: center;
+                }
+            }
+            .proj-mana-right{
+                img{
+                    min-width: 22rem!important;
+                    max-width: 23rem!important;
+                }
+            }
+        }
+        // Structural engr responsive style
+    .struct-eng{
+        margin-top: 5%;
+        .struct-eng-left{
+            img{
+                min-width: 22rem!important;
+                max-width: 23rem!important;            
+            }
+        }
+        .struct-eng-right{
+            h3{
+                text-align: center;
+            }
+        }
+    }
+    // Sustainablity style
+    .sus{
+        margin-top: 25%;
+        .sus-left{
+            width: 95%;
+            height: 130%;
+            margin-left: 1%;
+        }
+        .sus-right{
+            img{
+            min-width: 22rem!important;
+            max-width: 23rem!important;      
+            margin-top: 10%;          
+            }
+        }
+    }
+    // Geo-technical engineering styles
+    .geo{
+        margin-top: 20%;
+        .geo-left{
+            img{
+            min-width: 22rem!important;
+            max-width: 23rem!important;   
+            }
+        .geo-right{
+            height: 130%;
+            h3{
+                text-align: center;
+            }
+        }
+        }
+    }
+    // Oil and gas style
+    .oil{
+        margin-top: 25%;
+    .oil-right{
+        img{
+            margin-left: -1%;
+            margin-top: 10%;
+        }
+    }
+    }
+
+    // Bridge design style
+    .bridge{
+        margin-top: 25%;
+    .bridge-left{
+        img{
+            min-width: 22rem!important;
+            max-width: 23rem!important; 
+            margin-left: -2.5%;
+        }
+    }
+    .bridge-right{
+        margin-top: 10%;
+        margin-left: 1%;
+    }
+    }
+
     }
 }
 
