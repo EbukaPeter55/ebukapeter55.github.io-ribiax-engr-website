@@ -302,7 +302,7 @@ main{
     flex-direction: row;
     justify-content: space-evenly;
     position: absolute;
-    width: 656px;
+    width: 48%;
     height: 100px;
     left: 26%;
     top: 700px;
@@ -315,7 +315,7 @@ main{
     hr{
         background: #1574CE;
         border-radius: 5px;
-        width: 328px;
+        width: 47%;
         height: 5px;
         position: absolute;
         right: 2px;
@@ -344,18 +344,75 @@ main{
     }
 }     
 // Vacancies section
-.vacancies{
-    h2{
-        font-family: 'Muli';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 48px;
-        line-height: 59px;
-        text-align: center;
-        color: #012E87;
-        margin-top: 10%;
+// Completed project section
+.top {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10%;
+    img:nth-child(1){
+        width: 50%;
+        height: 325px;
+        margin-right: -6%;
     }
-} 
+    img:nth-child(2){
+        width: 25%;
+        height: 325px;
+    }
+}
+.middle{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    img:nth-child(1){
+        width: 25%;
+        height: 325px;
+    }
+    img:nth-child(2){
+        width: 50%;
+        height: 325px;
+        margin-left: -6.5%;
+    }
+}
+.left-third{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+    div[first] img{
+        width: 110%;
+        height: 325px;
+        margin-left: -33%;
+    }
+   div[middle] img{
+    width: 110%;
+    height: 325px;   
+    margin-left: -6%;
+    }
+    div[third]{
+        img{
+            width: 110%;
+            height: 325px;
+            margin-left: 22%;
+        }
+        p{
+       position: absolute;
+       top: 293%;
+       font-family: 'Open Sans', sans-serif;
+       font-style: normal;
+       font-weight: normal;
+       font-size: 16px;
+       line-height: 22px;       
+       color: #FFFFFF;       
+       margin-left: 8%;
+        }
+        p[second]{
+            margin-top: 3%;
+        }
+        p[third]{
+            margin-top: 6%;
+        }
+        }
+}
 // Newsletter section styles
 .newsletter{
     max-width: 1523px;

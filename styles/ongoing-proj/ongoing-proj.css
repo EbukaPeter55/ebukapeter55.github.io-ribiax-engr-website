@@ -245,7 +245,7 @@ main .proj-tag {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   position: absolute;
-  width: 656px;
+  width: 48%;
   height: 100px;
   left: 26%;
   top: 700px;
@@ -262,7 +262,7 @@ main .proj-tag p {
 main .proj-tag hr {
   background: #1574CE;
   border-radius: 5px;
-  width: 328px;
+  width: 47%;
   height: 5px;
   position: absolute;
   right: 2px;
@@ -292,15 +292,98 @@ main .proj-tag p[first] a:hover {
   text-decoration: none;
 }
 
-main .vacancies h2 {
-  font-family: 'Muli';
+main .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 10%;
+}
+
+main .top img:nth-child(1) {
+  width: 50%;
+  height: 325px;
+  margin-right: -6%;
+}
+
+main .top img:nth-child(2) {
+  width: 25%;
+  height: 325px;
+}
+
+main .middle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 5%;
+}
+
+main .middle img:nth-child(1) {
+  width: 25%;
+  height: 325px;
+}
+
+main .middle img:nth-child(2) {
+  width: 50%;
+  height: 325px;
+  margin-left: -6.5%;
+}
+
+main .left-third {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 5%;
+}
+
+main .left-third div[first] img {
+  width: 110%;
+  height: 325px;
+  margin-left: -33%;
+}
+
+main .left-third div[middle] img {
+  width: 110%;
+  height: 325px;
+  margin-left: -6%;
+}
+
+main .left-third div[third] img {
+  width: 110%;
+  height: 325px;
+  margin-left: 22%;
+}
+
+main .left-third div[third] p {
+  position: absolute;
+  top: 293%;
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 48px;
-  line-height: 59px;
-  text-align: center;
-  color: #012E87;
-  margin-top: 10%;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+  margin-left: 8%;
+}
+
+main .left-third div[third] p[second] {
+  margin-top: 3%;
+}
+
+main .left-third div[third] p[third] {
+  margin-top: 6%;
 }
 
 main .newsletter {
