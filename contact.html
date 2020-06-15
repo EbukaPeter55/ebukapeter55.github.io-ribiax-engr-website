@@ -69,26 +69,30 @@
             <div class="row d-flex-row justify-content-center">
               <div class="left">
                 <h4>Enquiries</h4>
-                <form action="">
+                <form id="sendMessage">
                   <div class="form-group">
                     <label for="Name">Name *</label><br>
-                    <input type="text" placeholder="Enter your name here" class="form-control">
+                    <input type="text" id="name" placeholder="Enter your name here" class="form-control"
+                    required>
                   </div>
                   <div class="form-group">
                     <label for="phonenumber">Phone Number *</label><br>
-                    <input type="tel" placeholder="Enter your phone number here" class="form-control">
+                    <input type="tel" id="organization" placeholder="Enter your phone number here" class="form-control"
+                    required>
                   </div>
                   <div class="form-group">
                     <label for="email address">Email Address *</label><br>
-                    <input type="email" placeholder="Email address" class="form-control">
+                    <input type="email" id="email" placeholder="Email address" class="form-control"
+                    required>
                   </div>
                   <div class="form-group">
                     <label for="message">Message *</label><br>
-                    <textarea name="" id="" cols="50" rows="7" class="form-control">
+                    <textarea name="" id="message" cols="50" rows="7" class="form-control"
+                    required>
                       
                     </textarea>
                   </div>
-                  <input type="submit">
+                  <input type="submit" value="submit">
                 </form>
               </div>
               <div class="right">
@@ -119,10 +123,12 @@
     <div class="row justify-content-center cen">
   <img src="image/Group 561.png" alt="inbox image">      
           </div>
-    <h4>Subscribe to our newsletter</h4>         
+    <h4>Subscribe to our newsletter</h4>  
+    <form action="">       
     <div class="row justify-content-center"><input type="search" placeholder="Email Address"></div>
    <div class="row justify-content-center"> <button type="submit">Search</button></div>
-    </div>
+  </form> 
+  </div>
  </section>
 
  <!-- Footer section -->
@@ -166,5 +172,7 @@
  </main>
         </main>
        
+<!-- Linking to external javaScript -->
+<script src="main.js"></script>
 </body>
 </html>
