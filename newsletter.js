@@ -1,30 +1,29 @@
-document.getElementById('sendMessage').addEventListener('submit', sendMessage);
+document.getElementById('subscribe').addEventListener('submit', subscribe);
 
 
         // A function/Method to send message through the contact form
-        function sendMessage(e){
+        function subscribe(e){
             e.preventDefault();
 
-            let name = document.getElementById('name').value;            
+                    
             let email = document.getElementById('email').value;
-            let phone = document.getElementById('phone').value;
-            let message = document.getElementById('message').value;
-          
+                      
 
-            fetch('https://ribiax.com/api/public/contact', {
+            fetch('https://ribiax.com/api/public/newsletter/subscribe', {
                 method: 'POST',
                 headers: {
                     'Accept': 'application/json, text/plain, */*',
                     'content-type': 'application/json'
                 },
-                body:JSON.stringify({name:name, phone:phone, 
-                 email: email, message: message})
+                body:JSON.stringify({email: email})
             })
-            .then((res) => res.json())
+            .then((res) => res.json())           
             .then((data) => console.log(data),
             localStorage.setItem('email', email))           
             .then(
-                (data) => alert("Message sent successfully!!")            
+                
+                (data) => alert("Subscribed successfully!!") 
+                           
                 )
                 .catch( error => {
                     console.warn('Something went wrong.', error)
