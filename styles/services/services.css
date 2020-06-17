@@ -1188,6 +1188,10 @@ main .bridge .bridge-right p {
   main footer .foot .copy p {
     text-align: center;
   }
+  main footer .foot .left-column-2 {
+    margin-top: 85% !important;
+    margin-left: -30%;
+  }
   main .newsletter .cen img {
     margin-top: 15% !important;
   }
@@ -1300,7 +1304,7 @@ main .bridge .bridge-right p {
   }
 }
 
-@media only screen and (max-device-width: 400px) {
+@media only screen and (max-device-width: 414px) {
   main .top-fluid div[top-content] p {
     margin-top: 10%;
   }
@@ -1368,23 +1372,27 @@ main .bridge .bridge-right p {
     padding: 0;
   }
   main footer .foot {
-    width: 100%;
-    height: auto;
-    background: #012E87;
+    height: 70% !important;
+  }
+  main footer .foot .left-column {
+    margin-left: 2% !important;
   }
   main footer .foot .left-column-3 {
-    margin-top: 50px;
-    margin-left: 8%;
+    margin-left: -7rem !important;
   }
   main footer .foot .left-column-2 {
-    margin-left: 5%;
+    margin-top: 60%;
+    margin-left: -1%;
   }
-  main footer .foot .d-col {
-    margin-left: 8%;
+  main footer .foot .left-column-4 {
     margin-top: 5%;
+    margin-left: 19%;
+  }
+  main footer .foot .copy {
+    height: 50%;
   }
   main footer .foot .copy p {
-    font-size: 16px;
+    text-align: center;
   }
   main .adv {
     max-width: 1523px !important;
@@ -1446,16 +1454,6 @@ main .bridge .bridge-right p {
   main .innovat button[type="submit"] {
     margin-left: 14% !important;
     margin-top: 8%;
-  }
-  main footer .foot .left-column-3 {
-    margin-top: -1% !important;
-  }
-  main footer .foot .left-column-2 {
-    margin-left: -27% !important;
-    margin-top: 65% !important;
-  }
-  main footer .foot .copy {
-    height: 11%;
   }
   main .provide h2 {
     font-size: 26px;

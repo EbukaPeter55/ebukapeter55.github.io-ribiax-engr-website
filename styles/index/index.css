@@ -669,6 +669,42 @@ main .clients .cssmarquee img:nth-child(4) {
   margin-left: 25px;
 }
 
+main .blog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .blog h4 {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 123.6%;
+  color: #272C49;
+}
+
+main .blog a {
+  font-family: 'Noto sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 123.6%;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #1E4CA9;
+  margin-top: 7%;
+}
+
 main .newsletter {
   max-width: 1523px;
   height: 621px;

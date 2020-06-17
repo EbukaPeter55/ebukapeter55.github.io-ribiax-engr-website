@@ -1097,6 +1097,10 @@ footer{
                         text-align: center;
                     }
                 }
+                .left-column-2{
+                    margin-top: 85%!important;
+                    margin-left: -30%;
+                }
             }
         }
         // subscribe
@@ -1238,7 +1242,7 @@ footer{
 }
 }
 // Mobile screen
-@media only screen and (max-device-width: 400px){
+@media only screen and (max-device-width: 414px){
     main{
         .top-fluid{
             div[top-content]{
@@ -1331,28 +1335,32 @@ footer{
             }
         }
         }
-        // Footer
+        
         footer{
             .foot{
-                width: 100%;
-                height: auto;
-                // margin-bottom: -60px;
-                background: #012E87;
+                height: 70%!important;
+                .left-column{
+                    margin-left: 2%!important;
+                }
                 .left-column-3{
-                    margin-top: 50px;
-                    margin-left: 8%;
+                    // margin-top: 45%!important;
+                    margin-left: -7rem!important;
+                    // line-height: 90%;
                 }
-                .left-column-2{
-                    margin-left: 5%;
-                }
-                .d-col{
-                    margin-left: 8%;
-                    margin-top: 5%;
-                }
+               .left-column-2{
+                //    display: none;
+                margin-top: 60%;
+                margin-left: -1%;
+               }
+               .left-column-4{
+                   margin-top: 5%;
+                   margin-left: 19%;
+               }
                 .copy{
+                    height: 50%;
                     p{
-                        font-size: 16px;
-                }
+                        text-align: center;
+                    }
                 }
             }
         }
@@ -1421,20 +1429,7 @@ footer{
                 margin-top: 8%;
             }
         }
-        footer{
-            .foot{
-                .left-column-3{
-                    margin-top: -1%!important;
-                }
-                .left-column-2{
-                    margin-left: -27%!important;
-                    margin-top: 65%!important;
-                }
-                .copy{
-                    height: 11%;
-                }
-            }
-        }
+        
         // Provide style
         .provide {
             h2{
