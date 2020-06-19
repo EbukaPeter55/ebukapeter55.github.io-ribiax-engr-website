@@ -347,6 +347,10 @@ main footer .foot .copy p[second] {
   margin-left: 10%;
 }
 
+main footer .foot .social a:hover {
+  text-decoration: none;
+}
+
 @-webkit-keyframes animateBtn {
   0% {
     opacity: 0;

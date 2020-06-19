@@ -693,6 +693,13 @@ footer{
         .left-column-3{
             margin-left: -100px;
         }
+        .left-column-4{
+            .social{
+                a:hover{
+                    text-decoration: none;
+                }
+            }
+        }
         p{
         font-family: 'work sans'!important;
         font-size: 18px;

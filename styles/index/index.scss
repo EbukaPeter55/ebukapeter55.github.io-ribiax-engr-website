@@ -728,6 +728,19 @@ main{
     line-height: 123.6%;
     color: #272C49;
     }
+    // .blog-card{
+       
+    //     margin-top: 50%;
+    // .row{
+    //     .first-image{
+    //         img{
+    //         min-width: 1000%!important;
+    //         margin-top: 20%;
+    //     }
+    //     }
+    // }    
+    
+    //     }
     a{
         font-family: 'Noto sans', sans-serif;
         font-style: normal;
@@ -813,6 +826,13 @@ footer{
         }
         .left-column-3{
             margin-left: -100px;
+        }
+        .left-column-4{
+            .social{
+                a:hover{
+                text-decoration: none;
+                }
+            }
         }
         p{
         font-family: 'work sans'!important;

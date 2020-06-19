@@ -377,6 +377,10 @@ main footer .foot .copy p[second] {
   margin-left: 10%;
 }
 
+main footer .foot .left-column-4 .social a:hover {
+  text-decoration: none;
+}
+
 @-webkit-keyframes cssmarquee {
   0% {
     -webkit-transform: translateX(100%);
