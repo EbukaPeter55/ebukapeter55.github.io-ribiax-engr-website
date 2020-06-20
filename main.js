@@ -24,7 +24,12 @@ document.getElementById('sendMessage').addEventListener('submit', sendMessage);
             .then((data) => console.log(data),
             localStorage.setItem('email', email))           
             .then(
-                (data) => alert("Message sent successfully!!")            
+                (data) => Swal.fire({                   
+                    icon: 'success',
+                    title: 'Message sent successfully',
+                    showConfirmButton: false,
+                    timer: 1500,                    
+                  })          
                 )
                 .catch( error => {
                     console.warn('Something went wrong.', error)

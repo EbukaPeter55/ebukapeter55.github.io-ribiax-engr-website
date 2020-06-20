@@ -22,7 +22,13 @@ document.getElementById('subscribe').addEventListener('submit', subscribe);
             localStorage.setItem('email', email))           
             .then(
                 
-                (data) => alert("Subscribed successfully!!") 
+                (data) => Swal.fire({                   
+                    icon: 'success',
+                    title: 'Subscribed!!!',
+                    showConfirmButton: false,
+                    timer: 1500,
+                    
+                  }) 
                            
                 )
                 .catch( error => {
