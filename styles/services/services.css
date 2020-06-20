@@ -560,6 +560,10 @@ main footer .foot .left-column-3 {
   margin-left: -100px;
 }
 
+main footer .foot .left-column-4 .social a:hover {
+  text-decoration: none;
+}
+
 main footer .foot p {
   font-family: "work sans" !important;
   font-size: 18px;
@@ -1144,7 +1148,47 @@ main .bridge .bridge-right p {
   }
 }
 
-@media (min-width: 0px) and (max-width: 365px) and (orientation: portrait) {
+@media only screen and (max-width: 320px) and (-webkit-min-device-pixel-ratio: 1) {
+  main .top-fluid {
+    width: 108%;
+  }
+  main .style .con {
+    margin-top: 950px !important;
+  }
+  main .proj-mana .proj-mana-left {
+    width: 90%;
+    height: 95%;
+  }
+  main .proj-mana .proj-mana-right {
+    margin-top: 10%;
+  }
+  main .proj-mana .proj-mana-right img {
+    min-width: 3% !important;
+  }
+  main .struct-eng .struct-eng-right {
+    height: 90%;
+  }
+  main .innovat {
+    width: 108%;
+  }
+  main .newsletter, main footer {
+    width: 108%;
+  }
+  main .bridge .bridge-left img {
+    margin-left: 1% !important;
+    width: 15% !important;
+  }
+  main .bridge .bridge-left .bridge-right {
+    width: 35% !important;
+    margin-right: -4% !important;
+  }
+  main footer .foot .container-fluid .row .left-column-2 {
+    margin-top: 80% !important;
+    margin-left: -10%;
+  }
+}
+
+@media only screen and (min-device-width: 0) and (max-device-width: 365px) and (orientation: portrait) {
   main .right button[type="submit"] {
     position: relative;
     left: -6% !important;
@@ -1556,8 +1600,8 @@ main .bridge .bridge-right p {
     margin-top: 25%;
   }
   main .bridge .bridge-left img {
-    min-width: 22rem !important;
-    max-width: 23rem !important;
+    min-width: 22rem;
+    max-width: 23rem;
     margin-left: -2.5%;
   }
   main .bridge .bridge-right {
@@ -1569,6 +1613,141 @@ main .bridge .bridge-right p {
 @media only screen and (min-width: 500px) and (max-width: 1034px) {
   main .top-fluid {
     width: 105.1% !important;
+  }
+  main .innovative-culture .cut-left {
+    width: 80%;
+    margin-left: 6%;
+  }
+  main .innovative-culture .cut-left h3 {
+    text-align: center;
+  }
+  main .innovative-culture .cut-left p {
+    text-align: center;
+  }
+  main .innovative-culture .cut-right {
+    margin-top: 5%;
+    width: 80%;
+    margin-left: -3%;
+  }
+  main .civil {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .civil .civil-left img {
+    width: 85%;
+    margin-top: 4%;
+    margin-left: 10%;
+  }
+  main .civil .civil-right {
+    width: 80%;
+    margin-left: 12%;
+  }
+  main .civil .civil-right h3 {
+    text-align: center;
+  }
+  main .civil .civil-right p {
+    text-align: center;
+    font-size: 18px;
+  }
+  main .proj-mana {
+    margin-top: 10%;
+  }
+  main .proj-mana .proj-mana-left {
+    width: 80%;
+  }
+  main .proj-mana .proj-mana-left h3 {
+    text-align: center;
+  }
+  main .proj-mana .proj-mana-left p {
+    text-align: center;
+    font-size: 18px;
+  }
+  main .proj-mana .proj-mana-right img {
+    width: 41rem !important;
+    margin-left: 2%;
+    margin-top: 1%;
+  }
+  main .struct-eng .struct-eng-left img {
+    width: 41rem !important;
+    margin-top: 2%;
+    margin-left: 3%;
+  }
+  main .struct-eng .struct-eng-right {
+    width: 80%;
+    margin-left: 5%;
+  }
+  main .struct-eng .struct-eng-right h3 {
+    text-align: center;
+  }
+  main .struct-eng .struct-eng-right p {
+    text-align: center;
+    font-size: 18px;
+  }
+  main .sus .sus-left {
+    width: 80%;
+    height: 30rem !important;
+    margin-top: 10%;
+  }
+  main .sus .sus-left p, main .sus .sus-left ul {
+    font-size: 18px;
+  }
+  main .sus .sus-right img {
+    width: 41rem !important;
+    margin-top: 8%;
+    margin-left: 3%;
+  }
+  main .geo .geo-left {
+    margin-top: 7%;
+  }
+  main .geo .geo-left img {
+    width: 41rem !important;
+    margin-left: 3%;
+  }
+  main .geo .geo-right {
+    width: 83%;
+    margin-left: 7%;
+    margin-top: 5%;
+  }
+  main .geo .geo-right h3 {
+    text-align: center;
+  }
+  main .geo .geo-right p {
+    font-size: 18px;
+    text-align: center;
+  }
+  main .oil .oil-left {
+    margin-top: 6%;
+    width: 78%;
+    margin-left: 7%;
+  }
+  main .oil .oil-left h3 {
+    text-align: center;
+  }
+  main .oil .oil-left p {
+    text-align: center;
+    font-size: 18px;
+  }
+  main .oil .oil-right img {
+    width: 36rem !important;
+    margin-left: 4%;
+    margin-top: 7%;
+  }
+  main .bridge .bridge-left {
+    margin-top: 7%;
+  }
+  main .bridge .bridge-left img {
+    width: 37rem !important;
+    margin-left: 1%;
+  }
+  main .bridge .bridge-right {
+    width: 76%;
+    margin-left: 6%;
+    margin-top: 5%;
   }
   main .left {
     margin-left: 16%;

@@ -578,6 +578,13 @@ footer{
         .left-column-3{
             margin-left: -100px;
         }
+        .left-column-4{
+            .social{
+                a:hover{
+                text-decoration: none;
+                }
+            }
+        }
         p{
         font-family: 'work sans'!important;
         font-size: 18px;
@@ -1027,15 +1034,66 @@ footer{
     }
 }
 //Iphone 5/SE screen
-// @media only screen and (max-width: 320px)and (-webkit-min-device-pixel-ratio: 1){
-//     main{
-//         .style .con{
-//             margin-top: 950px!important;
-//         }
-//     }
-// }
+@media only screen and (max-width: 320px)and (-webkit-min-device-pixel-ratio: 1){
+    main{
+        .top-fluid{
+            width: 108%;
+        }
+        .style .con{
+            margin-top: 950px!important;
+        }
+        .proj-mana{
+            .proj-mana-left{
+                width: 90%;
+                height: 95%;
+            }
+            .proj-mana-right{
+                margin-top: 10%;
+                img{
+                    min-width: 3%!important;
+                }
+            }
+        }
+        .struct-eng{
+            .struct-eng-right{
+                height: 90%;
+            }
+        }
+        // innovation style
+        .innovat{
+            width: 108%;
+        }
+        // Newsletter
+        .newsletter, footer{
+        width: 108%;
+        }
+        // bridge
+       .bridge{
+        .bridge-left{
+            img{
+                margin-left: 1%!important;
+                width: 15%!important;
+            }
+        .bridge-right{
+            width: 35%!important;
+            margin-right: -4%!important;
+        }
+        }
+       }
+        // footer
+        footer{
+            .foot{
+       .container-fluid .row  .left-column-2{
+                  margin-top: 80%!important;
+                  margin-left: -10%;
+              }  
+            }
+        }
+        }
+       
+}
 //Mobile motor G4 screen
-@media (min-width:0px) and (max-width: 365px) and (orientation: portrait) {
+@media only screen and (min-device-width:0) and (max-device-width: 365px) and (orientation: portrait) {
     main{
         .right{
             button[type="submit"]{
@@ -1557,8 +1615,8 @@ footer{
         margin-top: 25%;
     .bridge-left{
         img{
-            min-width: 22rem!important;
-            max-width: 23rem!important; 
+            min-width: 22rem;
+            max-width: 23rem; 
             margin-left: -2.5%;
         }
     }
@@ -1577,6 +1635,166 @@ footer{
     main{
         .top-fluid{
             width: 105.1%!important;
+        }
+        // innovative culture style
+        .innovative-culture{
+            .cut-left{
+                width: 80%;
+                margin-left: 6%;
+                h3{
+                    text-align: center;
+                }
+                p{
+                    text-align: center;
+                }
+            }
+            .cut-right{
+                margin-top: 5%;
+                width: 80%;
+                margin-left: -3%;
+            }
+        }
+        .civil{
+            display: flex;
+            flex-direction: column;
+            .civil-left{
+                img{
+                    width: 85%;
+                    margin-top: 4%;
+                    margin-left: 10%;
+                }
+            }
+            .civil-right{
+                width: 80%;
+                margin-left: 12%;
+                h3{
+                    text-align: center;
+                }
+                p{
+                    text-align: center;
+                    font-size: 18px;
+                }
+            }
+        }
+
+        // project management
+        .proj-mana{
+            margin-top: 10%;
+            .proj-mana-left{
+                width: 80%;
+                h3{
+                    text-align: center;
+                }
+                p{
+                    text-align: center;
+                    font-size: 18px;
+                }
+            }
+            .proj-mana-right{
+                img{
+                    width: 41rem!important;
+                    margin-left: 2%;
+                    margin-top: 1%;
+                }
+            }
+        }
+        // structural eng
+        .struct-eng{
+            .struct-eng-left{
+                img{
+                    width: 41rem!important;
+                    margin-top: 2%;
+                    margin-left: 3%;
+                }
+            }
+            .struct-eng-right{
+                width: 80%;
+                margin-left: 5%;
+                h3{
+                    text-align: center;
+                }
+                p{
+                    text-align: center;
+                    font-size: 18px;
+                }
+            }
+        }
+
+        // Sustainability section stle
+        .sus{
+            .sus-left{
+                width: 80%;
+                height: 30rem!important;
+                margin-top: 10%;
+               p, ul{
+                   font-size: 18px;
+               }
+            }
+            .sus-right{
+                img{
+                    width: 41rem!important;
+                    margin-top: 8%;
+                    margin-left: 3%;
+                }
+            }
+        }
+        .geo{
+            .geo-left{
+                margin-top: 7%;
+                img{
+                    width: 41rem!important;
+                    margin-left: 3%;
+                }
+            }
+            .geo-right{
+                width: 83%;
+                margin-left: 7%;
+                margin-top: 5%;
+                h3{
+                    text-align: center;
+                }
+                p{
+                    font-size: 18px;
+                    text-align: center;
+                }
+            }
+        }
+        .oil{
+            .oil-left{
+                margin-top: 6%;
+                width: 78%;
+                margin-left: 7%;
+                h3{                   
+                    text-align: center;   
+                }
+                p{
+                    text-align: center;
+                    font-size: 18px;
+                }
+            }
+            .oil-right{
+                img{
+                    width: 36rem!important;      
+                    margin-left: 4%;
+                    margin-top: 7%;
+                }
+            }
+          
+        }
+        .bridge{
+            .bridge-left{
+                margin-top: 7%;
+                img{
+                    width: 37rem!important;   
+                    margin-left: 1%;   
+                }
+            }
+            .bridge-right{
+                width: 76%;
+                margin-left: 6%;
+                margin-top: 5%;
+
+            }
         }
         .left {
             margin-left: 16%;
