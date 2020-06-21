@@ -1,7 +1,13 @@
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0
 }
+// Smooth scroll
+
 
 // NAVIGATION BAR STYLES
 #sect{
@@ -818,6 +824,20 @@ footer{
         height: 422px;
         background: #012E87;
         padding-top: 82px;
+        .scrol{
+            margin-left: 50%;
+            margin-top: 1%;
+           
+            a{
+                button{
+                    width: 50px;
+                    height: 50px;  
+                    border: none;
+                    background: white;
+                    border-radius: 10px;
+                }
+            }
+        }
         .left-column{
             margin-left: 10%;
         }
