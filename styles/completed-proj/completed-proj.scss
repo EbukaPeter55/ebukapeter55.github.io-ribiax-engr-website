@@ -387,24 +387,24 @@ main{
    div[middle] img{
     width: 110%;
     height: 325px;   
-    margin-left: -6%;
+    
     }
     div[third]{
         img{
             width: 110%;
             height: 325px;
-            margin-left: 22%;
+            margin-left: 31%;
         }
         p{
        position: absolute;
-       top: 293%;
+       top: 290%;
        font-family: 'Open Sans', sans-serif;
        font-style: normal;
        font-weight: normal;
        font-size: 16px;
        line-height: 22px;       
        color: #FFFFFF;       
-       margin-left: 8%;
+       margin-left: 10%;
         }
         p[second]{
             margin-top: 3%;
@@ -714,6 +714,7 @@ footer{
             div[top-content]{
                 p{
                     margin-top: 10%;
+                    
                 }
                 button[type="submit"]{
                     margin-top: 7%;
@@ -860,6 +861,75 @@ footer{
         }
         .carousel-inner{
             margin-left: -2%!important;
+        }
+        .proj-tag{
+            margin-top: -5%;
+            display: flex;
+            flex-direction: column;
+            hr{
+                width: 10rem;
+            }
+        }
+        .top{
+            display: flex;
+            flex-direction: column;
+            margin-top: 8rem;
+            img:nth-child(1){
+                width: 21rem;
+            }
+            img:nth-child(2){
+                width: 21rem;
+                margin-top: 10%;
+            }
+        }
+        .middle{
+            display: flex;
+            flex-direction: column;
+            margin-top: 8rem;
+            img:nth-child(1){
+                width: 21rem;
+            }
+            img:nth-child(2){
+                width: 21rem;
+                margin-top: 10%;
+                margin-left: 1%;
+            }
+        }
+        .left-third{
+            display: flex;
+            flex-direction: column;
+            margin-top: 9rem;
+            div[first]{
+                img{
+                width: 21rem;
+               margin-left: 1%     
+                }
+               
+            }
+            div[middle]{
+                img{
+                width: 21rem;
+                margin-left: 1%;
+                margin-top: 10%;
+                }
+            }
+            div[third]{
+                img{
+                width: 21rem;
+                margin-left: 1%;
+                margin-top: 10%;
+                }
+                p{
+                    top: 408%; 
+                    font-size: 18px;                   
+                }
+                p[second]{
+                    margin-top: 9%;
+                }
+                p[third]{
+                    margin-top: 17%;
+                }
+            }
         }
     }
 }
