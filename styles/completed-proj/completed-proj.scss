@@ -623,6 +623,23 @@ footer{
         .clients h2{
             margin-top: 300%!important;
         }
+        // proj ongoing
+        .proj-tag{
+            display: flex;
+            flex-direction: column;
+            width: 50%!important;
+            // hr{
+            //     margin-left: -8rem!important;
+            // }
+            p[first]{
+            margin-top: 6%;    
+            }
+        }
+        div[third]{
+            p{
+            top: 207rem!important;
+            }
+        }
         footer{
             .foot{
                 .copy{
@@ -669,6 +686,80 @@ footer{
     }    
     
 }
+// Project ongoing section
+.proj-tag{
+    margin-top: -5%!important;
+    display: flex!important;
+    flex-direction: column!important;
+    hr{
+        width: 11rem!important;
+    }
+}
+.top{
+    display: flex!important;
+    flex-direction: column!important;
+    margin-top: 8rem!important;
+    img:nth-child(1){
+        width: 23rem!important;
+        margin-left: 2%!important;
+    }
+    img:nth-child(2){
+        width: 23rem!important;
+        margin-top: 10%!important;
+        margin-left: 2%!important;
+    }
+}
+.middle{
+    display: flex!important;
+    flex-direction: column!important;
+    margin-top: 8rem!important;
+    img:nth-child(1){
+        width: 23rem!important;
+        margin-left: 2%!important;
+    }
+    img:nth-child(2){
+        width: 23rem!important;
+        margin-top: 10%!important;
+        margin-left: 1%!important;
+    }
+}
+.left-third{
+    display: flex!important;
+    flex-direction: column!important;
+    margin-top: 9rem!important;
+    div[first]{
+        img{
+        width: 23rem!important;
+       margin-left: 1%!important;    
+        }
+       
+    }
+    div[middle]{
+        img{
+        width: 23rem!important;
+        margin-left: 1%!important;
+        margin-top: 10%!important;
+        }
+    }
+    div[third]{
+        img{
+        width: 23rem!important;
+        margin-left: 1%!important;
+        margin-top: 10%!important;
+        }
+        p{
+            top: 208rem!important; 
+            font-size: 18px!important;                   
+        }
+        p[second]{
+            margin-top: 9%!important;
+        }
+        p[third]{
+            margin-top: 17%!important;
+        }
+    }
+}
+// End of project ongoing section
 // Advantage section style
 .adv{
     height: 90%!important;
@@ -1003,6 +1094,65 @@ footer{
                 }
             }
         }
+        // Project ongoing style
+               .top{
+            margin-top: 8rem;
+            img:nth-child(1){
+            margin-left: 7%;
+            }
+            img:nth-child(2){
+                width: 15rem;
+                margin-left: 5%;
+            }
+        }
+        .middle{
+            margin-left: 4%;
+            margin-top: 3rem;
+            img:nth-child(1){
+                width: 14rem;
+                
+            }
+            img:nth-child(2){
+                width: 22rem;
+                margin-left: -10px;
+                
+            }
+        }
+        .left-third{                      
+            div[first]{
+                img{
+                width: 12rem!important;  
+                margin-left: 4%;
+                }
+               
+            }
+            div[middle]{
+                img{
+                width: 12rem!important;
+                margin-left: 16%!important;
+                    }
+            }
+            div[third]{
+                img{
+                width: 12rem!important;
+                margin-left: 27%!important;
+               
+                }
+                p{
+                    top: 107rem!important; 
+                    font-size: 14px!important; 
+                    margin-left: 8%;                  
+                }
+                p[second]{
+                    margin-top: 9%!important;
+                }
+                p[third]{
+                    margin-top: 17%!important;
+                }
+            }
+        }
+        
+        // End of Project ongoing style
         .newsletter{
             width: 110%!important;
         }

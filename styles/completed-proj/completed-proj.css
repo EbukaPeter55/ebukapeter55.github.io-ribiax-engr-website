@@ -673,6 +673,22 @@ main footer .foot .copy p[second] {
   main .clients h2 {
     margin-top: 300% !important;
   }
+  main .proj-tag {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 50% !important;
+  }
+  main .proj-tag p[first] {
+    margin-top: 6%;
+  }
+  main div[third] p {
+    top: 207rem !important;
+  }
   main footer .foot .copy {
     height: 50%;
   }
@@ -700,6 +716,91 @@ main footer .foot .copy p[second] {
   }
   .style .top-head-1 h6, .style .top-head-1 p {
     margin-left: -1% !important;
+  }
+  .proj-tag {
+    margin-top: -5% !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .proj-tag hr {
+    width: 11rem !important;
+  }
+  .top {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    margin-top: 8rem !important;
+  }
+  .top img:nth-child(1) {
+    width: 23rem !important;
+    margin-left: 2% !important;
+  }
+  .top img:nth-child(2) {
+    width: 23rem !important;
+    margin-top: 10% !important;
+    margin-left: 2% !important;
+  }
+  .middle {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    margin-top: 8rem !important;
+  }
+  .middle img:nth-child(1) {
+    width: 23rem !important;
+    margin-left: 2% !important;
+  }
+  .middle img:nth-child(2) {
+    width: 23rem !important;
+    margin-top: 10% !important;
+    margin-left: 1% !important;
+  }
+  .left-third {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    margin-top: 9rem !important;
+  }
+  .left-third div[first] img {
+    width: 23rem !important;
+    margin-left: 1% !important;
+  }
+  .left-third div[middle] img {
+    width: 23rem !important;
+    margin-left: 1% !important;
+    margin-top: 10% !important;
+  }
+  .left-third div[third] img {
+    width: 23rem !important;
+    margin-left: 1% !important;
+    margin-top: 10% !important;
+  }
+  .left-third div[third] p {
+    top: 208rem !important;
+    font-size: 18px !important;
+  }
+  .left-third div[third] p[second] {
+    margin-top: 9% !important;
+  }
+  .left-third div[third] p[third] {
+    margin-top: 17% !important;
   }
   .adv {
     height: 90% !important;
@@ -983,6 +1084,50 @@ main footer .foot .copy p[second] {
   main .style .hel img {
     width: 108%;
     height: 100%;
+  }
+  main .top {
+    margin-top: 8rem;
+  }
+  main .top img:nth-child(1) {
+    margin-left: 7%;
+  }
+  main .top img:nth-child(2) {
+    width: 15rem;
+    margin-left: 5%;
+  }
+  main .middle {
+    margin-left: 4%;
+    margin-top: 3rem;
+  }
+  main .middle img:nth-child(1) {
+    width: 14rem;
+  }
+  main .middle img:nth-child(2) {
+    width: 22rem;
+    margin-left: -10px;
+  }
+  main .left-third div[first] img {
+    width: 12rem !important;
+    margin-left: 4%;
+  }
+  main .left-third div[middle] img {
+    width: 12rem !important;
+    margin-left: 16% !important;
+  }
+  main .left-third div[third] img {
+    width: 12rem !important;
+    margin-left: 27% !important;
+  }
+  main .left-third div[third] p {
+    top: 107rem !important;
+    font-size: 14px !important;
+    margin-left: 8%;
+  }
+  main .left-third div[third] p[second] {
+    margin-top: 9% !important;
+  }
+  main .left-third div[third] p[third] {
+    margin-top: 17% !important;
   }
   main .newsletter {
     width: 110% !important;
