@@ -913,6 +913,9 @@ main footer .foot .copy p[second] {
     margin-left: -25% !important;
     margin-top: 68% !important;
   }
+  main footer .foot .social a:hover {
+    text-decoration: none;
+  }
   main footer .foot .d-col {
     margin-left: 8%;
     margin-top: 5%;
