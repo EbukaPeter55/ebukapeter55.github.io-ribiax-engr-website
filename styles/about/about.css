@@ -1121,6 +1121,10 @@ main .style-approach p a {
 }
 
 @media only screen and (max-device-width: 400px) {
+  main .ca .content-4 p, main .ca .content p, main .ca .content-2 p {
+    font-size: 20px !important;
+    margin-left: -36%;
+  }
   main .top-fluid div[top-content] p {
     margin-top: 10%;
   }

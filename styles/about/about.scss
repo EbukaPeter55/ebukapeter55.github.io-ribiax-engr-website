@@ -1122,6 +1122,14 @@ footer{
 // Mobile screen
 @media only screen and (max-device-width: 400px){
     main{
+        .ca{
+            .content-4, .content, .content-2{
+                p{
+                    font-size: 20px!important;
+                    margin-left: -36%;
+                }
+            }
+          }
         .top-fluid{
             div[top-content]{
                 p{
