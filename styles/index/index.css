@@ -1077,6 +1077,10 @@ main footer .foot .copy p[second] {
 }
 
 @media only screen and (max-device-width: 400px) {
+  main .ca .content-4 p, main .ca .content p, main .ca .content-2 p {
+    font-size: 20px !important;
+    margin-left: -36%;
+  }
   main .project-row .link-ongoing {
     margin-top: 10% !important;
   }
