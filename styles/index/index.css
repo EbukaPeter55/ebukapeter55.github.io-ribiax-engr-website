@@ -445,6 +445,10 @@ main .style .top-head-1 a {
   margin-left: 106px;
 }
 
+main .project-row .link-ongoing {
+  margin-top: 7%;
+}
+
 main .project h2 {
   font-family: 'Muli';
   font-size: 48px;
@@ -1073,6 +1077,9 @@ main footer .foot .copy p[second] {
 }
 
 @media only screen and (max-device-width: 400px) {
+  main .project-row .link-ongoing {
+    margin-top: 10% !important;
+  }
   main .top-fluid div[top-content] p {
     margin-top: 10%;
   }

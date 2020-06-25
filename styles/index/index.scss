@@ -503,6 +503,11 @@ main{
 // End of styles and approach
 
 //List of projects
+.project-row{
+    .link-ongoing{
+        margin-top: 7%;
+    }         
+        }
 .project{
     h2{
         font-family: 'Muli';
@@ -1076,6 +1081,11 @@ footer{
 // Mobile screen
 @media only screen and (max-device-width: 400px){
     main{
+        .project-row{
+        .link-ongoing{
+            margin-top: 10%!important;
+        }         
+            }
         .top-fluid{
             div[top-content]{
                 p{
