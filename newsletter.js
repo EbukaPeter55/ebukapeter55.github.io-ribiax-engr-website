@@ -31,7 +31,10 @@ document.getElementById('subscribe').addEventListener('submit', subscribe);
                   }) 
                            
                 )
+                let res = document.getElementById("subscribe");
+                res.reset()
                 .catch( error => {
                     console.warn('Something went wrong.', error)
+                    res.reset();
                 });
         }

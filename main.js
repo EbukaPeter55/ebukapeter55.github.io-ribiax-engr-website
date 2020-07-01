@@ -31,7 +31,10 @@ document.getElementById('sendMessage').addEventListener('submit', sendMessage);
                     timer: 1500,                    
                   })          
                 )
+                let res = document.getElementById("sendMessage");
+                res.reset()
                 .catch( error => {
                     console.warn('Something went wrong.', error)
+                    res.reset();
                 });
         }
