@@ -190,7 +190,8 @@ html {
 }
 
 main .top-fluid {
-  background-image: url("https://res.cloudinary.com/peterdbrainy/image/upload/v1583613796/top-head.png");
+  -webkit-animation: animate 16s ease-in-out infinite;
+          animation: animate 16s ease-in-out infinite;
   background-size: cover;
   width: 100%;
   height: 633px;
@@ -217,7 +218,7 @@ main .top-fluid div[top-content] p {
   font-size: 18px;
   line-height: 161.8%;
   color: #F3F0ED;
-  font-weight: 400;
+  font-weight: 600;
   -webkit-animation-name: moveToRight;
           animation-name: moveToRight;
   -webkit-animation-duration: 2s;
@@ -885,6 +886,48 @@ main footer .foot .copy {
 
 main footer .foot .copy p[second] {
   margin-left: 10%;
+}
+
+@-webkit-keyframes animate {
+  0%, 100% {
+    background-image: url("https://res.cloudinary.com/peterdbrainy/image/upload/v1583613796/top-head.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  25% {
+    background-image: url("https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,w_4679/v1594192626/zac-ong-_q4-ykeXOPE-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  50% {
+    background-image: url("https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,w_1240/v1592056261/Rectangle_10_1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  75% {
+    background-image: url("https://res.cloudinary.com/peterdbrainy/image/upload/v1583613796/top-head.png");
+  }
+}
+
+@keyframes animate {
+  0%, 100% {
+    background-image: url("https://res.cloudinary.com/peterdbrainy/image/upload/v1583613796/top-head.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  25% {
+    background-image: url("https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,w_4679/v1594192626/zac-ong-_q4-ykeXOPE-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  50% {
+    background-image: url("https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,w_1240/v1592056261/Rectangle_10_1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  75% {
+    background-image: url("https://res.cloudinary.com/peterdbrainy/image/upload/v1583613796/top-head.png");
+  }
 }
 
 @-webkit-keyframes cssmarquee {
