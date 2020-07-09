@@ -82,6 +82,10 @@ main .top-header h3 {
           animation-fill-mode: backwards;
 }
 
+main .left {
+  margin-top: 10%;
+}
+
 main .left form {
   margin-top: 51px;
 }
