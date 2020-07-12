@@ -311,9 +311,20 @@
       <p second>All rights reserved worldwide</p>
     </div>
   </div>
+  <div class="scrol">
+    <a data-toggle="tooltip" data-placement="top" title="Scroll to top!" href="#sect">
+      <button>Top</button>
+    </a>
+  </div>
   </div>
  </footer>
 </main>
+<script>
+   // Jquery to initialize tooltip
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
  <!-- Sweet alert -->
 <script src="sweetalert2.all.min.js"></script>
 <!-- Optional: include a polyfill for ES6 Promises for IE11 -->

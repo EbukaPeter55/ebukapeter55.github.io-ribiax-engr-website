@@ -12,12 +12,16 @@ main{
             text-align: center;
             font-family: 'work sans', sans-serif;
             font-weight: 600;
+            animation-name: moveToLeft;
+            animation-duration: 2s; 
             // font-size: 22px;
         }
         p[text]{
             text-align: center;
             font-family: 'muli', sans-serif;
             font-size: 18px;
+            animation-name: moveToRight;
+            animation-duration: 2s; 
         }
         .sites-link{
             display: flex;
@@ -131,6 +135,29 @@ main{
         }
     }
 }
+
+//ANIMATION
+@keyframes moveToLeft {
+    0% {
+        transform: translateX(120px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes moveToRight {
+    0% {
+        transform: translateX(-120px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
 
 // RESPONSIVE STYLES
 // Mobile screen

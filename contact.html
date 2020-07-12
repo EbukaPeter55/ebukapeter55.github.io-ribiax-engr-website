@@ -190,6 +190,11 @@
       <p second>All rights reserved worldwide</p>
     </div>
   </div>
+  <div class="scrol">
+    <a data-toggle="tooltip" data-placement="top" title="Scroll to top!" href="#sect">
+      <button>Top</button>
+    </a>
+  </div>
   </div>
  </footer>
  </main>
@@ -198,6 +203,11 @@
   <!-- Optional: include a polyfill for ES6 Promises for IE11 -->
   <script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
 <!-- Linking to external javaScript -->
-<script src="main.js"></script>
+<script src="main.js">
+      // Jquery to initialize tooltip
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
 </body>
 </html>

@@ -299,6 +299,19 @@ main footer .foot {
   padding-top: 82px;
 }
 
+main footer .foot .scrol {
+  margin-left: 50%;
+  margin-top: 1%;
+}
+
+main footer .foot .scrol a button {
+  width: 50px;
+  height: 50px;
+  border: none;
+  background: white;
+  border-radius: 10px;
+}
+
 main footer .foot .left-column {
   margin-left: 10%;
 }

@@ -12,12 +12,20 @@ main .top h1 {
   text-align: center;
   font-family: 'work sans', sans-serif;
   font-weight: 600;
+  -webkit-animation-name: moveToLeft;
+          animation-name: moveToLeft;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
 }
 
 main .top p[text] {
   text-align: center;
   font-family: 'muli', sans-serif;
   font-size: 18px;
+  -webkit-animation-name: moveToRight;
+          animation-name: moveToRight;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
 }
 
 main .top .sites-link {
@@ -152,6 +160,58 @@ main .top .sites-link .fourth-card P {
   line-height: 75px;
   color: rgba(1, 46, 135, 0.7);
   margin: auto;
+}
+
+@-webkit-keyframes moveToLeft {
+  0% {
+    -webkit-transform: translateX(120px);
+            transform: translateX(120px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes moveToLeft {
+  0% {
+    -webkit-transform: translateX(120px);
+            transform: translateX(120px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes moveToRight {
+  0% {
+    -webkit-transform: translateX(-120px);
+            transform: translateX(-120px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes moveToRight {
+  0% {
+    -webkit-transform: translateX(-120px);
+            transform: translateX(-120px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 @media only screen and (max-width: 414px) {

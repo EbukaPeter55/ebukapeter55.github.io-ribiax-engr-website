@@ -522,7 +522,9 @@
     </div>
   </div>
   <div class="scrol">
-    <a href="#sect"><button>Top</button></a>
+    <a data-toggle="tooltip" data-placement="top" title="Scroll to top!" href="#sect">
+      <button>Top</button>
+    </a>
   </div>
   </div>
  </footer>
@@ -534,6 +536,10 @@
         offset: 400,
         duration: 1000
     });
+    // Jquery to initialize tooltip
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();   
+});
   </script>
       <script src="newsletter.js"></script>
   <!-- Sweet alert -->
