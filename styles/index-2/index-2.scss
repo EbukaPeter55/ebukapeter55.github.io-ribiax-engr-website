@@ -131,3 +131,72 @@ main{
         }
     }
 }
+
+// RESPONSIVE STYLES
+// Mobile screen
+@media only screen and (max-width: 414px){
+    main{
+        .logo{
+            img{
+                width: 50%;
+                height: 40%!important;     
+            }
+        }
+        .top{            
+            h1{
+                
+            }
+            p[text]{
+                font-size: 18px;
+                text-align: center;
+            }
+        .sites-link{
+            flex-direction: column;
+            .first-card{
+                width: 100%;
+            }
+            .second-card{
+                width: 100%;
+            }
+            .third-card{
+                width: 100%;
+                p{
+                    text-align: center;
+                }
+            }
+            .fourth-card{
+                width: 100%;
+                p{
+                    text-align: center;
+                }
+            }
+        }    
+        }
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1024px){
+    main{
+        .logo{
+            img{
+                width: 50%;
+                height: 40%!important;      
+            }
+        }
+        .top{
+            .sites-link{
+                .third-card{
+                    p{
+                        // font-size: 12px!important;
+                        text-align: center;
+                    }
+                }
+                .fourth-card{
+                    p{
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}

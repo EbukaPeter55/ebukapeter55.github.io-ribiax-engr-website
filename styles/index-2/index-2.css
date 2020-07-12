@@ -153,4 +153,52 @@ main .top .sites-link .fourth-card P {
   color: rgba(1, 46, 135, 0.7);
   margin: auto;
 }
+
+@media only screen and (max-width: 414px) {
+  main .logo img {
+    width: 50%;
+    height: 40% !important;
+  }
+  main .top p[text] {
+    font-size: 18px;
+    text-align: center;
+  }
+  main .top .sites-link {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .top .sites-link .first-card {
+    width: 100%;
+  }
+  main .top .sites-link .second-card {
+    width: 100%;
+  }
+  main .top .sites-link .third-card {
+    width: 100%;
+  }
+  main .top .sites-link .third-card p {
+    text-align: center;
+  }
+  main .top .sites-link .fourth-card {
+    width: 100%;
+  }
+  main .top .sites-link .fourth-card p {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1024px) {
+  main .logo img {
+    width: 50%;
+    height: 40% !important;
+  }
+  main .top .sites-link .third-card p {
+    text-align: center;
+  }
+  main .top .sites-link .fourth-card p {
+    text-align: center;
+  }
+}
 /*# sourceMappingURL=index-2.css.map */
