@@ -3,8 +3,131 @@ main{
         margin-top: 6%;
         margin-left: 45%;
         img{
-        width: 15%;
-        height: 13%;
+        width: 25%;
+        height: 22%;
+        }
+    }
+    .top{
+        h1{
+            text-align: center;
+            font-family: 'work sans', sans-serif;
+            font-weight: 600;
+            // font-size: 22px;
+        }
+        p[text]{
+            text-align: center;
+            font-family: 'muli', sans-serif;
+            font-size: 18px;
+        }
+        .sites-link{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-evenly;
+            
+            .first-card{
+                width: 35%;
+                height: 350px;
+                background: #FFFFFF;
+                border: 1px solid rgba(0, 0, 0, 0.38);
+                box-sizing: border-box;
+                box-shadow: 4px 3px 4px rgba(0, 0, 0, 0.25);
+                border-radius: 25px;
+                margin-top: 9%;
+                a{
+                    text-decoration: underline;
+
+               h3{
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 20px;
+                    line-height: 42px;                    
+                    color: rgba(0, 0, 0, 0.7);
+                    text-align: center;                       
+                }
+            }
+            }
+            .second-card{
+                width: 35%;
+                height: 350px;
+                background: #FFFFFF;
+                border: 1px solid rgba(0, 0, 0, 0.38);
+                box-sizing: border-box;
+                box-shadow: 4px 3px 4px rgba(0, 0, 0, 0.25);
+                border-radius: 25px;
+                margin-top: 9%;
+                a{
+                    text-decoration: underline;                    
+                h3{
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 20px;
+                    line-height: 42px;                    
+                    color: rgba(0, 0, 0, 0.7);
+                    text-align: center;                       
+                }
+                
+            }
+            }
+            .third-card{
+                width: 35%;
+                height: 350px;
+                background: #FFFFFF;
+                border: 1px solid rgba(0, 0, 0, 0.38);
+                box-sizing: border-box;
+                box-shadow: 4px 3px 4px rgba(0, 0, 0, 0.25);
+                border-radius: 25px;
+                margin-top: 4%;
+                h3{
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 20px;
+                    line-height: 42px;                    
+                    color: rgba(0, 0, 0, 0.7);
+                    text-align: center;         
+                }
+                P{
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 48px;
+                    line-height: 75px;
+                    margin: auto;
+                    color: rgba(1, 46, 135, 0.7);
+                    font-family: 'work sans', sans-serif;
+                }
+            }
+            .fourth-card{
+                width: 35%;
+                height: 350px;
+                background: #FFFFFF;
+                border: 1px solid rgba(0, 0, 0, 0.38);
+                box-sizing: border-box;
+                box-shadow: 4px 3px 4px rgba(0, 0, 0, 0.25);
+                border-radius: 25px;
+                margin-top: 4%;
+                h3{
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 20px;
+                    line-height: 42px;                    
+                    color: rgba(0, 0, 0, 0.7);
+                    text-align: center;       
+                   
+                }
+                P{
+                    font-family: 'work sans', sans-serif;
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 48px;
+                    line-height: 75px;
+                    color: rgba(1, 46, 135, 0.7);
+                    margin: auto;
+                }
+            }
         }
     }
 }

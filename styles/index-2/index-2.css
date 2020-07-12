@@ -4,7 +4,153 @@ main .logo {
 }
 
 main .logo img {
-  width: 15%;
-  height: 13%;
+  width: 25%;
+  height: 22%;
+}
+
+main .top h1 {
+  text-align: center;
+  font-family: 'work sans', sans-serif;
+  font-weight: 600;
+}
+
+main .top p[text] {
+  text-align: center;
+  font-family: 'muli', sans-serif;
+  font-size: 18px;
+}
+
+main .top .sites-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+main .top .sites-link .first-card {
+  width: 35%;
+  height: 350px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.38);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 4px 3px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 4px 3px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  margin-top: 9%;
+}
+
+main .top .sites-link .first-card a {
+  text-decoration: underline;
+}
+
+main .top .sites-link .first-card a h3 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 42px;
+  color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
+
+main .top .sites-link .second-card {
+  width: 35%;
+  height: 350px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.38);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 4px 3px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 4px 3px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  margin-top: 9%;
+}
+
+main .top .sites-link .second-card a {
+  text-decoration: underline;
+}
+
+main .top .sites-link .second-card a h3 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 42px;
+  color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
+
+main .top .sites-link .third-card {
+  width: 35%;
+  height: 350px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.38);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 4px 3px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 4px 3px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  margin-top: 4%;
+}
+
+main .top .sites-link .third-card h3 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 42px;
+  color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
+
+main .top .sites-link .third-card P {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 75px;
+  margin: auto;
+  color: rgba(1, 46, 135, 0.7);
+  font-family: 'work sans', sans-serif;
+}
+
+main .top .sites-link .fourth-card {
+  width: 35%;
+  height: 350px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.38);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 4px 3px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 4px 3px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  margin-top: 4%;
+}
+
+main .top .sites-link .fourth-card h3 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 42px;
+  color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
+
+main .top .sites-link .fourth-card P {
+  font-family: 'work sans', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 75px;
+  color: rgba(1, 46, 135, 0.7);
+  margin: auto;
 }
 /*# sourceMappingURL=index-2.css.map */
