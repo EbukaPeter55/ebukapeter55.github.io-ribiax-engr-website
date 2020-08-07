@@ -13,10 +13,8 @@ html {
 #sect{
     .log{
         margin-left: 10%;
-        
         img{
-           width: 50px;
-            
+           
         }
     }
     .exp-colapse  {
@@ -1364,3 +1362,8 @@ footer{
         }
     }
 }
+
+// Large screens
+@media screen and (min-width: 1034px) and (max-width: 2000px) {
+   
+  }
