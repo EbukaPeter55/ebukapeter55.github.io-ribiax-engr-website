@@ -1611,8 +1611,26 @@ main {
     }
 
     main .newsletter,
-    main footer .foot {
+    main footer .foot,
+    main footer .foot .copy {
         max-width: 100%;
+    }
+}
+
+@media (max-width: 1024px) {
+    main .style .top-head-1 h2 {
+        margin-top: 0;
+    }
+
+    .top-head-1 {
+        padding: 3rem
+    }
+
+    main .style .top-head-1 p,
+    main .style .top-head-1 h6,
+    main .style .top-head-1 img,
+    main .style .top-head-1 a {
+        margin-left: 0 !important;
     }
 }
 
@@ -1627,6 +1645,16 @@ main {
         justify-content: center;
         padding: 0;
         height: 100%;
+    }
+
+    main .adv .right-new,
+    main .adv .left {
+        margin-left: 0;
+    }
+
+    main .style,
+    main .adv {
+        padding: 2rem;
     }
 }
 
