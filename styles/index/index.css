@@ -255,7 +255,8 @@ main .top-fluid div[top-content] a {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
   color: #FFFFFF;
-  margin-left: 46px;
+  margin-left: 0;
+  margin-right: 20px;
   -webkit-animation-name: animateBtn;
           animation-name: animateBtn;
   -webkit-animation-duration: 1s;
@@ -332,7 +333,7 @@ main .services {
 
 main .services .services-content h2 {
   text-align: center;
-  font-family: 'Lato' sans-serif;
+  font-family: 'Lato'sans-serif;
   font-size: 48px;
   line-height: 56px;
   text-align: center;
@@ -849,14 +850,14 @@ main footer .foot .left-column-4 .social a:hover {
 }
 
 main footer .foot p {
-  font-family: "work sans" !important;
+  font-family: 'work sans' !important;
   font-size: 18px;
   line-height: 21px;
   color: #FFFFFF;
 }
 
 main footer .foot a {
-  font-family: "work sans" !important;
+  font-family: 'work sans' !important;
   font-size: 18px;
   line-height: 21px;
   color: #FFFFFF;
@@ -889,7 +890,8 @@ main footer .foot .copy p[second] {
 }
 
 @-webkit-keyframes animate {
-  0%, 100% {
+  0%,
+  100% {
     background-image: url("https://res.cloudinary.com/peterdbrainy/image/upload/v1583613796/top-head.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -910,7 +912,8 @@ main footer .foot .copy p[second] {
 }
 
 @keyframes animate {
-  0%, 100% {
+  0%,
+  100% {
     background-image: url("https://res.cloudinary.com/peterdbrainy/image/upload/v1583613796/top-head.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -1085,7 +1088,8 @@ main footer .foot .copy p[second] {
     width: 90%;
     margin-left: 5% !important;
   }
-  .style .top-head-1 h6, .style .top-head-1 p {
+  .style .top-head-1 h6,
+  .style .top-head-1 p {
     margin-left: -1% !important;
   }
   .adv {
@@ -1120,7 +1124,9 @@ main footer .foot .copy p[second] {
 }
 
 @media only screen and (max-device-width: 400px) {
-  main .ca .content-4 p, main .ca .content p, main .ca .content-2 p {
+  main .ca .content-4 p,
+  main .ca .content p,
+  main .ca .content-2 p {
     font-size: 20px !important;
     margin-left: -36%;
   }
@@ -1232,7 +1238,8 @@ main footer .foot .copy p[second] {
   main .testimonial .second {
     margin-top: 15% !important;
   }
-  main .testimonial .three, main .testimonial .four {
+  main .testimonial .three,
+  main .testimonial .four {
     margin-top: 15% !important;
   }
   main .clients {
@@ -1299,7 +1306,9 @@ main footer .foot .copy p[second] {
   main .adv {
     height: 55% !important;
   }
-  main .newsletter, main footer, main .adv {
+  main .newsletter,
+  main footer,
+  main .adv {
     width: 111.5% !important;
   }
   main footer .foot .left-column {
@@ -1310,6 +1319,28 @@ main footer .foot .copy p[second] {
   }
   main footer .foot .left-column-2 {
     margin-left: 1%;
+  }
+}
+
+@media (min-width: 2460px) {
+  .navbar-expand-sm .navbar-collapse {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main .top-fluid div[top-content] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100%;
+    padding-top: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 /*# sourceMappingURL=index.css.map */
