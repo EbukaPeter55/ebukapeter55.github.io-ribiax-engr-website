@@ -1343,4 +1343,46 @@ main footer .foot .copy p[second] {
             justify-content: center;
   }
 }
+
+@media (max-width: 768px) {
+  #sect .exp-colapse .no .ni .exp {
+    margin-left: 0;
+  }
+  main .top-fluid div[top-content] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0;
+    height: 100%;
+  }
+}
+
+@media (max-width: 568px) {
+  #sect .exp-colapse .no .ni .exp {
+    margin-left: 1rem;
+  }
+  main .top-fluid div[top-content] h2 {
+    font-size: 31px;
+  }
+  main .top-fluid div[top-content] p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 425px) {
+  main .top-fluid div[top-content] button[type="submit"] {
+    width: 148px;
+    font-size: .7rem;
+  }
+  main .top-fluid div[top-content] a {
+    font-size: .8rem;
+  }
+}
 /*# sourceMappingURL=index.css.map */
