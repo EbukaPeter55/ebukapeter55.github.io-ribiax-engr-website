@@ -1575,6 +1575,45 @@ main {
         padding-top: 0;
         justify-content: center;
     }
+
+    main section {
+        margin-top: 10rem;
+    }
+
+    main .style,
+    main .adv {
+        max-width: 100%;
+    }
+
+    main .style .hel img {
+        object-fit: cover;
+    }
+
+    main .project h2 {
+        margin-top: 45px;
+    }
+
+    main .adv .left {
+        padding-top: 0;
+    }
+
+    main .right {
+        margin-top: 0;
+    }
+
+    main .adv .right-new h2 {
+        margin-top: 0;
+    }
+
+    .adva {
+        align-items: center;
+        height: 100%;
+    }
+
+    main .newsletter,
+    main footer .foot {
+        max-width: 100%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -1614,4 +1653,34 @@ main {
     main .top-fluid div[top-content] a {
         font-size: .8rem;
     }
+}
+
+main section {
+    margin-top: 10rem;
+}
+
+main .style,
+main .adv {
+    max-width: 100%;
+}
+
+main .style .hel img {
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+main .project h2 {
+    margin-top: 45px;
+}
+
+main .adv .left {
+    padding-top: 0;
+}
+
+main .right {
+    margin-top: 0;
+}
+
+main .adv .right-new h2 {
+    margin-top: 0;
 }

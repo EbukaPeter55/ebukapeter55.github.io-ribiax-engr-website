@@ -1342,6 +1342,39 @@ main footer .foot .copy p[second] {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  main section {
+    margin-top: 10rem;
+  }
+  main .style,
+  main .adv {
+    max-width: 100%;
+  }
+  main .style .hel img {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  main .project h2 {
+    margin-top: 45px;
+  }
+  main .adv .left {
+    padding-top: 0;
+  }
+  main .right {
+    margin-top: 0;
+  }
+  main .adv .right-new h2 {
+    margin-top: 0;
+  }
+  .adva {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100%;
+  }
+  main .newsletter,
+  main footer .foot {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1384,5 +1417,35 @@ main footer .foot .copy p[second] {
   main .top-fluid div[top-content] a {
     font-size: .8rem;
   }
+}
+
+main section {
+  margin-top: 10rem;
+}
+
+main .style,
+main .adv {
+  max-width: 100%;
+}
+
+main .style .hel img {
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+main .project h2 {
+  margin-top: 45px;
+}
+
+main .adv .left {
+  padding-top: 0;
+}
+
+main .right {
+  margin-top: 0;
+}
+
+main .adv .right-new h2 {
+  margin-top: 0;
 }
 /*# sourceMappingURL=index.css.map */
