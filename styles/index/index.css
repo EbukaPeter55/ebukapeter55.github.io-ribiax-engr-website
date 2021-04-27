@@ -7,15 +7,29 @@ html {
   padding: 0;
 }
 
-#sect .log {
-  margin-left: 10%;
+header #sect .log {
+  margin-left: 11%;
 }
 
-#sect .exp-colapse .no .ni a[about] {
+header #sect .exp-colapse {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-right: 17%;
+}
+
+header #sect .exp-colapse .no .ni a[about] {
   margin-left: 7rem;
 }
 
-#sect .exp-colapse .no .ni .exp {
+header #sect .exp-colapse .no .ni .exp {
   color: #373737;
   font-size: 16px;
   font-family: 'Muli';
@@ -23,20 +37,20 @@ html {
   margin-top: 0.5rem;
 }
 
-#sect .exp-colapse .no .ni .second {
+header #sect .exp-colapse .no .ni .second {
   margin-left: 30px;
 }
 
-#sect .exp-colapse .no .ni .third {
+header #sect .exp-colapse .no .ni .third {
   margin-left: 30px;
 }
 
-#sect .exp-colapse .no .ni .fifth {
+header #sect .exp-colapse .no .ni .fifth {
   margin-left: 30px;
 }
 
-#sect .exp-colapse .no .right-btn a button[type="submit"] {
-  width: 240px;
+header #sect .exp-colapse .no .right-btn a button[type="submit"] {
+  width: 205%;
   height: 50px;
   -webkit-box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
@@ -1116,6 +1130,12 @@ main footer .foot .copy p[second] {
   }
   footer .foot .copy p {
     text-align: center;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  header #sect .exp-colapse .right-btn a button[type="submit"] {
+    display: none;
   }
 }
 
