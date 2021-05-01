@@ -386,7 +386,6 @@ main{
 
 //   Services section
 .services{
-    max-width: 1523px;
     height: 1323px;
     background: #FFFBF8;
     // margin-top: 113px;
@@ -459,7 +458,6 @@ main{
 
 // Styles and approach
 .style{
-    max-width: 1523px;
     height: 744px;    
     margin-top: 149px;
     background: #012E87;
@@ -498,7 +496,7 @@ main{
             font-weight: lighter;
         }
         img{
-            margin-left: 15%;
+            margin-left: 10.1%;
         }
         a{
             font-family: 'Muli';
@@ -592,7 +590,6 @@ main{
 
 // Advantage section
 .adv{
-    max-width: 1523px;
     height: 744px;
     top: 5041px;
     background: #1574CE;
@@ -776,7 +773,6 @@ main{
 }
 // Newsletter section styles
 .newsletter{
-    max-width: 1523px;
     height: 621px;                     
     background: #1E4CA9;
     margin-top: 143px;
@@ -835,11 +831,10 @@ main{
 }
 // Footer
 footer{
-    .foot{
-        max-width: 1523px;
-        height: 422px;
-        background: #012E87;
-        padding-top: 82px;
+    height: 422px;
+    background: #012E87;
+    padding-top: 82px;    
+    margin: 0!important;   
         .scrol{
             margin-left: 50%;
             margin-top: 1%;
@@ -883,7 +878,7 @@ footer{
         color: #FFFFFF;   
         }
         .copy {
-        max-width: 1523px;
+        width: 100%;
         height: 69px;
         background: #002878;
         margin-top: 40px;
@@ -892,6 +887,9 @@ footer{
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+        padding: 0!important;
+        margin-left: 0!important;
+        margin-right: 0!important;
         p{
         //  margin-top: 20px;   
         }
@@ -899,7 +897,6 @@ footer{
             margin-left: 10%;
         }
          }
-    }
 }
 }
 

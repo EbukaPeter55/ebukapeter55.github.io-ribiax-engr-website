@@ -339,7 +339,6 @@ main .right button[type="submit"] {
 }
 
 main .services {
-  max-width: 1523px;
   height: 1323px;
   background: #FFFBF8;
 }
@@ -406,7 +405,6 @@ main .services .services-content .row .w-card .card p[s-card-content] {
 }
 
 main .style {
-  max-width: 1523px;
   height: 744px;
   margin-top: 149px;
   background: #012E87;
@@ -447,7 +445,7 @@ main .style .top-head-1 p {
 }
 
 main .style .top-head-1 img {
-  margin-left: 15%;
+  margin-left: 10.1%;
 }
 
 main .style .top-head-1 a {
@@ -535,7 +533,6 @@ main #demo .indi li {
 }
 
 main .adv {
-  max-width: 1523px;
   height: 744px;
   top: 5041px;
   background: #1574CE;
@@ -729,7 +726,6 @@ main .blog a {
 }
 
 main .newsletter {
-  max-width: 1523px;
   height: 621px;
   background: #1E4CA9;
   margin-top: 143px;
@@ -826,19 +822,19 @@ main .newsletter button[type="submit"]:hover {
           transform: translateY(-6px);
 }
 
-main footer .foot {
-  max-width: 1523px;
+main footer {
   height: 422px;
   background: #012E87;
   padding-top: 82px;
+  margin: 0 !important;
 }
 
-main footer .foot .scrol {
+main footer .scrol {
   margin-left: 50%;
   margin-top: 1%;
 }
 
-main footer .foot .scrol a button {
+main footer .scrol a button {
   width: 50px;
   height: 50px;
   border: none;
@@ -846,38 +842,38 @@ main footer .foot .scrol a button {
   border-radius: 10px;
 }
 
-main footer .foot .left-column {
+main footer .left-column {
   margin-left: 10%;
 }
 
-main footer .foot .left-column-2 {
+main footer .left-column-2 {
   margin-left: -60px;
 }
 
-main footer .foot .left-column-3 {
+main footer .left-column-3 {
   margin-left: -100px;
 }
 
-main footer .foot .left-column-4 .social a:hover {
+main footer .left-column-4 .social a:hover {
   text-decoration: none;
 }
 
-main footer .foot p {
+main footer p {
   font-family: "work sans" !important;
   font-size: 18px;
   line-height: 21px;
   color: #FFFFFF;
 }
 
-main footer .foot a {
+main footer a {
   font-family: "work sans" !important;
   font-size: 18px;
   line-height: 21px;
   color: #FFFFFF;
 }
 
-main footer .foot .copy {
-  max-width: 1523px;
+main footer .copy {
+  width: 100%;
   height: 69px;
   background: #002878;
   margin-top: 40px;
@@ -896,9 +892,12 @@ main footer .foot .copy {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }
 
-main footer .foot .copy p[second] {
+main footer .copy p[second] {
   margin-left: 10%;
 }
 
